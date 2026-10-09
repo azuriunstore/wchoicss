@@ -1,0 +1,6025 @@
+[
+ {
+  "id": 1,
+  "categoria": "vida",
+  "autor": "Sócrates",
+  "frase": "Uma vida não examinada não vale a pena ser vivida."
+ },
+ {
+  "id": 2,
+  "categoria": "conhecimento",
+  "autor": "Sócrates",
+  "frase": "Só sei que nada sei."
+ },
+ {
+  "id": 3,
+  "categoria": "sabedoria",
+  "autor": "Sócrates",
+  "frase": "Conhece-te a ti mesmo."
+ },
+ {
+  "id": 4,
+  "categoria": "conhecimento",
+  "autor": "Sócrates",
+  "frase": "A sabedoria começa na admiração."
+ },
+ {
+  "id": 5,
+  "categoria": "vida",
+  "autor": "Søren Kierkegaard",
+  "frase": "A vida só pode ser compreendida olhando-se para trás, mas só pode ser vivida olhando-se para a frente."
+ },
+ {
+  "id": 6,
+  "categoria": "liberdade",
+  "autor": "Søren Kierkegaard",
+  "frase": "A ansiedade é a vertigem da liberdade."
+ },
+ {
+  "id": 7,
+  "categoria": "coragem",
+  "autor": "Søren Kierkegaard",
+  "frase": "Arriscar é perder o equilíbrio momentaneamente. Não arriscar é perder-se a si mesmo.",
+  "atribuida": true
+ },
+ {
+  "id": 8,
+  "categoria": "vida",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Sem a música, a vida seria um erro."
+ },
+ {
+  "id": 9,
+  "categoria": "coragem",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Aquilo que não me mata me fortalece."
+ },
+ {
+  "id": 10,
+  "categoria": "existencia",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Quem tem um porquê para viver suporta quase qualquer como."
+ },
+ {
+  "id": 11,
+  "categoria": "existencia",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Torna-te quem tu és."
+ },
+ {
+  "id": 12,
+  "categoria": "etica",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Aquele que luta com monstros deve cuidar para não se tornar um monstro."
+ },
+ {
+  "id": 13,
+  "categoria": "existencia",
+  "autor": "René Descartes",
+  "frase": "Penso, logo existo."
+ },
+ {
+  "id": 14,
+  "categoria": "liberdade",
+  "autor": "Jean-Paul Sartre",
+  "frase": "O homem está condenado a ser livre."
+ },
+ {
+  "id": 15,
+  "categoria": "existencia",
+  "autor": "Jean-Paul Sartre",
+  "frase": "A existência precede a essência."
+ },
+ {
+  "id": 16,
+  "categoria": "existencia",
+  "autor": "Jean-Paul Sartre",
+  "frase": "O homem nada mais é do que aquilo que ele faz de si mesmo."
+ },
+ {
+  "id": 17,
+  "categoria": "existencia",
+  "autor": "Jean-Paul Sartre",
+  "frase": "O inferno são os outros."
+ },
+ {
+  "id": 18,
+  "categoria": "vida",
+  "autor": "Heráclito",
+  "frase": "Ninguém se banha duas vezes no mesmo rio."
+ },
+ {
+  "id": 19,
+  "categoria": "vida",
+  "autor": "Heráclito",
+  "frase": "Nada é permanente, exceto a mudança."
+ },
+ {
+  "id": 20,
+  "categoria": "vida",
+  "autor": "Heráclito",
+  "frase": "Tudo flui."
+ },
+ {
+  "id": 21,
+  "categoria": "existencia",
+  "autor": "Heráclito",
+  "frase": "O caráter de um homem é o seu destino."
+ },
+ {
+  "id": 22,
+  "categoria": "conhecimento",
+  "autor": "Protágoras",
+  "frase": "O homem é a medida de todas as coisas."
+ },
+ {
+  "id": 23,
+  "categoria": "liberdade",
+  "autor": "Jean-Jacques Rousseau",
+  "frase": "O homem nasce livre, e em toda parte encontra-se a ferros."
+ },
+ {
+  "id": 24,
+  "categoria": "sabedoria",
+  "autor": "Jean-Jacques Rousseau",
+  "frase": "A paciência é amarga, mas o seu fruto é doce.",
+  "atribuida": true
+ },
+ {
+  "id": 25,
+  "categoria": "existencia",
+  "autor": "Thomas Hobbes",
+  "frase": "O homem é o lobo do homem."
+ },
+ {
+  "id": 26,
+  "categoria": "existencia",
+  "autor": "José Ortega y Gasset",
+  "frase": "Eu sou eu e a minha circunstância."
+ },
+ {
+  "id": 27,
+  "categoria": "vida",
+  "autor": "Aristóteles",
+  "frase": "O homem é, por natureza, um animal político."
+ },
+ {
+  "id": 28,
+  "categoria": "felicidade",
+  "autor": "Aristóteles",
+  "frase": "A felicidade depende de nós mesmos."
+ },
+ {
+  "id": 29,
+  "categoria": "conhecimento",
+  "autor": "Aristóteles",
+  "frase": "A educação tem raízes amargas, mas seus frutos são doces.",
+  "atribuida": true
+ },
+ {
+  "id": 30,
+  "categoria": "amizade",
+  "autor": "Aristóteles",
+  "frase": "A amizade é uma alma que habita dois corpos.",
+  "atribuida": true
+ },
+ {
+  "id": 31,
+  "categoria": "etica",
+  "autor": "Will Durant",
+  "frase": "Somos o que repetidamente fazemos. A excelência, portanto, não é um ato, mas um hábito."
+ },
+ {
+  "id": 32,
+  "categoria": "tempo",
+  "autor": "Sêneca",
+  "frase": "Não é que tenhamos pouco tempo, mas sim que perdemos muito."
+ },
+ {
+  "id": 33,
+  "categoria": "tempo",
+  "autor": "Sêneca",
+  "frase": "Enquanto esperamos pela vida, a vida passa."
+ },
+ {
+  "id": 34,
+  "categoria": "coragem",
+  "autor": "Sêneca",
+  "frase": "Sofremos mais na imaginação do que na realidade."
+ },
+ {
+  "id": 35,
+  "categoria": "sabedoria",
+  "autor": "Sêneca",
+  "frase": "Nenhum vento sopra a favor de quem não sabe para onde ir."
+ },
+ {
+  "id": 36,
+  "categoria": "conhecimento",
+  "autor": "Sêneca",
+  "frase": "Enquanto aprendemos, ensinamos."
+ },
+ {
+  "id": 37,
+  "categoria": "coragem",
+  "autor": "Sêneca",
+  "frase": "Dificuldades fortalecem a mente, assim como o trabalho fortalece o corpo."
+ },
+ {
+  "id": 38,
+  "categoria": "sabedoria",
+  "autor": "Epicteto",
+  "frase": "Não são as coisas que nos perturbam, mas a opinião que temos delas."
+ },
+ {
+  "id": 39,
+  "categoria": "sabedoria",
+  "autor": "Epicteto",
+  "frase": "Primeiro diga a si mesmo o que você seria; e então faça o que tem de fazer."
+ },
+ {
+  "id": 40,
+  "categoria": "felicidade",
+  "autor": "Marco Aurélio",
+  "frase": "A felicidade da sua vida depende da qualidade dos seus pensamentos.",
+  "atribuida": true
+ },
+ {
+  "id": 41,
+  "categoria": "sabedoria",
+  "autor": "Marco Aurélio",
+  "frase": "Você tem poder sobre a sua mente, não sobre os eventos externos. Perceba isso e encontrará força.",
+  "atribuida": true
+ },
+ {
+  "id": 42,
+  "categoria": "coragem",
+  "autor": "Marco Aurélio",
+  "frase": "O que está no caminho torna-se o caminho."
+ },
+ {
+  "id": 43,
+  "categoria": "etica",
+  "autor": "Marco Aurélio",
+  "frase": "A melhor vingança é não ser como aquele que causou o dano."
+ },
+ {
+  "id": 44,
+  "categoria": "tempo",
+  "autor": "Marco Aurélio",
+  "frase": "Só se perde o presente que se tem."
+ },
+ {
+  "id": 45,
+  "categoria": "amizade",
+  "autor": "Epicuro",
+  "frase": "De tudo o que a sabedoria proporciona para a felicidade da vida inteira, o maior bem é a amizade."
+ },
+ {
+  "id": 46,
+  "categoria": "morte",
+  "autor": "Epicuro",
+  "frase": "A morte nada é para nós."
+ },
+ {
+  "id": 47,
+  "categoria": "felicidade",
+  "autor": "Epicuro",
+  "frase": "Não estrague o que você tem desejando o que não tem.",
+  "atribuida": true
+ },
+ {
+  "id": 48,
+  "categoria": "coragem",
+  "autor": "Lao Tsé",
+  "frase": "Uma jornada de mil milhas começa com um único passo."
+ },
+ {
+  "id": 49,
+  "categoria": "sabedoria",
+  "autor": "Lao Tsé",
+  "frase": "Quem conhece os outros é sábio; quem conhece a si mesmo é iluminado."
+ },
+ {
+  "id": 50,
+  "categoria": "coragem",
+  "autor": "Confúcio",
+  "frase": "Aquele que move uma montanha começa carregando pequenas pedras."
+ },
+ {
+  "id": 51,
+  "categoria": "coragem",
+  "autor": "Confúcio",
+  "frase": "Não importa o quão devagar você vá, desde que não pare."
+ },
+ {
+  "id": 52,
+  "categoria": "sabedoria",
+  "autor": "Buda",
+  "frase": "A mente é tudo. Você se torna aquilo que pensa.",
+  "atribuida": true
+ },
+ {
+  "id": 53,
+  "categoria": "vida",
+  "autor": "Arthur Schopenhauer",
+  "frase": "A vida oscila como um pêndulo entre a dor e o tédio."
+ },
+ {
+  "id": 54,
+  "categoria": "liberdade",
+  "autor": "Arthur Schopenhauer",
+  "frase": "O homem pode fazer o que quer, mas não pode querer o que quer."
+ },
+ {
+  "id": 55,
+  "categoria": "felicidade",
+  "autor": "Arthur Schopenhauer",
+  "frase": "A saúde não é tudo, mas sem ela tudo o mais é nada."
+ },
+ {
+  "id": 56,
+  "categoria": "conhecimento",
+  "autor": "Immanuel Kant",
+  "frase": "Ousa saber!"
+ },
+ {
+  "id": 57,
+  "categoria": "etica",
+  "autor": "Immanuel Kant",
+  "frase": "Age de tal modo que uses a humanidade, tanto na tua pessoa como na de qualquer outro, sempre como fim e nunca apenas como meio."
+ },
+ {
+  "id": 58,
+  "categoria": "etica",
+  "autor": "Immanuel Kant",
+  "frase": "Duas coisas enchem o ânimo de admiração: o céu estrelado acima de mim e a lei moral dentro de mim."
+ },
+ {
+  "id": 59,
+  "categoria": "vida",
+  "autor": "Blaise Pascal",
+  "frase": "O coração tem razões que a própria razão desconhece."
+ },
+ {
+  "id": 60,
+  "categoria": "existencia",
+  "autor": "Blaise Pascal",
+  "frase": "Toda a infelicidade dos homens vem de uma só coisa: não saber ficar quieto num quarto."
+ },
+ {
+  "id": 61,
+  "categoria": "conhecimento",
+  "autor": "Voltaire",
+  "frase": "A dúvida não é uma condição agradável, mas a certeza é absurda."
+ },
+ {
+  "id": 62,
+  "categoria": "liberdade",
+  "autor": "Voltaire",
+  "frase": "Posso não concordar com o que dizes, mas defenderei até a morte o teu direito de dizê-lo.",
+  "atribuida": true
+ },
+ {
+  "id": 63,
+  "categoria": "conhecimento",
+  "autor": "Ludwig Wittgenstein",
+  "frase": "Os limites da minha linguagem significam os limites do meu mundo."
+ },
+ {
+  "id": 64,
+  "categoria": "sabedoria",
+  "autor": "Ludwig Wittgenstein",
+  "frase": "Aquilo de que não se pode falar, deve-se calar."
+ },
+ {
+  "id": 65,
+  "categoria": "existencia",
+  "autor": "Albert Camus",
+  "frase": "É preciso imaginar Sísifo feliz."
+ },
+ {
+  "id": 66,
+  "categoria": "coragem",
+  "autor": "Albert Camus",
+  "frase": "No meio do inverno, aprendi finalmente que havia em mim um verão invencível."
+ },
+ {
+  "id": 67,
+  "categoria": "tempo",
+  "autor": "Albert Camus",
+  "frase": "A verdadeira generosidade para com o futuro consiste em dar tudo ao presente."
+ },
+ {
+  "id": 68,
+  "categoria": "liberdade",
+  "autor": "Simone de Beauvoir",
+  "frase": "Ninguém nasce mulher: torna-se mulher."
+ },
+ {
+  "id": 69,
+  "categoria": "etica",
+  "autor": "Hannah Arendt",
+  "frase": "A banalidade do mal."
+ },
+ {
+  "id": 70,
+  "categoria": "sabedoria",
+  "autor": "Baruch Spinoza",
+  "frase": "Não rir, não lamentar, nem detestar, mas compreender."
+ },
+ {
+  "id": 71,
+  "categoria": "sabedoria",
+  "autor": "Baruch Spinoza",
+  "frase": "A paz não é ausência de guerra; é uma virtude, um estado de espírito."
+ },
+ {
+  "id": 72,
+  "categoria": "coragem",
+  "autor": "Platão",
+  "frase": "A coragem é saber o que não temer."
+ },
+ {
+  "id": 73,
+  "categoria": "coragem",
+  "autor": "Platão",
+  "frase": "O começo é a parte mais importante do trabalho."
+ },
+ {
+  "id": 74,
+  "categoria": "sabedoria",
+  "autor": "Platão",
+  "frase": "Os sábios falam porque têm algo a dizer; os tolos, porque têm de dizer algo.",
+  "atribuida": true
+ },
+ {
+  "id": 75,
+  "categoria": "vida",
+  "autor": "Henry David Thoreau",
+  "frase": "A maioria dos homens leva uma vida de silencioso desespero."
+ },
+ {
+  "id": 76,
+  "categoria": "existencia",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "Ser você mesmo, num mundo que tenta constantemente fazer de você outra coisa, é a maior realização.",
+  "atribuida": true
+ },
+ {
+  "id": 77,
+  "categoria": "conhecimento",
+  "autor": "Bertrand Russell",
+  "frase": "O problema da humanidade é que os estúpidos têm certezas e os inteligentes têm dúvidas.",
+  "atribuida": true
+ },
+ {
+  "id": 78,
+  "categoria": "conhecimento",
+  "autor": "Michel de Montaigne",
+  "frase": "Que sei eu?"
+ },
+ {
+  "id": 79,
+  "categoria": "sabedoria",
+  "autor": "Michel de Montaigne",
+  "frase": "A maior coisa do mundo é saber pertencer a si próprio."
+ },
+ {
+  "id": 80,
+  "categoria": "amizade",
+  "autor": "Michel de Montaigne",
+  "frase": "Porque era ele, porque era eu."
+ },
+ {
+  "id": 81,
+  "categoria": "conhecimento",
+  "autor": "Francis Bacon",
+  "frase": "Conhecimento é poder."
+ },
+ {
+  "id": 82,
+  "categoria": "sabedoria",
+  "autor": "Diógenes de Sinope",
+  "frase": "Procuro um homem honesto."
+ },
+ {
+  "id": 83,
+  "categoria": "vida",
+  "autor": "Cícero",
+  "frase": "Enquanto há vida, há esperança."
+ },
+ {
+  "id": 84,
+  "categoria": "sabedoria",
+  "autor": "Viktor Frankl",
+  "frase": "Quando já não somos capazes de mudar uma situação, somos desafiados a mudar a nós mesmos."
+ },
+ {
+  "id": 85,
+  "categoria": "etica",
+  "autor": "Mahatma Gandhi",
+  "frase": "Seja a mudança que você quer ver no mundo.",
+  "atribuida": true
+ },
+ {
+  "id": 86,
+  "categoria": "conhecimento",
+  "autor": "Paulo Freire",
+  "frase": "Ninguém educa ninguém, ninguém se educa sozinho: os homens se educam entre si, mediatizados pelo mundo."
+ },
+ {
+  "id": 87,
+  "categoria": "conhecimento",
+  "autor": "Martin Heidegger",
+  "frase": "A linguagem é a casa do ser."
+ },
+ {
+  "id": 88,
+  "categoria": "conhecimento",
+  "autor": "Georg W. F. Hegel",
+  "frase": "A coruja de Minerva só levanta voo ao anoitecer."
+ },
+ {
+  "id": 89,
+  "categoria": "liberdade",
+  "autor": "Karl Marx",
+  "frase": "Os filósofos apenas interpretaram o mundo de diferentes maneiras; o que importa é transformá-lo."
+ },
+ {
+  "id": 90,
+  "categoria": "felicidade",
+  "autor": "John Stuart Mill",
+  "frase": "Melhor ser um Sócrates insatisfeito do que um tolo satisfeito."
+ },
+ {
+  "id": 91,
+  "categoria": "existencia",
+  "autor": "David Hume",
+  "frase": "A razão é, e deve ser apenas, escrava das paixões."
+ },
+ {
+  "id": 92,
+  "categoria": "conhecimento",
+  "autor": "Albert Einstein",
+  "frase": "A imaginação é mais importante que o conhecimento."
+ },
+ {
+  "id": 93,
+  "categoria": "coragem",
+  "autor": "Sun Tzu",
+  "frase": "A suprema arte da guerra é vencer sem lutar."
+ },
+ {
+  "id": 94,
+  "categoria": "etica",
+  "autor": "Sócrates",
+  "frase": "É melhor sofrer uma injustiça do que cometê-la."
+ },
+ {
+  "id": 95,
+  "categoria": "sabedoria",
+  "autor": "Sócrates",
+  "frase": "Fala, para que eu te conheça.",
+  "atribuida": true
+ },
+ {
+  "id": 96,
+  "categoria": "conhecimento",
+  "autor": "Sócrates",
+  "frase": "Sábio é aquele que conhece os limites da própria ignorância.",
+  "atribuida": true
+ },
+ {
+  "id": 97,
+  "categoria": "coragem",
+  "autor": "Platão",
+  "frase": "A maior de todas as vitórias é a vitória sobre si mesmo.",
+  "atribuida": true
+ },
+ {
+  "id": 98,
+  "categoria": "conhecimento",
+  "autor": "Platão",
+  "frase": "Pensar é o diálogo da alma consigo mesma."
+ },
+ {
+  "id": 99,
+  "categoria": "justica",
+  "autor": "Platão",
+  "frase": "A pior forma de injustiça é fingir ser justo sem sê-lo."
+ },
+ {
+  "id": 100,
+  "categoria": "conhecimento",
+  "autor": "Platão",
+  "frase": "A necessidade é a mãe da invenção."
+ },
+ {
+  "id": 101,
+  "categoria": "justica",
+  "autor": "Platão",
+  "frase": "O preço de se desinteressar da política é ser governado por homens inferiores.",
+  "atribuida": true
+ },
+ {
+  "id": 102,
+  "categoria": "etica",
+  "autor": "Aristóteles",
+  "frase": "A virtude está no meio-termo."
+ },
+ {
+  "id": 103,
+  "categoria": "etica",
+  "autor": "Aristóteles",
+  "frase": "A excelência moral é produto do hábito."
+ },
+ {
+  "id": 104,
+  "categoria": "conhecimento",
+  "autor": "Aristóteles",
+  "frase": "O todo é maior do que a soma das suas partes."
+ },
+ {
+  "id": 105,
+  "categoria": "conhecimento",
+  "autor": "Aristóteles",
+  "frase": "Todos os homens, por natureza, desejam conhecer."
+ },
+ {
+  "id": 106,
+  "categoria": "sabedoria",
+  "autor": "Aristóteles",
+  "frase": "O ignorante afirma, o sábio duvida, o sensato reflete.",
+  "atribuida": true
+ },
+ {
+  "id": 107,
+  "categoria": "felicidade",
+  "autor": "Aristóteles",
+  "frase": "A esperança é o sonho do homem acordado.",
+  "atribuida": true
+ },
+ {
+  "id": 108,
+  "categoria": "conhecimento",
+  "autor": "Aristóteles",
+  "frase": "Educar a mente sem educar o coração não é educação alguma.",
+  "atribuida": true
+ },
+ {
+  "id": 109,
+  "categoria": "amizade",
+  "autor": "Aristóteles",
+  "frase": "Ninguém escolheria viver sem amigos, ainda que possuísse todos os outros bens."
+ },
+ {
+  "id": 110,
+  "categoria": "existencia",
+  "autor": "Aristóteles",
+  "frase": "Quem é incapaz de viver em sociedade, ou nada precisa por se bastar a si mesmo, é uma besta ou um deus."
+ },
+ {
+  "id": 111,
+  "categoria": "tempo",
+  "autor": "Sêneca",
+  "frase": "A vida, se souberes usá-la, é longa o bastante."
+ },
+ {
+  "id": 112,
+  "categoria": "coragem",
+  "autor": "Sêneca",
+  "frase": "Viver é lutar."
+ },
+ {
+  "id": 113,
+  "categoria": "tempo",
+  "autor": "Sêneca",
+  "frase": "Que cada dia seja como uma vida inteira.",
+  "atribuida": true
+ },
+ {
+  "id": 114,
+  "categoria": "felicidade",
+  "autor": "Sêneca",
+  "frase": "A verdadeira felicidade é desfrutar o presente, sem ansiosa dependência do futuro."
+ },
+ {
+  "id": 115,
+  "categoria": "coragem",
+  "autor": "Sêneca",
+  "frase": "Às vezes, viver é um ato de coragem."
+ },
+ {
+  "id": 116,
+  "categoria": "coragem",
+  "autor": "Sêneca",
+  "frase": "Ninguém é mais infeliz do que aquele que nunca enfrentou a adversidade."
+ },
+ {
+  "id": 117,
+  "categoria": "sabedoria",
+  "autor": "Epicteto",
+  "frase": "Há coisas que dependem de nós e coisas que não dependem de nós."
+ },
+ {
+  "id": 118,
+  "categoria": "felicidade",
+  "autor": "Epicteto",
+  "frase": "Não procures que os acontecimentos sejam como queres; quere-os como são, e serás feliz."
+ },
+ {
+  "id": 119,
+  "categoria": "liberdade",
+  "autor": "Epicteto",
+  "frase": "Nenhum homem é livre se não é senhor de si mesmo."
+ },
+ {
+  "id": 120,
+  "categoria": "conhecimento",
+  "autor": "Epicteto",
+  "frase": "É impossível aprender aquilo que se pensa já saber."
+ },
+ {
+  "id": 121,
+  "categoria": "sabedoria",
+  "autor": "Epicteto",
+  "frase": "Temos dois ouvidos e uma boca para ouvir mais e falar menos.",
+  "atribuida": true
+ },
+ {
+  "id": 122,
+  "categoria": "felicidade",
+  "autor": "Epicteto",
+  "frase": "A riqueza consiste não em ter grandes posses, mas em ter poucas necessidades.",
+  "atribuida": true
+ },
+ {
+  "id": 123,
+  "categoria": "sabedoria",
+  "autor": "Marco Aurélio",
+  "frase": "Aceita as coisas às quais o destino te prende."
+ },
+ {
+  "id": 124,
+  "categoria": "sabedoria",
+  "autor": "Marco Aurélio",
+  "frase": "A alma se tinge com a cor dos seus pensamentos."
+ },
+ {
+  "id": 125,
+  "categoria": "tempo",
+  "autor": "Marco Aurélio",
+  "frase": "Não desperdices o que te resta de vida em pensamentos sobre os outros."
+ },
+ {
+  "id": 126,
+  "categoria": "etica",
+  "autor": "Marco Aurélio",
+  "frase": "O que não é útil para a colmeia não é útil para a abelha."
+ },
+ {
+  "id": 127,
+  "categoria": "morte",
+  "autor": "Marco Aurélio",
+  "frase": "Não é a morte que se deve temer, mas nunca ter começado a viver.",
+  "atribuida": true
+ },
+ {
+  "id": 128,
+  "categoria": "etica",
+  "autor": "Marco Aurélio",
+  "frase": "Deixa de discutir sobre como deve ser um homem bom. Sê um."
+ },
+ {
+  "id": 129,
+  "categoria": "amizade",
+  "autor": "Epicuro",
+  "frase": "Não temos tanto necessidade da ajuda dos amigos quanto da confiança em sua ajuda."
+ },
+ {
+  "id": 130,
+  "categoria": "felicidade",
+  "autor": "Epicuro",
+  "frase": "Nada é suficiente para quem considera pouco o suficiente."
+ },
+ {
+  "id": 131,
+  "categoria": "morte",
+  "autor": "Epicuro",
+  "frase": "Quando a morte chega, nós já não estamos aqui."
+ },
+ {
+  "id": 132,
+  "categoria": "etica",
+  "autor": "Cícero",
+  "frase": "A gratidão não é apenas a maior das virtudes, mas a mãe de todas as outras."
+ },
+ {
+  "id": 133,
+  "categoria": "felicidade",
+  "autor": "Cícero",
+  "frase": "Se tens um jardim e uma biblioteca, nada mais te falta.",
+  "atribuida": true
+ },
+ {
+  "id": 134,
+  "categoria": "morte",
+  "autor": "Cícero",
+  "frase": "A vida dos mortos está na memória dos vivos."
+ },
+ {
+  "id": 135,
+  "categoria": "tempo",
+  "autor": "Santo Agostinho",
+  "frase": "O que é o tempo? Se ninguém me pergunta, sei; se quero explicar, já não sei."
+ },
+ {
+  "id": 136,
+  "categoria": "amor",
+  "autor": "Santo Agostinho",
+  "frase": "Ama e faz o que quiseres.",
+  "atribuida": true
+ },
+ {
+  "id": 137,
+  "categoria": "existencia",
+  "autor": "Santo Agostinho",
+  "frase": "Fizeste-nos para ti, e inquieto está o nosso coração enquanto não repousar em ti."
+ },
+ {
+  "id": 138,
+  "categoria": "etica",
+  "autor": "Tomás de Aquino",
+  "frase": "O bem deve ser feito e o mal evitado."
+ },
+ {
+  "id": 139,
+  "categoria": "coragem",
+  "autor": "Michel de Montaigne",
+  "frase": "Minha vida foi cheia de terríveis infortúnios, a maioria dos quais nunca aconteceu.",
+  "atribuida": true
+ },
+ {
+  "id": 140,
+  "categoria": "morte",
+  "autor": "Michel de Montaigne",
+  "frase": "Filosofar é aprender a morrer."
+ },
+ {
+  "id": 141,
+  "categoria": "existencia",
+  "autor": "Blaise Pascal",
+  "frase": "O homem é apenas um caniço, o mais fraco da natureza, mas é um caniço pensante."
+ },
+ {
+  "id": 142,
+  "categoria": "existencia",
+  "autor": "Blaise Pascal",
+  "frase": "O silêncio eterno desses espaços infinitos me apavora."
+ },
+ {
+  "id": 143,
+  "categoria": "conhecimento",
+  "autor": "René Descartes",
+  "frase": "Não basta ter bom espírito; o principal é aplicá-lo bem."
+ },
+ {
+  "id": 144,
+  "categoria": "conhecimento",
+  "autor": "René Descartes",
+  "frase": "A leitura de todos os bons livros é como uma conversa com as melhores mentes dos séculos passados."
+ },
+ {
+  "id": 145,
+  "categoria": "conhecimento",
+  "autor": "René Descartes",
+  "frase": "O bom senso é a coisa mais bem distribuída do mundo."
+ },
+ {
+  "id": 146,
+  "categoria": "sabedoria",
+  "autor": "Baruch Spinoza",
+  "frase": "Todas as coisas excelentes são tão difíceis quanto raras."
+ },
+ {
+  "id": 147,
+  "categoria": "existencia",
+  "autor": "Baruch Spinoza",
+  "frase": "Cada coisa esforça-se, enquanto está em si, por perseverar no seu ser."
+ },
+ {
+  "id": 148,
+  "categoria": "morte",
+  "autor": "Baruch Spinoza",
+  "frase": "O homem livre em nada pensa menos do que na morte."
+ },
+ {
+  "id": 149,
+  "categoria": "felicidade",
+  "autor": "Baruch Spinoza",
+  "frase": "A felicidade não é o prêmio da virtude, mas a própria virtude."
+ },
+ {
+  "id": 150,
+  "categoria": "liberdade",
+  "autor": "John Locke",
+  "frase": "Onde não há lei, não há liberdade."
+ },
+ {
+  "id": 151,
+  "categoria": "conhecimento",
+  "autor": "David Hume",
+  "frase": "A beleza das coisas existe no espírito de quem as contempla."
+ },
+ {
+  "id": 152,
+  "categoria": "existencia",
+  "autor": "David Hume",
+  "frase": "O costume é o grande guia da vida humana."
+ },
+ {
+  "id": 153,
+  "categoria": "vida",
+  "autor": "Jean-Jacques Rousseau",
+  "frase": "Viver não é respirar, é agir."
+ },
+ {
+  "id": 154,
+  "categoria": "liberdade",
+  "autor": "Jean-Jacques Rousseau",
+  "frase": "Obedecer à lei que se prescreveu a si mesmo é liberdade."
+ },
+ {
+  "id": 155,
+  "categoria": "existencia",
+  "autor": "Immanuel Kant",
+  "frase": "Da madeira torta da humanidade nada de inteiramente reto se pode forjar."
+ },
+ {
+  "id": 156,
+  "categoria": "conhecimento",
+  "autor": "Immanuel Kant",
+  "frase": "Pensamentos sem conteúdo são vazios; intuições sem conceitos são cegas."
+ },
+ {
+  "id": 157,
+  "categoria": "conhecimento",
+  "autor": "Immanuel Kant",
+  "frase": "O Iluminismo é a saída do homem da sua menoridade, da qual ele próprio é culpado."
+ },
+ {
+  "id": 158,
+  "categoria": "etica",
+  "autor": "Immanuel Kant",
+  "frase": "Age apenas segundo a máxima pela qual possas ao mesmo tempo querer que ela se torne lei universal."
+ },
+ {
+  "id": 159,
+  "categoria": "coragem",
+  "autor": "Georg W. F. Hegel",
+  "frase": "Nada de grande se fez no mundo sem paixão."
+ },
+ {
+  "id": 160,
+  "categoria": "liberdade",
+  "autor": "Georg W. F. Hegel",
+  "frase": "A história universal é o progresso da consciência da liberdade."
+ },
+ {
+  "id": 161,
+  "categoria": "conhecimento",
+  "autor": "Arthur Schopenhauer",
+  "frase": "O talento atinge um alvo que ninguém consegue atingir; o gênio atinge um alvo que ninguém consegue ver."
+ },
+ {
+  "id": 162,
+  "categoria": "existencia",
+  "autor": "Arthur Schopenhauer",
+  "frase": "A solidão é o destino de todos os espíritos excepcionais.",
+  "atribuida": true
+ },
+ {
+  "id": 163,
+  "categoria": "etica",
+  "autor": "Arthur Schopenhauer",
+  "frase": "A compaixão é o fundamento da moral."
+ },
+ {
+  "id": 164,
+  "categoria": "amor",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Há sempre alguma loucura no amor. Mas há sempre também alguma razão na loucura."
+ },
+ {
+  "id": 165,
+  "categoria": "vida",
+  "autor": "Friedrich Nietzsche",
+  "frase": "É preciso ter ainda um caos dentro de si para poder dar à luz uma estrela dançante."
+ },
+ {
+  "id": 166,
+  "categoria": "existencia",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Temos a arte para não morrermos da verdade."
+ },
+ {
+  "id": 167,
+  "categoria": "conhecimento",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Não existem fatos, apenas interpretações."
+ },
+ {
+  "id": 168,
+  "categoria": "conhecimento",
+  "autor": "Friedrich Nietzsche",
+  "frase": "As convicções são inimigos mais perigosos da verdade do que as mentiras."
+ },
+ {
+  "id": 169,
+  "categoria": "existencia",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Amor fati: amar o próprio destino."
+ },
+ {
+  "id": 170,
+  "categoria": "existencia",
+  "autor": "Friedrich Nietzsche",
+  "frase": "O que há de grande no homem é ser uma ponte e não um fim."
+ },
+ {
+  "id": 171,
+  "categoria": "existencia",
+  "autor": "Friedrich Nietzsche",
+  "frase": "O homem é uma corda estendida entre o animal e o super-homem."
+ },
+ {
+  "id": 172,
+  "categoria": "coragem",
+  "autor": "Friedrich Nietzsche",
+  "frase": "Mesmo o mais corajoso entre nós raramente tem coragem para aquilo que realmente sabe.",
+  "atribuida": true
+ },
+ {
+  "id": 173,
+  "categoria": "existencia",
+  "autor": "Søren Kierkegaard",
+  "frase": "A forma mais comum de desespero é não ser quem se é."
+ },
+ {
+  "id": 174,
+  "categoria": "liberdade",
+  "autor": "Søren Kierkegaard",
+  "frase": "As pessoas exigem liberdade de expressão como compensação pela liberdade de pensamento que raramente usam."
+ },
+ {
+  "id": 175,
+  "categoria": "liberdade",
+  "autor": "John Stuart Mill",
+  "frase": "O único fim pelo qual se pode exercer legitimamente o poder sobre um membro de uma comunidade civilizada, contra a sua vontade, é impedir que cause dano a outros."
+ },
+ {
+  "id": 176,
+  "categoria": "morte",
+  "autor": "Martin Heidegger",
+  "frase": "O homem é um ser-para-a-morte.",
+  "atribuida": true
+ },
+ {
+  "id": 177,
+  "categoria": "conhecimento",
+  "autor": "Edmund Husserl",
+  "frase": "De volta às coisas mesmas!"
+ },
+ {
+  "id": 178,
+  "categoria": "tempo",
+  "autor": "Henri Bergson",
+  "frase": "O tempo é invenção ou não é nada.",
+  "atribuida": true
+ },
+ {
+  "id": 179,
+  "categoria": "conhecimento",
+  "autor": "John Dewey",
+  "frase": "A educação não é preparação para a vida; a educação é a própria vida.",
+  "atribuida": true
+ },
+ {
+  "id": 180,
+  "categoria": "conhecimento",
+  "autor": "Bertrand Russell",
+  "frase": "Os homens têm medo do pensamento mais do que de qualquer outra coisa.",
+  "atribuida": true
+ },
+ {
+  "id": 181,
+  "categoria": "felicidade",
+  "autor": "Bertrand Russell",
+  "frase": "Uma vida feliz é, em grande parte, uma vida tranquila."
+ },
+ {
+  "id": 182,
+  "categoria": "vida",
+  "autor": "Bertrand Russell",
+  "frase": "Três paixões, simples mas irresistivelmente fortes, governaram a minha vida: o anseio de amor, a busca do conhecimento e uma insuportável piedade pelo sofrimento da humanidade."
+ },
+ {
+  "id": 183,
+  "categoria": "existencia",
+  "autor": "Ludwig Wittgenstein",
+  "frase": "O sentido do mundo deve estar fora do mundo."
+ },
+ {
+  "id": 184,
+  "categoria": "conhecimento",
+  "autor": "Ludwig Wittgenstein",
+  "frase": "A filosofia é uma luta contra o enfeitiçamento da nossa inteligência pelos meios da nossa linguagem."
+ },
+ {
+  "id": 185,
+  "categoria": "liberdade",
+  "autor": "Jean-Paul Sartre",
+  "frase": "A liberdade é o que fazemos com aquilo que fizeram de nós.",
+  "atribuida": true
+ },
+ {
+  "id": 186,
+  "categoria": "existencia",
+  "autor": "Albert Camus",
+  "frase": "O absurdo nasce do confronto entre o apelo humano e o silêncio irracional do mundo."
+ },
+ {
+  "id": 187,
+  "categoria": "existencia",
+  "autor": "Albert Camus",
+  "frase": "A luta em direção aos píncaros basta para preencher um coração de homem."
+ },
+ {
+  "id": 188,
+  "categoria": "liberdade",
+  "autor": "Simone de Beauvoir",
+  "frase": "Querer-se livre é também querer livres os outros."
+ },
+ {
+  "id": 189,
+  "categoria": "liberdade",
+  "autor": "Hannah Arendt",
+  "frase": "A razão de ser da política é a liberdade."
+ },
+ {
+  "id": 190,
+  "categoria": "liberdade",
+  "autor": "Michel Foucault",
+  "frase": "Onde há poder, há resistência."
+ },
+ {
+  "id": 191,
+  "categoria": "etica",
+  "autor": "Simone Weil",
+  "frase": "A atenção é a forma mais rara e mais pura de generosidade."
+ },
+ {
+  "id": 192,
+  "categoria": "coragem",
+  "autor": "Antonio Gramsci",
+  "frase": "Pessimismo da inteligência, otimismo da vontade."
+ },
+ {
+  "id": 193,
+  "categoria": "justica",
+  "autor": "Bertolt Brecht",
+  "frase": "O pior analfabeto é o analfabeto político.",
+  "atribuida": true
+ },
+ {
+  "id": 194,
+  "categoria": "justica",
+  "autor": "Martin Luther King Jr.",
+  "frase": "Uma injustiça em qualquer lugar é uma ameaça à justiça em todos os lugares."
+ },
+ {
+  "id": 195,
+  "categoria": "coragem",
+  "autor": "Mahatma Gandhi",
+  "frase": "A força não vem da capacidade física. Vem de uma vontade indomável.",
+  "atribuida": true
+ },
+ {
+  "id": 196,
+  "categoria": "tempo",
+  "autor": "Mahatma Gandhi",
+  "frase": "Viva como se fosse morrer amanhã. Aprenda como se fosse viver para sempre.",
+  "atribuida": true
+ },
+ {
+  "id": 197,
+  "categoria": "justica",
+  "autor": "Mahatma Gandhi",
+  "frase": "Olho por olho e o mundo acabará cego.",
+  "atribuida": true
+ },
+ {
+  "id": 198,
+  "categoria": "conhecimento",
+  "autor": "Confúcio",
+  "frase": "Quem estuda sem pensar fica confuso; quem pensa sem estudar fica em perigo."
+ },
+ {
+  "id": 199,
+  "categoria": "conhecimento",
+  "autor": "Confúcio",
+  "frase": "Aprender e, no tempo devido, pôr em prática o que se aprendeu: não é isso um prazer?"
+ },
+ {
+  "id": 200,
+  "categoria": "etica",
+  "autor": "Confúcio",
+  "frase": "Não faças aos outros o que não queres que te façam."
+ },
+ {
+  "id": 201,
+  "categoria": "etica",
+  "autor": "Confúcio",
+  "frase": "Ao ver um homem bom, procura imitá-lo; ao ver um homem mau, examina a ti mesmo."
+ },
+ {
+  "id": 202,
+  "categoria": "coragem",
+  "autor": "Confúcio",
+  "frase": "Nossa maior glória não é nunca cair, mas levantar-nos cada vez que caímos.",
+  "atribuida": true
+ },
+ {
+  "id": 203,
+  "categoria": "etica",
+  "autor": "Confúcio",
+  "frase": "O homem superior é modesto no falar e excede no agir."
+ },
+ {
+  "id": 204,
+  "categoria": "coragem",
+  "autor": "Lao Tsé",
+  "frase": "Quem vence os outros é forte; quem vence a si mesmo é poderoso."
+ },
+ {
+  "id": 205,
+  "categoria": "tempo",
+  "autor": "Lao Tsé",
+  "frase": "A natureza não tem pressa, e no entanto tudo se realiza.",
+  "atribuida": true
+ },
+ {
+  "id": 206,
+  "categoria": "felicidade",
+  "autor": "Lao Tsé",
+  "frase": "Quem sabe contentar-se é rico."
+ },
+ {
+  "id": 207,
+  "categoria": "sabedoria",
+  "autor": "Sun Tzu",
+  "frase": "Conheça o inimigo e conheça a si mesmo; em cem batalhas, nunca estará em perigo."
+ },
+ {
+  "id": 208,
+  "categoria": "etica",
+  "autor": "Buda",
+  "frase": "O ódio nunca termina com ódio, mas com amor; esta é uma lei eterna."
+ },
+ {
+  "id": 209,
+  "categoria": "vida",
+  "autor": "Buda",
+  "frase": "Todas as coisas condicionadas são impermanentes.",
+  "atribuida": true
+ },
+ {
+  "id": 210,
+  "categoria": "sabedoria",
+  "autor": "Buda",
+  "frase": "Três coisas não podem ficar escondidas por muito tempo: o sol, a lua e a verdade.",
+  "atribuida": true
+ },
+ {
+  "id": 211,
+  "categoria": "vida",
+  "autor": "Khalil Gibran",
+  "frase": "Vossos filhos não são vossos filhos. São os filhos e as filhas da ânsia da vida por si mesma."
+ },
+ {
+  "id": 212,
+  "categoria": "coragem",
+  "autor": "Fernando Pessoa",
+  "frase": "Tudo vale a pena se a alma não é pequena."
+ },
+ {
+  "id": 213,
+  "categoria": "vida",
+  "autor": "Fernando Pessoa",
+  "frase": "Navegar é preciso; viver não é preciso."
+ },
+ {
+  "id": 214,
+  "categoria": "existencia",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "O essencial é invisível aos olhos."
+ },
+ {
+  "id": 215,
+  "categoria": "amor",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "Tu te tornas eternamente responsável por aquilo que cativas."
+ },
+ {
+  "id": 216,
+  "categoria": "vida",
+  "autor": "Oscar Wilde",
+  "frase": "Viver é a coisa mais rara do mundo. A maioria das pessoas apenas existe."
+ },
+ {
+  "id": 217,
+  "categoria": "existencia",
+  "autor": "Oscar Wilde",
+  "frase": "Seja você mesmo; todas as outras personalidades já foram tomadas.",
+  "atribuida": true
+ },
+ {
+  "id": 218,
+  "categoria": "conhecimento",
+  "autor": "Johann W. von Goethe",
+  "frase": "Aquilo que herdaste de teus pais, conquista-o para fazê-lo teu."
+ },
+ {
+  "id": 219,
+  "categoria": "coragem",
+  "autor": "Johann W. von Goethe",
+  "frase": "Não basta saber, é preciso também aplicar; não basta querer, é preciso também fazer."
+ },
+ {
+  "id": 220,
+  "categoria": "vida",
+  "autor": "Johann W. von Goethe",
+  "frase": "O homem erra enquanto luta."
+ },
+ {
+  "id": 221,
+  "categoria": "vida",
+  "autor": "Liev Tolstói",
+  "frase": "Todas as famílias felizes se parecem; cada família infeliz é infeliz à sua maneira."
+ },
+ {
+  "id": 222,
+  "categoria": "etica",
+  "autor": "Liev Tolstói",
+  "frase": "Todos pensam em mudar o mundo, mas ninguém pensa em mudar a si mesmo.",
+  "atribuida": true
+ },
+ {
+  "id": 223,
+  "categoria": "existencia",
+  "autor": "Fiódor Dostoiévski",
+  "frase": "O segredo da existência humana não está só em viver, mas em saber para que se vive."
+ },
+ {
+  "id": 224,
+  "categoria": "existencia",
+  "autor": "Fiódor Dostoiévski",
+  "frase": "A beleza salvará o mundo."
+ },
+ {
+  "id": 225,
+  "categoria": "etica",
+  "autor": "Fiódor Dostoiévski",
+  "frase": "Se Deus não existe, tudo é permitido."
+ },
+ {
+  "id": 226,
+  "categoria": "conhecimento",
+  "autor": "Victor Hugo",
+  "frase": "Aquele que abre uma porta de escola fecha uma prisão.",
+  "atribuida": true
+ },
+ {
+  "id": 227,
+  "categoria": "coragem",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "Nada de grande jamais foi realizado sem entusiasmo."
+ },
+ {
+  "id": 228,
+  "categoria": "amizade",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "O único modo de ter um amigo é sê-lo."
+ },
+ {
+  "id": 229,
+  "categoria": "existencia",
+  "autor": "Henry David Thoreau",
+  "frase": "O que um homem pensa de si mesmo é o que determina o seu destino.",
+  "atribuida": true
+ },
+ {
+  "id": 230,
+  "categoria": "vida",
+  "autor": "Albert Einstein",
+  "frase": "A vida é como andar de bicicleta. Para manter o equilíbrio, é preciso continuar em movimento."
+ },
+ {
+  "id": 231,
+  "categoria": "conhecimento",
+  "autor": "Albert Einstein",
+  "frase": "O importante é não parar de questionar."
+ },
+ {
+  "id": 232,
+  "categoria": "conhecimento",
+  "autor": "Albert Einstein",
+  "frase": "A coisa mais bela que podemos experimentar é o mistério."
+ },
+ {
+  "id": 233,
+  "categoria": "conhecimento",
+  "autor": "Carl Gustav Jung",
+  "frase": "Quem olha para fora sonha; quem olha para dentro desperta."
+ },
+ {
+  "id": 234,
+  "categoria": "existencia",
+  "autor": "Carl Gustav Jung",
+  "frase": "Conhecer a sua própria escuridão é o melhor método para lidar com as escuridões das outras pessoas.",
+  "atribuida": true
+ },
+ {
+  "id": 235,
+  "categoria": "amor",
+  "autor": "Erich Fromm",
+  "frase": "O amor imaturo diz: amo-te porque preciso de ti. O amor maduro diz: preciso de ti porque te amo."
+ },
+ {
+  "id": 236,
+  "categoria": "existencia",
+  "autor": "Jiddu Krishnamurti",
+  "frase": "Não é sinal de saúde estar bem ajustado a uma sociedade profundamente doente.",
+  "atribuida": true
+ },
+ {
+  "id": 237,
+  "categoria": "conhecimento",
+  "autor": "Plutarco",
+  "frase": "A mente não é um vaso a ser preenchido, mas um fogo a ser aceso.",
+  "atribuida": true
+ },
+ {
+  "id": 238,
+  "categoria": "conhecimento",
+  "autor": "Pitágoras",
+  "frase": "Educai as crianças e não será preciso punir os homens.",
+  "atribuida": true
+ },
+ {
+  "id": 239,
+  "categoria": "felicidade",
+  "autor": "Demócrito",
+  "frase": "A felicidade não reside nos rebanhos nem no ouro; a alma é a morada do nosso destino."
+ },
+ {
+  "id": 240,
+  "categoria": "vida",
+  "autor": "Hipócrates",
+  "frase": "A vida é breve, a arte é longa."
+ },
+ {
+  "id": 241,
+  "categoria": "tempo",
+  "autor": "Horácio",
+  "frase": "Carpe diem: colhe o dia."
+ },
+ {
+  "id": 242,
+  "categoria": "conhecimento",
+  "autor": "Horácio",
+  "frase": "Ousa ser sábio."
+ },
+ {
+  "id": 243,
+  "categoria": "amor",
+  "autor": "Virgílio",
+  "frase": "O amor tudo vence."
+ },
+ {
+  "id": 244,
+  "categoria": "coragem",
+  "autor": "Virgílio",
+  "frase": "A fortuna ajuda os audazes."
+ },
+ {
+  "id": 245,
+  "categoria": "etica",
+  "autor": "Terêncio",
+  "frase": "Sou homem; nada do que é humano me é estranho."
+ },
+ {
+  "id": 246,
+  "categoria": "vida",
+  "autor": "Juvenal",
+  "frase": "Mente sã em corpo são."
+ },
+ {
+  "id": 247,
+  "categoria": "conhecimento",
+  "autor": "Francis Bacon",
+  "frase": "Ler torna o homem completo; conversar, ágil; escrever, preciso."
+ },
+ {
+  "id": 248,
+  "categoria": "conhecimento",
+  "autor": "Galileu Galilei",
+  "frase": "E, no entanto, ela se move.",
+  "atribuida": true
+ },
+ {
+  "id": 249,
+  "categoria": "sabedoria",
+  "autor": "Leonardo da Vinci",
+  "frase": "A simplicidade é o último grau de sofisticação.",
+  "atribuida": true
+ },
+ {
+  "id": 250,
+  "categoria": "sabedoria",
+  "autor": "Benjamin Franklin",
+  "frase": "Aquilo que nos fere nos instrui."
+ },
+ {
+  "id": 251,
+  "categoria": "conhecimento",
+  "autor": "Paulo Freire",
+  "frase": "Ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção."
+ },
+ {
+  "id": 252,
+  "categoria": "coragem",
+  "autor": "Paulo Freire",
+  "frase": "Mudar é difícil, mas é possível."
+ },
+ {
+  "id": 253,
+  "categoria": "coragem",
+  "autor": "João Guimarães Rosa",
+  "frase": "O que a vida quer da gente é coragem."
+ },
+ {
+  "id": 254,
+  "categoria": "vida",
+  "autor": "João Guimarães Rosa",
+  "frase": "Viver é muito perigoso."
+ },
+ {
+  "id": 255,
+  "categoria": "liberdade",
+  "autor": "Cecília Meireles",
+  "frase": "Liberdade, essa palavra que o sonho humano alimenta: que não há ninguém que explique, e ninguém que não entenda."
+ },
+ {
+  "id": 256,
+  "categoria": "inovacao",
+  "autor": "Steve Jobs",
+  "frase": "A inovação distingue um líder de um seguidor."
+ },
+ {
+  "id": 257,
+  "categoria": "empreendedorismo",
+  "autor": "Steve Jobs",
+  "frase": "A única maneira de fazer um excelente trabalho é amar o que você faz."
+ },
+ {
+  "id": 258,
+  "categoria": "motivacao",
+  "autor": "Steve Jobs",
+  "frase": "Seu tempo é limitado, então não o desperdice vivendo a vida de outra pessoa."
+ },
+ {
+  "id": 259,
+  "categoria": "motivacao",
+  "autor": "Steve Jobs",
+  "frase": "Permaneçam famintos, permaneçam tolos."
+ },
+ {
+  "id": 260,
+  "categoria": "empreendedorismo",
+  "autor": "Steve Jobs",
+  "frase": "Foco significa dizer não a centenas de boas ideias."
+ },
+ {
+  "id": 261,
+  "categoria": "criatividade",
+  "autor": "Steve Jobs",
+  "frase": "Design não é apenas o que parece e o que se sente. Design é como funciona."
+ },
+ {
+  "id": 262,
+  "categoria": "vida",
+  "autor": "Steve Jobs",
+  "frase": "Você não pode ligar os pontos olhando para a frente; só pode ligá-los olhando para trás."
+ },
+ {
+  "id": 263,
+  "categoria": "persistencia",
+  "autor": "Steve Jobs",
+  "frase": "Às vezes a vida bate na sua cabeça com um tijolo. Não perca a fé."
+ },
+ {
+  "id": 264,
+  "categoria": "equipe",
+  "autor": "Steve Jobs",
+  "frase": "Grandes coisas nos negócios nunca são feitas por uma pessoa só; são feitas por uma equipe."
+ },
+ {
+  "id": 265,
+  "categoria": "persistencia",
+  "autor": "Steve Jobs",
+  "frase": "Metade do que separa empreendedores bem-sucedidos dos malsucedidos é pura perseverança."
+ },
+ {
+  "id": 266,
+  "categoria": "motivacao",
+  "autor": "Henry Ford",
+  "frase": "Quer você acredite que pode, quer acredite que não pode, você está certo."
+ },
+ {
+  "id": 267,
+  "categoria": "equipe",
+  "autor": "Henry Ford",
+  "frase": "Reunir-se é um começo; manter-se junto é um progresso; trabalhar junto é o sucesso."
+ },
+ {
+  "id": 268,
+  "categoria": "fracasso",
+  "autor": "Henry Ford",
+  "frase": "Fracasso é apenas a oportunidade de recomeçar de novo, com mais inteligência."
+ },
+ {
+  "id": 269,
+  "categoria": "conhecimento",
+  "autor": "Henry Ford",
+  "frase": "Quem para de aprender é velho, tenha vinte ou oitenta anos."
+ },
+ {
+  "id": 270,
+  "categoria": "sucesso",
+  "autor": "Henry Ford",
+  "frase": "Se há algum segredo de sucesso, ele está na capacidade de colocar-se do ponto de vista do outro."
+ },
+ {
+  "id": 271,
+  "categoria": "sabedoria",
+  "autor": "Henry Ford",
+  "frase": "Pensar é o trabalho mais difícil que existe; talvez por isso tão poucos se dediquem a ele."
+ },
+ {
+  "id": 272,
+  "categoria": "empreendedorismo",
+  "autor": "Henry Ford",
+  "frase": "Um negócio que não produz nada além de dinheiro é um negócio pobre."
+ },
+ {
+  "id": 273,
+  "categoria": "empreendedorismo",
+  "autor": "Henry Ford",
+  "frase": "Não encontre defeitos, encontre soluções."
+ },
+ {
+  "id": 274,
+  "categoria": "dinheiro",
+  "autor": "Henry Ford",
+  "frase": "A única segurança real é um estoque de conhecimento, experiência e capacidade."
+ },
+ {
+  "id": 275,
+  "categoria": "trabalho",
+  "autor": "Henry Ford",
+  "frase": "Nada é particularmente difícil se você o dividir em pequenos trabalhos."
+ },
+ {
+  "id": 276,
+  "categoria": "motivacao",
+  "autor": "Henry Ford",
+  "frase": "Quando tudo parecer estar contra você, lembre-se de que o avião decola contra o vento, não a favor dele.",
+  "atribuida": true
+ },
+ {
+  "id": 277,
+  "categoria": "trabalho",
+  "autor": "Thomas Edison",
+  "frase": "Gênio é 1% de inspiração e 99% de transpiração."
+ },
+ {
+  "id": 278,
+  "categoria": "persistencia",
+  "autor": "Thomas Edison",
+  "frase": "Muitos dos fracassos da vida são de pessoas que não perceberam o quanto estavam perto do sucesso quando desistiram."
+ },
+ {
+  "id": 279,
+  "categoria": "trabalho",
+  "autor": "Thomas Edison",
+  "frase": "A oportunidade é perdida por muitos porque vem vestida de macacão e parece trabalho."
+ },
+ {
+  "id": 280,
+  "categoria": "motivacao",
+  "autor": "Thomas Edison",
+  "frase": "Se fizéssemos todas as coisas de que somos capazes, nos surpreenderíamos literalmente."
+ },
+ {
+  "id": 281,
+  "categoria": "criatividade",
+  "autor": "Thomas Edison",
+  "frase": "Para inventar, você precisa de uma boa imaginação e de uma pilha de sucata."
+ },
+ {
+  "id": 282,
+  "categoria": "persistencia",
+  "autor": "Thomas Edison",
+  "frase": "Nossa maior fraqueza está em desistir. O caminho mais certo para o sucesso é sempre tentar mais uma vez."
+ },
+ {
+  "id": 283,
+  "categoria": "fracasso",
+  "autor": "Thomas Edison",
+  "frase": "Eu não falhei. Só encontrei dez mil maneiras que não funcionam.",
+  "atribuida": true
+ },
+ {
+  "id": 284,
+  "categoria": "inovacao",
+  "autor": "Thomas Edison",
+  "frase": "O valor de uma ideia reside no seu uso."
+ },
+ {
+  "id": 285,
+  "categoria": "persistencia",
+  "autor": "Winston Churchill",
+  "frase": "O sucesso é ir de fracasso em fracasso sem perder o entusiasmo.",
+  "atribuida": true
+ },
+ {
+  "id": 286,
+  "categoria": "persistencia",
+  "autor": "Winston Churchill",
+  "frase": "Se você está passando pelo inferno, continue andando.",
+  "atribuida": true
+ },
+ {
+  "id": 287,
+  "categoria": "motivacao",
+  "autor": "Winston Churchill",
+  "frase": "Atitude é uma pequena coisa que faz uma grande diferença.",
+  "atribuida": true
+ },
+ {
+  "id": 288,
+  "categoria": "persistencia",
+  "autor": "Winston Churchill",
+  "frase": "Nunca, nunca, nunca desista."
+ },
+ {
+  "id": 289,
+  "categoria": "motivacao",
+  "autor": "Winston Churchill",
+  "frase": "O pessimista vê dificuldade em cada oportunidade; o otimista vê oportunidade em cada dificuldade.",
+  "atribuida": true
+ },
+ {
+  "id": 290,
+  "categoria": "coragem",
+  "autor": "Winston Churchill",
+  "frase": "Coragem é o que é preciso para se levantar e falar; coragem também é o que é preciso para sentar e ouvir."
+ },
+ {
+  "id": 291,
+  "categoria": "motivacao",
+  "autor": "Nelson Mandela",
+  "frase": "Tudo parece impossível até que seja feito."
+ },
+ {
+  "id": 292,
+  "categoria": "coragem",
+  "autor": "Nelson Mandela",
+  "frase": "Aprendi que coragem não é a ausência de medo, mas o triunfo sobre ele."
+ },
+ {
+  "id": 293,
+  "categoria": "conhecimento",
+  "autor": "Nelson Mandela",
+  "frase": "A educação é a arma mais poderosa que você pode usar para mudar o mundo.",
+  "atribuida": true
+ },
+ {
+  "id": 294,
+  "categoria": "vida",
+  "autor": "Nelson Mandela",
+  "frase": "Ninguém nasce odiando outra pessoa pela cor da sua pele, sua origem ou sua religião."
+ },
+ {
+  "id": 295,
+  "categoria": "motivacao",
+  "autor": "Walt Disney",
+  "frase": "Se você pode sonhar, você pode fazer.",
+  "atribuida": true
+ },
+ {
+  "id": 296,
+  "categoria": "empreendedorismo",
+  "autor": "Walt Disney",
+  "frase": "A melhor maneira de começar é parar de falar e começar a fazer.",
+  "atribuida": true
+ },
+ {
+  "id": 297,
+  "categoria": "coragem",
+  "autor": "Walt Disney",
+  "frase": "Todos os nossos sonhos podem se tornar realidade se tivermos coragem de persegui-los.",
+  "atribuida": true
+ },
+ {
+  "id": 298,
+  "categoria": "empreendedorismo",
+  "autor": "Walt Disney",
+  "frase": "Eu gosto do impossível porque lá a concorrência é menor.",
+  "atribuida": true
+ },
+ {
+  "id": 299,
+  "categoria": "coragem",
+  "autor": "Bruce Lee",
+  "frase": "Não rezo por uma vida fácil; rezo para ter forças para suportar uma difícil.",
+  "atribuida": true
+ },
+ {
+  "id": 300,
+  "categoria": "disciplina",
+  "autor": "Bruce Lee",
+  "frase": "Não temo o homem que praticou dez mil chutes uma vez; temo o homem que praticou um chute dez mil vezes.",
+  "atribuida": true
+ },
+ {
+  "id": 301,
+  "categoria": "sabedoria",
+  "autor": "Bruce Lee",
+  "frase": "Seja água, meu amigo."
+ },
+ {
+  "id": 302,
+  "categoria": "criatividade",
+  "autor": "Bruce Lee",
+  "frase": "Absorva o que é útil, descarte o que é inútil e acrescente o que é especificamente seu."
+ },
+ {
+  "id": 303,
+  "categoria": "esporte",
+  "autor": "Muhammad Ali",
+  "frase": "Eu odiava cada minuto do treino, mas dizia: não desista. Sofra agora e viva o resto da vida como um campeão."
+ },
+ {
+  "id": 304,
+  "categoria": "esporte",
+  "autor": "Muhammad Ali",
+  "frase": "Voo como uma borboleta, ferroo como uma abelha."
+ },
+ {
+  "id": 305,
+  "categoria": "motivacao",
+  "autor": "Muhammad Ali",
+  "frase": "Impossível é apenas uma grande palavra usada por homens fracos.",
+  "atribuida": true
+ },
+ {
+  "id": 306,
+  "categoria": "criatividade",
+  "autor": "Muhammad Ali",
+  "frase": "Um homem sem imaginação não tem asas.",
+  "atribuida": true
+ },
+ {
+  "id": 307,
+  "categoria": "fracasso",
+  "autor": "Michael Jordan",
+  "frase": "Errei mais de nove mil arremessos na minha carreira. Perdi quase trezentos jogos. E é por isso que tenho sucesso."
+ },
+ {
+  "id": 308,
+  "categoria": "equipe",
+  "autor": "Michael Jordan",
+  "frase": "Talento ganha jogos, mas trabalho em equipe e inteligência ganham campeonatos."
+ },
+ {
+  "id": 309,
+  "categoria": "motivacao",
+  "autor": "Michael Jordan",
+  "frase": "Alguns querem que aconteça, alguns desejam que aconteça, outros fazem acontecer."
+ },
+ {
+  "id": 310,
+  "categoria": "coragem",
+  "autor": "Michael Jordan",
+  "frase": "Limites, assim como medos, são muitas vezes apenas uma ilusão."
+ },
+ {
+  "id": 311,
+  "categoria": "disciplina",
+  "autor": "Ayrton Senna",
+  "frase": "Se você quer ser bem-sucedido, precisa ter dedicação total, buscar seu último limite e dar o melhor de si.",
+  "atribuida": true
+ },
+ {
+  "id": 312,
+  "categoria": "sucesso",
+  "autor": "Pelé",
+  "frase": "O sucesso não é por acaso. É trabalho duro, perseverança, aprendizado, estudo, sacrifício e, acima de tudo, amor pelo que você faz.",
+  "atribuida": true
+ },
+ {
+  "id": 313,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "Preço é o que você paga; valor é o que você recebe."
+ },
+ {
+  "id": 314,
+  "categoria": "sucesso",
+  "autor": "Warren Buffett",
+  "frase": "Leva vinte anos para construir uma reputação e cinco minutos para arruiná-la."
+ },
+ {
+  "id": 315,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "Regra número um: nunca perca dinheiro. Regra número dois: nunca esqueça a regra número um."
+ },
+ {
+  "id": 316,
+  "categoria": "tempo",
+  "autor": "Warren Buffett",
+  "frase": "Alguém está sentado à sombra hoje porque alguém plantou uma árvore há muito tempo."
+ },
+ {
+  "id": 317,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "Seja temeroso quando os outros forem gananciosos e ganancioso quando os outros forem temerosos."
+ },
+ {
+  "id": 318,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "Nunca dependa de uma única fonte de renda. Faça investimentos para criar uma segunda."
+ },
+ {
+  "id": 319,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "O risco vem de não saber o que você está fazendo."
+ },
+ {
+  "id": 320,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "É muito melhor comprar uma empresa maravilhosa por um preço justo do que uma empresa justa por um preço maravilhoso."
+ },
+ {
+  "id": 321,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "Só quando a maré baixa é que se descobre quem estava nadando nu."
+ },
+ {
+  "id": 322,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "Invista em você mesmo. Quanto mais você aprende, mais você ganha.",
+  "atribuida": true
+ },
+ {
+  "id": 323,
+  "categoria": "fracasso",
+  "autor": "Bill Gates",
+  "frase": "O sucesso é um péssimo professor. Ele seduz pessoas inteligentes a pensar que nunca vão perder."
+ },
+ {
+  "id": 324,
+  "categoria": "empreendedorismo",
+  "autor": "Bill Gates",
+  "frase": "Seus clientes mais insatisfeitos são sua maior fonte de aprendizado."
+ },
+ {
+  "id": 325,
+  "categoria": "trabalho",
+  "autor": "Bill Gates",
+  "frase": "Eu escolho uma pessoa preguiçosa para fazer um trabalho difícil, porque ela vai encontrar uma maneira fácil de fazê-lo.",
+  "atribuida": true
+ },
+ {
+  "id": 326,
+  "categoria": "empreendedorismo",
+  "autor": "Jeff Bezos",
+  "frase": "Sejamos teimosos na visão e flexíveis nos detalhes.",
+  "atribuida": true
+ },
+ {
+  "id": 327,
+  "categoria": "inovacao",
+  "autor": "Jeff Bezos",
+  "frase": "Se você dobrar o número de experimentos que faz por ano, vai dobrar a sua inventividade."
+ },
+ {
+  "id": 328,
+  "categoria": "empreendedorismo",
+  "autor": "Elon Musk",
+  "frase": "Quando algo é importante o bastante, você faz mesmo que as probabilidades não estejam a seu favor."
+ },
+ {
+  "id": 329,
+  "categoria": "persistencia",
+  "autor": "Elon Musk",
+  "frase": "Persistência é muito importante. Você não deve desistir, a menos que seja forçado a desistir."
+ },
+ {
+  "id": 330,
+  "categoria": "inovacao",
+  "autor": "Elon Musk",
+  "frase": "Se as coisas não estão falhando, você não está inovando o suficiente."
+ },
+ {
+  "id": 331,
+  "categoria": "coragem",
+  "autor": "Mark Zuckerberg",
+  "frase": "O maior risco é não correr nenhum risco.",
+  "atribuida": true
+ },
+ {
+  "id": 332,
+  "categoria": "empreendedorismo",
+  "autor": "Richard Branson",
+  "frase": "Se lhe oferecem uma oportunidade incrível e você não tem certeza de que consegue, diga sim e depois aprenda como fazer.",
+  "atribuida": true
+ },
+ {
+  "id": 333,
+  "categoria": "inovacao",
+  "autor": "Peter Drucker",
+  "frase": "A melhor maneira de prever o futuro é criá-lo.",
+  "atribuida": true
+ },
+ {
+  "id": 334,
+  "categoria": "trabalho",
+  "autor": "Peter Drucker",
+  "frase": "Não há nada tão inútil quanto fazer com grande eficiência algo que não deveria ser feito."
+ },
+ {
+  "id": 335,
+  "categoria": "lideranca",
+  "autor": "Peter Drucker",
+  "frase": "Eficiência é fazer certo as coisas; eficácia é fazer as coisas certas."
+ },
+ {
+  "id": 336,
+  "categoria": "empreendedorismo",
+  "autor": "Peter Drucker",
+  "frase": "O propósito de um negócio é criar um cliente."
+ },
+ {
+  "id": 337,
+  "categoria": "empreendedorismo",
+  "autor": "Peter Drucker",
+  "frase": "A cultura come a estratégia no café da manhã.",
+  "atribuida": true
+ },
+ {
+  "id": 338,
+  "categoria": "empreendedorismo",
+  "autor": "Dale Carnegie",
+  "frase": "Só há uma maneira de fazer alguém fazer alguma coisa: fazer com que essa pessoa queira fazê-la."
+ },
+ {
+  "id": 339,
+  "categoria": "equipe",
+  "autor": "Dale Carnegie",
+  "frase": "Você faz mais amigos em dois meses se interessando pelos outros do que em dois anos tentando fazer com que os outros se interessem por você."
+ },
+ {
+  "id": 340,
+  "categoria": "motivacao",
+  "autor": "Napoleon Hill",
+  "frase": "Tudo o que a mente humana pode conceber e acreditar, ela pode conquistar."
+ },
+ {
+  "id": 341,
+  "categoria": "fracasso",
+  "autor": "Napoleon Hill",
+  "frase": "Todo fracasso traz consigo a semente de um benefício equivalente."
+ },
+ {
+  "id": 342,
+  "categoria": "motivacao",
+  "autor": "Napoleon Hill",
+  "frase": "A ação é o ponto de partida fundamental de toda conquista."
+ },
+ {
+  "id": 343,
+  "categoria": "motivacao",
+  "autor": "Zig Ziglar",
+  "frase": "Você não precisa ser ótimo para começar, mas precisa começar para ser ótimo."
+ },
+ {
+  "id": 344,
+  "categoria": "motivacao",
+  "autor": "Zig Ziglar",
+  "frase": "Sua atitude, e não sua aptidão, determinará a sua altitude."
+ },
+ {
+  "id": 345,
+  "categoria": "disciplina",
+  "autor": "Tony Robbins",
+  "frase": "Não é o que fazemos de vez em quando que molda nossas vidas, mas o que fazemos de forma consistente."
+ },
+ {
+  "id": 346,
+  "categoria": "disciplina",
+  "autor": "Jim Rohn",
+  "frase": "Disciplina é a ponte entre metas e realizações."
+ },
+ {
+  "id": 347,
+  "categoria": "sucesso",
+  "autor": "Jim Rohn",
+  "frase": "Você é a média das cinco pessoas com quem mais convive.",
+  "atribuida": true
+ },
+ {
+  "id": 348,
+  "categoria": "trabalho",
+  "autor": "Jim Rohn",
+  "frase": "Ou você corre o dia, ou o dia corre você."
+ },
+ {
+  "id": 349,
+  "categoria": "dinheiro",
+  "autor": "Robert Kiyosaki",
+  "frase": "Não é quanto dinheiro você ganha, mas quanto dinheiro você mantém."
+ },
+ {
+  "id": 350,
+  "categoria": "empreendedorismo",
+  "autor": "Simon Sinek",
+  "frase": "As pessoas não compram o que você faz; compram o porquê de você fazer."
+ },
+ {
+  "id": 351,
+  "categoria": "lideranca",
+  "autor": "Simon Sinek",
+  "frase": "Liderança não é sobre estar no comando. É sobre cuidar daqueles que estão sob o seu comando."
+ },
+ {
+  "id": 352,
+  "categoria": "empreendedorismo",
+  "autor": "Seth Godin",
+  "frase": "Não encontre clientes para os seus produtos; encontre produtos para os seus clientes."
+ },
+ {
+  "id": 353,
+  "categoria": "motivacao",
+  "autor": "Paulo Coelho",
+  "frase": "Quando você quer alguma coisa, todo o universo conspira para que você realize o seu desejo."
+ },
+ {
+  "id": 354,
+  "categoria": "coragem",
+  "autor": "Paulo Coelho",
+  "frase": "O que torna um sonho impossível de ser realizado é o medo de falhar."
+ },
+ {
+  "id": 355,
+  "categoria": "persistencia",
+  "autor": "Mark Twain",
+  "frase": "O segredo para progredir é começar.",
+  "atribuida": true
+ },
+ {
+  "id": 356,
+  "categoria": "sabedoria",
+  "autor": "Mark Twain",
+  "frase": "Não ponha todos os ovos na mesma cesta. Ponha todos os ovos numa cesta e vigie essa cesta.",
+  "atribuida": true
+ },
+ {
+  "id": 357,
+  "categoria": "motivacao",
+  "autor": "Maya Angelou",
+  "frase": "Faça o melhor que puder até saber melhor. Então, quando souber melhor, faça melhor."
+ },
+ {
+  "id": 358,
+  "categoria": "motivacao",
+  "autor": "Eleanor Roosevelt",
+  "frase": "Ninguém pode fazê-lo sentir-se inferior sem o seu consentimento."
+ },
+ {
+  "id": 359,
+  "categoria": "coragem",
+  "autor": "Eleanor Roosevelt",
+  "frase": "Faça todos os dias uma coisa que lhe dê medo.",
+  "atribuida": true
+ },
+ {
+  "id": 360,
+  "categoria": "motivacao",
+  "autor": "Eleanor Roosevelt",
+  "frase": "O futuro pertence àqueles que acreditam na beleza de seus sonhos.",
+  "atribuida": true
+ },
+ {
+  "id": 361,
+  "categoria": "lideranca",
+  "autor": "Abraham Lincoln",
+  "frase": "Quase todos os homens suportam a adversidade, mas se quiser testar o caráter de um homem, dê-lhe poder.",
+  "atribuida": true
+ },
+ {
+  "id": 362,
+  "categoria": "disciplina",
+  "autor": "Abraham Lincoln",
+  "frase": "Se eu tivesse oito horas para cortar uma árvore, passaria seis afiando o machado.",
+  "atribuida": true
+ },
+ {
+  "id": 363,
+  "categoria": "motivacao",
+  "autor": "Theodore Roosevelt",
+  "frase": "Faça o que puder, com o que tiver, onde estiver."
+ },
+ {
+  "id": 364,
+  "categoria": "coragem",
+  "autor": "Theodore Roosevelt",
+  "frase": "O mérito pertence ao homem que está na arena, com o rosto marcado de poeira, suor e sangue."
+ },
+ {
+  "id": 365,
+  "categoria": "trabalho",
+  "autor": "Theodore Roosevelt",
+  "frase": "Nada no mundo vale a pena ter ou fazer a menos que signifique esforço, dor, dificuldade."
+ },
+ {
+  "id": 366,
+  "categoria": "motivacao",
+  "autor": "Theodore Roosevelt",
+  "frase": "Acredite que você pode e você já está no meio do caminho.",
+  "atribuida": true
+ },
+ {
+  "id": 367,
+  "categoria": "motivacao",
+  "autor": "Vince Lombardi",
+  "frase": "A diferença entre uma pessoa bem-sucedida e as outras não é a falta de força nem de conhecimento, mas a falta de vontade."
+ },
+ {
+  "id": 368,
+  "categoria": "esporte",
+  "autor": "Vince Lombardi",
+  "frase": "Vencer não é tudo; querer vencer é."
+ },
+ {
+  "id": 369,
+  "categoria": "esporte",
+  "autor": "Vince Lombardi",
+  "frase": "A perfeição é inatingível, mas, se perseguirmos a perfeição, podemos alcançar a excelência."
+ },
+ {
+  "id": 370,
+  "categoria": "esporte",
+  "autor": "Babe Ruth",
+  "frase": "Nunca deixe o medo de errar impedi-lo de jogar o jogo."
+ },
+ {
+  "id": 371,
+  "categoria": "esporte",
+  "autor": "Babe Ruth",
+  "frase": "Cada strikeout me aproxima do próximo home run."
+ },
+ {
+  "id": 372,
+  "categoria": "coragem",
+  "autor": "Helen Keller",
+  "frase": "O caráter não pode ser desenvolvido na facilidade e na quietude."
+ },
+ {
+  "id": 373,
+  "categoria": "equipe",
+  "autor": "Helen Keller",
+  "frase": "Sozinhos podemos fazer tão pouco; juntos podemos fazer muito."
+ },
+ {
+  "id": 374,
+  "categoria": "motivacao",
+  "autor": "Helen Keller",
+  "frase": "Otimismo é a fé que leva à realização."
+ },
+ {
+  "id": 375,
+  "categoria": "vida",
+  "autor": "Helen Keller",
+  "frase": "A vida é uma aventura ousada ou nada."
+ },
+ {
+  "id": 376,
+  "categoria": "motivacao",
+  "autor": "Anne Frank",
+  "frase": "Quão maravilhoso é que ninguém precise esperar um único momento antes de começar a melhorar o mundo."
+ },
+ {
+  "id": 377,
+  "categoria": "coragem",
+  "autor": "Anne Frank",
+  "frase": "Quem tem coragem e fé nunca perecerá na miséria."
+ },
+ {
+  "id": 378,
+  "categoria": "amor",
+  "autor": "Madre Teresa",
+  "frase": "Nem todos podemos fazer grandes coisas, mas podemos fazer pequenas coisas com grande amor."
+ },
+ {
+  "id": 379,
+  "categoria": "amor",
+  "autor": "Madre Teresa",
+  "frase": "O que fazemos é apenas uma gota no oceano, mas o oceano seria menor sem essa gota."
+ },
+ {
+  "id": 380,
+  "categoria": "amor",
+  "autor": "Madre Teresa",
+  "frase": "A paz começa com um sorriso."
+ },
+ {
+  "id": 381,
+  "categoria": "empreendedorismo",
+  "autor": "Coco Chanel",
+  "frase": "Para ser insubstituível, é preciso ser diferente."
+ },
+ {
+  "id": 382,
+  "categoria": "criatividade",
+  "autor": "Coco Chanel",
+  "frase": "A moda passa, o estilo permanece."
+ },
+ {
+  "id": 383,
+  "categoria": "persistencia",
+  "autor": "Napoleão Bonaparte",
+  "frase": "A vitória pertence ao mais perseverante.",
+  "atribuida": true
+ },
+ {
+  "id": 384,
+  "categoria": "motivacao",
+  "autor": "Napoleão Bonaparte",
+  "frase": "Impossível é uma palavra que só se encontra no dicionário dos tolos."
+ },
+ {
+  "id": 385,
+  "categoria": "motivacao",
+  "autor": "Albert Einstein",
+  "frase": "Em meio à dificuldade encontra-se a oportunidade.",
+  "atribuida": true
+ },
+ {
+  "id": 386,
+  "categoria": "fracasso",
+  "autor": "Albert Einstein",
+  "frase": "Quem nunca cometeu um erro nunca tentou nada novo.",
+  "atribuida": true
+ },
+ {
+  "id": 387,
+  "categoria": "conhecimento",
+  "autor": "Albert Einstein",
+  "frase": "A mente que se abre a uma nova ideia jamais volta ao seu tamanho original.",
+  "atribuida": true
+ },
+ {
+  "id": 388,
+  "categoria": "inovacao",
+  "autor": "Thomas Watson",
+  "frase": "Se você quer aumentar sua taxa de sucesso, dobre sua taxa de fracasso."
+ },
+ {
+  "id": 389,
+  "categoria": "empreendedorismo",
+  "autor": "Sam Walton",
+  "frase": "Há apenas um chefe: o cliente."
+ },
+ {
+  "id": 390,
+  "categoria": "persistencia",
+  "autor": "Calvin Coolidge",
+  "frase": "Nada no mundo pode tomar o lugar da persistência."
+ },
+ {
+  "id": 391,
+  "categoria": "fracasso",
+  "autor": "Soichiro Honda",
+  "frase": "O sucesso representa 1% do seu trabalho, resultante dos 99% que chamamos de fracasso.",
+  "atribuida": true
+ },
+ {
+  "id": 392,
+  "categoria": "gratidao",
+  "autor": "Oprah Winfrey",
+  "frase": "Transforme suas feridas em sabedoria."
+ },
+ {
+  "id": 393,
+  "categoria": "empreendedorismo",
+  "autor": "Reid Hoffman",
+  "frase": "Se você não ficar envergonhado com a primeira versão do seu produto, lançou tarde demais."
+ },
+ {
+  "id": 394,
+  "categoria": "empreendedorismo",
+  "autor": "Peter Thiel",
+  "frase": "A competição é para perdedores."
+ },
+ {
+  "id": 395,
+  "categoria": "empreendedorismo",
+  "autor": "Paul Graham",
+  "frase": "Crie algo que as pessoas queiram."
+ },
+ {
+  "id": 396,
+  "categoria": "coragem",
+  "autor": "Eric Schmidt",
+  "frase": "Se lhe oferecem um lugar em um foguete, não pergunte qual é o assento. Simplesmente suba.",
+  "atribuida": true
+ },
+ {
+  "id": 397,
+  "categoria": "empreendedorismo",
+  "autor": "Jorge Paulo Lemann",
+  "frase": "Sonhar grande e sonhar pequeno dá o mesmo trabalho.",
+  "atribuida": true
+ },
+ {
+  "id": 398,
+  "categoria": "persistencia",
+  "autor": "Chico Xavier",
+  "frase": "Embora ninguém possa voltar atrás e fazer um novo começo, qualquer um pode começar agora e fazer um novo fim.",
+  "atribuida": true
+ },
+ {
+  "id": 399,
+  "categoria": "criatividade",
+  "autor": "Pablo Picasso",
+  "frase": "A inspiração existe, mas tem que te encontrar trabalhando.",
+  "atribuida": true
+ },
+ {
+  "id": 400,
+  "categoria": "criatividade",
+  "autor": "Pablo Picasso",
+  "frase": "Aprenda as regras como um profissional para poder quebrá-las como um artista.",
+  "atribuida": true
+ },
+ {
+  "id": 401,
+  "categoria": "coragem",
+  "autor": "Vincent van Gogh",
+  "frase": "Se você ouvir uma voz dentro de você dizendo que não pode pintar, então pinte, e essa voz será silenciada."
+ },
+ {
+  "id": 402,
+  "categoria": "sabedoria",
+  "autor": "Dalai Lama",
+  "frase": "Seja gentil sempre que possível. É sempre possível."
+ },
+ {
+  "id": 403,
+  "categoria": "tempo",
+  "autor": "Dalai Lama",
+  "frase": "Há apenas dois dias no ano em que nada pode ser feito: ontem e amanhã.",
+  "atribuida": true
+ },
+ {
+  "id": 404,
+  "categoria": "coragem",
+  "autor": "Brené Brown",
+  "frase": "A vulnerabilidade é o berço da inovação, da criatividade e da mudança.",
+  "atribuida": true
+ },
+ {
+  "id": 405,
+  "categoria": "disciplina",
+  "autor": "Stephen Covey",
+  "frase": "O principal não é priorizar o que está na agenda, mas agendar as suas prioridades."
+ },
+ {
+  "id": 406,
+  "categoria": "empreendedorismo",
+  "autor": "Stephen Covey",
+  "frase": "Comece com o fim em mente."
+ },
+ {
+  "id": 407,
+  "categoria": "sabedoria",
+  "autor": "Stephen Hawking",
+  "frase": "A inteligência é a capacidade de se adaptar à mudança.",
+  "atribuida": true
+ },
+ {
+  "id": 408,
+  "categoria": "motivacao",
+  "autor": "Stephen Hawking",
+  "frase": "Olhe para as estrelas e não para os seus pés."
+ },
+ {
+  "id": 409,
+  "categoria": "coragem",
+  "autor": "Marie Curie",
+  "frase": "Na vida, nada deve ser temido, somente compreendido."
+ },
+ {
+  "id": 410,
+  "categoria": "trabalho",
+  "autor": "Marie Curie",
+  "frase": "Não vejo o que fizemos; vejo apenas o que ainda falta fazer.",
+  "atribuida": true
+ },
+ {
+  "id": 411,
+  "categoria": "conhecimento",
+  "autor": "Isaac Newton",
+  "frase": "Se eu vi mais longe, foi por estar sobre os ombros de gigantes."
+ },
+ {
+  "id": 412,
+  "categoria": "conhecimento",
+  "autor": "Carl Sagan",
+  "frase": "A ciência é mais do que um corpo de conhecimento; é uma maneira de pensar."
+ },
+ {
+  "id": 413,
+  "categoria": "motivacao",
+  "autor": "Nikola Tesla",
+  "frase": "O presente é deles; o futuro, pelo qual realmente trabalhei, é meu."
+ },
+ {
+  "id": 414,
+  "categoria": "vida",
+  "autor": "Charlie Chaplin",
+  "frase": "Um dia sem sorriso é um dia perdido.",
+  "atribuida": true
+ },
+ {
+  "id": 415,
+  "categoria": "vida",
+  "autor": "Charlie Chaplin",
+  "frase": "A vida é maravilhosa se não se tem medo dela."
+ },
+ {
+  "id": 416,
+  "categoria": "vida",
+  "autor": "Charlie Chaplin",
+  "frase": "Nada é permanente neste mundo, nem mesmo os nossos problemas.",
+  "atribuida": true
+ },
+ {
+  "id": 417,
+  "categoria": "motivacao",
+  "autor": "Frida Kahlo",
+  "frase": "Pés, para que os quero se tenho asas para voar?"
+ },
+ {
+  "id": 418,
+  "categoria": "motivacao",
+  "autor": "Audrey Hepburn",
+  "frase": "Nada é impossível. A própria palavra diz: eu sou possível.",
+  "atribuida": true
+ },
+ {
+  "id": 419,
+  "categoria": "motivacao",
+  "autor": "Martin Luther King Jr.",
+  "frase": "Se você não pode voar, corra; se não pode correr, ande; se não pode andar, rasteje; mas continue em frente.",
+  "atribuida": true
+ },
+ {
+  "id": 420,
+  "categoria": "sabedoria",
+  "autor": "Martin Luther King Jr.",
+  "frase": "A escuridão não pode expulsar a escuridão; só a luz pode fazer isso."
+ },
+ {
+  "id": 421,
+  "categoria": "coragem",
+  "autor": "Martin Luther King Jr.",
+  "frase": "A fé é dar o primeiro passo mesmo quando você não vê toda a escada.",
+  "atribuida": true
+ },
+ {
+  "id": 422,
+  "categoria": "vida",
+  "autor": "Gabriel García Márquez",
+  "frase": "A vida não é a que a gente viveu, e sim a que a gente recorda, e como recorda para contá-la."
+ },
+ {
+  "id": 423,
+  "categoria": "sabedoria",
+  "autor": "José Saramago",
+  "frase": "Se podes olhar, vê. Se podes ver, repara."
+ },
+ {
+  "id": 424,
+  "categoria": "conhecimento",
+  "autor": "Cora Coralina",
+  "frase": "Feliz aquele que transfere o que sabe e aprende o que ensina."
+ },
+ {
+  "id": 425,
+  "categoria": "motivacao",
+  "autor": "Fernando Sabino",
+  "frase": "No fim tudo dá certo, e se não deu certo é porque ainda não chegou ao fim.",
+  "atribuida": true
+ },
+ {
+  "id": 426,
+  "categoria": "lideranca",
+  "autor": "John C. Maxwell",
+  "frase": "Um líder é aquele que conhece o caminho, vai pelo caminho e mostra o caminho."
+ },
+ {
+  "id": 427,
+  "categoria": "lideranca",
+  "autor": "John C. Maxwell",
+  "frase": "Liderança é influência."
+ },
+ {
+  "id": 428,
+  "categoria": "lideranca",
+  "autor": "Warren Bennis",
+  "frase": "Líderes são pessoas que fazem as coisas certas; gestores fazem as coisas direito."
+ },
+ {
+  "id": 429,
+  "categoria": "lideranca",
+  "autor": "Jack Welch",
+  "frase": "Antes de ser líder, sucesso é crescer você mesmo. Quando for líder, sucesso é fazer os outros crescerem."
+ },
+ {
+  "id": 430,
+  "categoria": "sucesso",
+  "autor": "Jim Collins",
+  "frase": "Bom é inimigo do ótimo."
+ },
+ {
+  "id": 431,
+  "categoria": "inovacao",
+  "autor": "Eric Ries",
+  "frase": "A única maneira de vencer é aprender mais rápido do que qualquer outro."
+ },
+ {
+  "id": 432,
+  "categoria": "disciplina",
+  "autor": "James Clear",
+  "frase": "Você não sobe ao nível das suas metas; você cai ao nível dos seus sistemas."
+ },
+ {
+  "id": 433,
+  "categoria": "disciplina",
+  "autor": "James Clear",
+  "frase": "Cada ação que você toma é um voto no tipo de pessoa que você quer se tornar."
+ },
+ {
+  "id": 434,
+  "categoria": "persistencia",
+  "autor": "Angela Duckworth",
+  "frase": "Entusiasmo é comum. Resistência é rara."
+ },
+ {
+  "id": 435,
+  "categoria": "motivacao",
+  "autor": "Robin Sharma",
+  "frase": "Mudança é difícil no começo, confusa no meio e linda no final.",
+  "atribuida": true
+ },
+ {
+  "id": 436,
+  "categoria": "disciplina",
+  "autor": "Ray Dalio",
+  "frase": "Dor mais reflexão é igual a progresso."
+ },
+ {
+  "id": 437,
+  "categoria": "sabedoria",
+  "autor": "Charlie Munger",
+  "frase": "Inverta, sempre inverta."
+ },
+ {
+  "id": 438,
+  "categoria": "dinheiro",
+  "autor": "Benjamin Graham",
+  "frase": "O investidor inteligente é um realista que vende para os otimistas e compra dos pessimistas."
+ },
+ {
+  "id": 439,
+  "categoria": "esporte",
+  "autor": "Cristiano Ronaldo",
+  "frase": "Talento sem trabalho não é nada.",
+  "atribuida": true
+ },
+ {
+  "id": 440,
+  "categoria": "esporte",
+  "autor": "Lionel Messi",
+  "frase": "Você tem que lutar para chegar ao seu sonho. Tem que se sacrificar e trabalhar duro por ele.",
+  "atribuida": true
+ },
+ {
+  "id": 441,
+  "categoria": "proverbios",
+  "autor": "Provérbio japonês",
+  "frase": "Cair sete vezes, levantar oito."
+ },
+ {
+  "id": 442,
+  "categoria": "proverbios",
+  "autor": "Provérbio japonês",
+  "frase": "O bambu que se dobra é mais forte do que o carvalho que resiste."
+ },
+ {
+  "id": 443,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "A melhor hora para plantar uma árvore foi há vinte anos. A segunda melhor hora é agora."
+ },
+ {
+  "id": 444,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Quem pergunta é tolo por cinco minutos; quem não pergunta é tolo para sempre."
+ },
+ {
+  "id": 445,
+  "categoria": "proverbios",
+  "autor": "Provérbio africano",
+  "frase": "Se quer ir rápido, vá sozinho. Se quer ir longe, vá acompanhado."
+ },
+ {
+  "id": 446,
+  "categoria": "proverbios",
+  "autor": "Provérbio africano",
+  "frase": "É preciso uma aldeia inteira para educar uma criança."
+ },
+ {
+  "id": 447,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Água mole em pedra dura, tanto bate até que fura."
+ },
+ {
+  "id": 448,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Devagar se vai ao longe."
+ },
+ {
+  "id": 449,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "De grão em grão, a galinha enche o papo."
+ },
+ {
+  "id": 450,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A união faz a força."
+ },
+ {
+  "id": 451,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Uma andorinha só não faz verão."
+ },
+ {
+  "id": 452,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Não deixe para amanhã o que pode fazer hoje."
+ },
+ {
+  "id": 453,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem não arrisca não petisca."
+ },
+ {
+  "id": 454,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A pressa é inimiga da perfeição."
+ },
+ {
+  "id": 455,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Há males que vêm para bem."
+ },
+ {
+  "id": 456,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem espera sempre alcança."
+ },
+ {
+  "id": 457,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem semeia vento colhe tempestade."
+ },
+ {
+  "id": 458,
+  "categoria": "vida",
+  "autor": "William Shakespeare",
+  "frase": "Ser ou não ser, eis a questão."
+ },
+ {
+  "id": 459,
+  "categoria": "coragem",
+  "autor": "William Shakespeare",
+  "frase": "Nossas dúvidas são traidoras e nos fazem perder o que poderíamos ganhar, por medo de tentar."
+ },
+ {
+  "id": 460,
+  "categoria": "vida",
+  "autor": "William Shakespeare",
+  "frase": "O mundo inteiro é um palco, e todos os homens e mulheres são meros atores."
+ },
+ {
+  "id": 461,
+  "categoria": "vida",
+  "autor": "William Shakespeare",
+  "frase": "Sê fiel a ti mesmo."
+ },
+ {
+  "id": 462,
+  "categoria": "tempo",
+  "autor": "William Shakespeare",
+  "frase": "O que passou é prólogo."
+ },
+ {
+  "id": 463,
+  "categoria": "coragem",
+  "autor": "William Shakespeare",
+  "frase": "Os covardes morrem muitas vezes antes da sua morte; o valente nunca prova a morte senão uma vez."
+ },
+ {
+  "id": 464,
+  "categoria": "conhecimento",
+  "autor": "William Shakespeare",
+  "frase": "Há mais coisas entre o céu e a terra do que sonha a nossa vã filosofia."
+ },
+ {
+  "id": 465,
+  "categoria": "vida",
+  "autor": "William Shakespeare",
+  "frase": "Somos feitos da matéria de que são feitos os sonhos."
+ },
+ {
+  "id": 466,
+  "categoria": "sabedoria",
+  "autor": "William Shakespeare",
+  "frase": "Não há nada bom nem mau; é o pensamento que o faz assim."
+ },
+ {
+  "id": 467,
+  "categoria": "sabedoria",
+  "autor": "William Shakespeare",
+  "frase": "Os que correm demais tropeçam."
+ },
+ {
+  "id": 468,
+  "categoria": "conhecimento",
+  "autor": "William Shakespeare",
+  "frase": "A ignorância é a maldição de Deus; o conhecimento é a asa com que voamos para o céu."
+ },
+ {
+  "id": 469,
+  "categoria": "motivacao",
+  "autor": "Bíblia",
+  "frase": "Tudo posso naquele que me fortalece."
+ },
+ {
+  "id": 470,
+  "categoria": "tempo",
+  "autor": "Bíblia",
+  "frase": "Para tudo há um tempo, para cada coisa há um momento debaixo do céu."
+ },
+ {
+  "id": 471,
+  "categoria": "motivacao",
+  "autor": "Bíblia",
+  "frase": "Peçam, e lhes será dado; busquem, e encontrarão; batam, e a porta lhes será aberta."
+ },
+ {
+  "id": 472,
+  "categoria": "amor",
+  "autor": "Bíblia",
+  "frase": "O amor é paciente, o amor é bondoso."
+ },
+ {
+  "id": 473,
+  "categoria": "coragem",
+  "autor": "Bíblia",
+  "frase": "Não temas, porque eu sou contigo."
+ },
+ {
+  "id": 474,
+  "categoria": "motivacao",
+  "autor": "Bíblia",
+  "frase": "Tudo o que fizerem, façam de todo o coração."
+ },
+ {
+  "id": 475,
+  "categoria": "gratidao",
+  "autor": "Bíblia",
+  "frase": "Em tudo dai graças."
+ },
+ {
+  "id": 476,
+  "categoria": "sabedoria",
+  "autor": "Bíblia",
+  "frase": "O princípio da sabedoria é o temor do Senhor."
+ },
+ {
+  "id": 477,
+  "categoria": "vida",
+  "autor": "Machado de Assis",
+  "frase": "A vida é uma ópera e uma grande ópera."
+ },
+ {
+  "id": 478,
+  "categoria": "justica",
+  "autor": "Rui Barbosa",
+  "frase": "A justiça atrasada não é justiça, senão injustiça qualificada e manifesta."
+ },
+ {
+  "id": 479,
+  "categoria": "justica",
+  "autor": "Rui Barbosa",
+  "frase": "De tanto ver triunfar as nulidades, o homem chega a desanimar da virtude e a ter vergonha de ser honesto."
+ },
+ {
+  "id": 480,
+  "categoria": "conhecimento",
+  "autor": "Monteiro Lobato",
+  "frase": "Um país se faz com homens e livros."
+ },
+ {
+  "id": 481,
+  "categoria": "sabedoria",
+  "autor": "Millôr Fernandes",
+  "frase": "Livre pensar é só pensar."
+ },
+ {
+  "id": 482,
+  "categoria": "sabedoria",
+  "autor": "Ariano Suassuna",
+  "frase": "O otimista é um tolo. O pessimista, um chato. Bom mesmo é ser um realista esperançoso."
+ },
+ {
+  "id": 483,
+  "categoria": "coragem",
+  "autor": "Darcy Ribeiro",
+  "frase": "Só há duas opções nesta vida: se resignar ou se indignar. E eu não vou me resignar nunca."
+ },
+ {
+  "id": 484,
+  "categoria": "justica",
+  "autor": "Betinho",
+  "frase": "Quem tem fome tem pressa."
+ },
+ {
+  "id": 485,
+  "categoria": "sabedoria",
+  "autor": "Nelson Rodrigues",
+  "frase": "Toda unanimidade é burra."
+ },
+ {
+  "id": 486,
+  "categoria": "humor",
+  "autor": "Barão de Itararé",
+  "frase": "De onde menos se espera, daí é que não sai nada."
+ },
+ {
+  "id": 487,
+  "categoria": "humor",
+  "autor": "Woody Allen",
+  "frase": "Não quero alcançar a imortalidade através do meu trabalho. Quero alcançá-la não morrendo."
+ },
+ {
+  "id": 488,
+  "categoria": "humor",
+  "autor": "Mark Twain",
+  "frase": "As notícias sobre a minha morte foram um exagero."
+ },
+ {
+  "id": 489,
+  "categoria": "humor",
+  "autor": "Oscar Wilde",
+  "frase": "Posso resistir a tudo, menos à tentação."
+ },
+ {
+  "id": 490,
+  "categoria": "humor",
+  "autor": "Oscar Wilde",
+  "frase": "Experiência é o nome que damos aos nossos erros."
+ },
+ {
+  "id": 491,
+  "categoria": "humor",
+  "autor": "Oscar Wilde",
+  "frase": "Perdoe sempre os seus inimigos; nada os irrita tanto."
+ },
+ {
+  "id": 492,
+  "categoria": "humor",
+  "autor": "Oscar Wilde",
+  "frase": "A única coisa pior do que falarem de você é não falarem de você."
+ },
+ {
+  "id": 493,
+  "categoria": "humor",
+  "autor": "Oscar Wilde",
+  "frase": "Tenho gostos simples: contento-me sempre com o melhor."
+ },
+ {
+  "id": 494,
+  "categoria": "humor",
+  "autor": "Albert Einstein",
+  "frase": "Duas coisas são infinitas: o universo e a estupidez humana; e não tenho certeza sobre o universo.",
+  "atribuida": true
+ },
+ {
+  "id": 495,
+  "categoria": "sabedoria",
+  "autor": "Albert Einstein",
+  "frase": "Tudo deve ser feito o mais simples possível, mas não mais simples.",
+  "atribuida": true
+ },
+ {
+  "id": 496,
+  "categoria": "dinheiro",
+  "autor": "Benjamin Franklin",
+  "frase": "Neste mundo nada é certo, exceto a morte e os impostos."
+ },
+ {
+  "id": 497,
+  "categoria": "conhecimento",
+  "autor": "Benjamin Franklin",
+  "frase": "Diga-me e eu esqueço, ensine-me e eu lembro, envolva-me e eu aprendo.",
+  "atribuida": true
+ },
+ {
+  "id": 498,
+  "categoria": "dinheiro",
+  "autor": "Benjamin Franklin",
+  "frase": "Tempo é dinheiro."
+ },
+ {
+  "id": 499,
+  "categoria": "persistencia",
+  "autor": "Esopo",
+  "frase": "Devagar e sempre vence a corrida."
+ },
+ {
+  "id": 500,
+  "categoria": "coragem",
+  "autor": "Arnold Schwarzenegger",
+  "frase": "Força não vem da vitória. Suas lutas desenvolvem suas forças. Quando você atravessa dificuldades e decide não se render, isso é força."
+ },
+ {
+  "id": 501,
+  "categoria": "motivacao",
+  "autor": "Arnold Schwarzenegger",
+  "frase": "A mente é a limitação. Se você concebe que pode fazer algo e acredita nisso, você pode fazer."
+ },
+ {
+  "id": 502,
+  "categoria": "esporte",
+  "autor": "Kobe Bryant",
+  "frase": "Tudo o que é negativo, pressão, desafios, é uma oportunidade para eu crescer."
+ },
+ {
+  "id": 503,
+  "categoria": "esporte",
+  "autor": "Wayne Gretzky",
+  "frase": "Você perde cem por cento das chances que não aproveita."
+ },
+ {
+  "id": 504,
+  "categoria": "trabalho",
+  "autor": "Thomas Jefferson",
+  "frase": "Quanto mais eu trabalho, mais sorte eu tenho.",
+  "atribuida": true
+ },
+ {
+  "id": 505,
+  "categoria": "sucesso",
+  "autor": "Colin Powell",
+  "frase": "Não há segredos para o sucesso. Ele é resultado de preparação, trabalho duro e aprendizado com o fracasso."
+ },
+ {
+  "id": 506,
+  "categoria": "sucesso",
+  "autor": "Oprah Winfrey",
+  "frase": "A maior aventura que você pode ter é viver a vida dos seus sonhos.",
+  "atribuida": true
+ },
+ {
+  "id": 507,
+  "categoria": "sucesso",
+  "autor": "Benjamin Disraeli",
+  "frase": "O segredo do sucesso na vida é estar pronto quando a oportunidade surgir."
+ },
+ {
+  "id": 508,
+  "categoria": "conhecimento",
+  "autor": "Louis Pasteur",
+  "frase": "A sorte favorece a mente preparada."
+ },
+ {
+  "id": 509,
+  "categoria": "persistencia",
+  "autor": "Louis Pasteur",
+  "frase": "Minha força reside unicamente na minha tenacidade."
+ },
+ {
+  "id": 510,
+  "categoria": "coragem",
+  "autor": "Victor Hugo",
+  "frase": "O futuro tem muitos nomes: para os fracos é o inatingível; para os temerosos, o desconhecido; para os valentes, a oportunidade."
+ },
+ {
+  "id": 511,
+  "categoria": "conhecimento",
+  "autor": "Johann W. von Goethe",
+  "frase": "Nada é mais terrível do que a ignorância em ação."
+ },
+ {
+  "id": 512,
+  "categoria": "persistencia",
+  "autor": "Mahatma Gandhi",
+  "frase": "A alegria está na luta, no esforço, no sofrimento envolvido, e não na vitória propriamente dita."
+ },
+ {
+  "id": 513,
+  "categoria": "tempo",
+  "autor": "Mahatma Gandhi",
+  "frase": "O futuro depende do que fazemos no presente.",
+  "atribuida": true
+ },
+ {
+  "id": 514,
+  "categoria": "amor",
+  "autor": "Khalil Gibran",
+  "frase": "Você pode esquecer aquele com quem riu, mas nunca aquele com quem chorou.",
+  "atribuida": true
+ },
+ {
+  "id": 515,
+  "categoria": "motivacao",
+  "autor": "Rabindranath Tagore",
+  "frase": "Você não pode atravessar o mar simplesmente ficando parado e olhando para a água.",
+  "atribuida": true
+ },
+ {
+  "id": 516,
+  "categoria": "coragem",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "Faça o que você tem medo de fazer, e o medo certamente morrerá.",
+  "atribuida": true
+ },
+ {
+  "id": 517,
+  "categoria": "motivacao",
+  "autor": "J. K. Rowling",
+  "frase": "Não é possível viver sem falhar em alguma coisa, a menos que você viva com tanta cautela que acabe por não viver."
+ },
+ {
+  "id": 518,
+  "categoria": "motivacao",
+  "autor": "Maya Angelou",
+  "frase": "Quando alguém lhe mostrar quem é, acredite na primeira vez."
+ },
+ {
+  "id": 519,
+  "categoria": "motivacao",
+  "autor": "Michelle Obama",
+  "frase": "Não há limite para o que nós, mulheres, podemos realizar.",
+  "atribuida": true
+ },
+ {
+  "id": 520,
+  "categoria": "motivacao",
+  "autor": "Barack Obama",
+  "frase": "Nós somos aqueles pelos quais estávamos esperando."
+ },
+ {
+  "id": 521,
+  "categoria": "lideranca",
+  "autor": "John F. Kennedy",
+  "frase": "Não pergunte o que seu país pode fazer por você; pergunte o que você pode fazer por seu país."
+ },
+ {
+  "id": 522,
+  "categoria": "coragem",
+  "autor": "Franklin D. Roosevelt",
+  "frase": "A única coisa que devemos temer é o próprio medo."
+ },
+ {
+  "id": 523,
+  "categoria": "tempo",
+  "autor": "Malcolm X",
+  "frase": "O futuro pertence àqueles que se preparam para ele hoje.",
+  "atribuida": true
+ },
+ {
+  "id": 524,
+  "categoria": "conhecimento",
+  "autor": "Malala Yousafzai",
+  "frase": "Uma criança, um professor, um livro e uma caneta podem mudar o mundo."
+ },
+ {
+  "id": 525,
+  "categoria": "empreendedorismo",
+  "autor": "Estée Lauder",
+  "frase": "Não sonho com o sucesso; trabalho por ele.",
+  "atribuida": true
+ },
+ {
+  "id": 526,
+  "categoria": "empreendedorismo",
+  "autor": "Sheryl Sandberg",
+  "frase": "Feito é melhor do que perfeito.",
+  "atribuida": true
+ },
+ {
+  "id": 527,
+  "categoria": "empreendedorismo",
+  "autor": "Ratan Tata",
+  "frase": "Não acredito em tomar decisões certas. Tomo decisões e depois as faço serem certas.",
+  "atribuida": true
+ },
+ {
+  "id": 528,
+  "categoria": "persistencia",
+  "autor": "Jack Ma",
+  "frase": "Hoje é difícil, amanhã será pior, mas depois de amanhã será maravilhoso.",
+  "atribuida": true
+ },
+ {
+  "id": 529,
+  "categoria": "empreendedorismo",
+  "autor": "Paul Graham",
+  "frase": "Faça coisas que não escalam."
+ },
+ {
+  "id": 530,
+  "categoria": "inovacao",
+  "autor": "Marc Andreessen",
+  "frase": "O software está devorando o mundo."
+ },
+ {
+  "id": 531,
+  "categoria": "amor",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "Amar não é olhar um para o outro; é olhar juntos na mesma direção."
+ },
+ {
+  "id": 532,
+  "categoria": "amor",
+  "autor": "Victor Hugo",
+  "frase": "A maior felicidade da vida é a convicção de que somos amados."
+ },
+ {
+  "id": 533,
+  "categoria": "gratidao",
+  "autor": "Melody Beattie",
+  "frase": "A gratidão transforma o que temos em suficiente."
+ },
+ {
+  "id": 534,
+  "categoria": "gratidao",
+  "autor": "Meister Eckhart",
+  "frase": "Se a única oração que você disser em toda a sua vida for obrigado, será suficiente.",
+  "atribuida": true
+ },
+ {
+  "id": 535,
+  "categoria": "gratidao",
+  "autor": "Albert Schweitzer",
+  "frase": "A felicidade é a única coisa que se multiplica quando você a divide.",
+  "atribuida": true
+ },
+ {
+  "id": 536,
+  "categoria": "sabedoria",
+  "autor": "Albert Schweitzer",
+  "frase": "O exemplo não é a melhor maneira de influenciar os outros; é a única maneira."
+ },
+ {
+  "id": 537,
+  "categoria": "vida",
+  "autor": "Jim Rohn",
+  "frase": "Cuide do seu corpo. É o único lugar que você tem para viver."
+ },
+ {
+  "id": 538,
+  "categoria": "tempo",
+  "autor": "Michael Altshuler",
+  "frase": "A má notícia é que o tempo voa. A boa notícia é que você é o piloto."
+ },
+ {
+  "id": 539,
+  "categoria": "conhecimento",
+  "autor": "William Butler Yeats",
+  "frase": "Educação não é encher um balde, mas acender um fogo.",
+  "atribuida": true
+ },
+ {
+  "id": 540,
+  "categoria": "conhecimento",
+  "autor": "Paulo Freire",
+  "frase": "Quem ensina aprende ao ensinar, e quem aprende ensina ao aprender."
+ },
+ {
+  "id": 541,
+  "categoria": "conhecimento",
+  "autor": "Paulo Freire",
+  "frase": "A leitura do mundo precede a leitura da palavra."
+ },
+ {
+  "id": 542,
+  "categoria": "conhecimento",
+  "autor": "Paulo Freire",
+  "frase": "Ninguém ignora tudo. Ninguém sabe tudo. Todos nós sabemos alguma coisa. Todos nós ignoramos alguma coisa."
+ },
+ {
+  "id": 543,
+  "categoria": "conhecimento",
+  "autor": "Paulo Freire",
+  "frase": "Não há docência sem discência."
+ },
+ {
+  "id": 544,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Não tenha medo de crescer devagar; tenha medo de ficar parado."
+ },
+ {
+  "id": 545,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Um homem sábio constrói pontes; um tolo constrói muros.",
+  "atribuida": true
+ },
+ {
+  "id": 546,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Quem muito quer abraçar pouco aperta."
+ },
+ {
+  "id": 547,
+  "categoria": "proverbios",
+  "autor": "Provérbio árabe",
+  "frase": "Quem não conhece o caminho nunca chega ao destino.",
+  "atribuida": true
+ },
+ {
+  "id": 548,
+  "categoria": "proverbios",
+  "autor": "Provérbio árabe",
+  "frase": "Confie em Deus, mas amarre o seu camelo."
+ },
+ {
+  "id": 549,
+  "categoria": "proverbios",
+  "autor": "Provérbio judaico",
+  "frase": "Quem salva uma vida salva o mundo inteiro."
+ },
+ {
+  "id": 550,
+  "categoria": "proverbios",
+  "autor": "Provérbio judaico",
+  "frase": "Se não eu por mim, quem por mim? Se não agora, quando?"
+ },
+ {
+  "id": 551,
+  "categoria": "proverbios",
+  "autor": "Provérbio indiano",
+  "frase": "O que é bom para a abelha é bom para a colmeia.",
+  "atribuida": true
+ },
+ {
+  "id": 552,
+  "categoria": "proverbios",
+  "autor": "Provérbio russo",
+  "frase": "Confie, mas verifique."
+ },
+ {
+  "id": 553,
+  "categoria": "proverbios",
+  "autor": "Provérbio turco",
+  "frase": "Quem não tem vergonha de perguntar não tem vergonha de aprender.",
+  "atribuida": true
+ },
+ {
+  "id": 554,
+  "categoria": "proverbios",
+  "autor": "Provérbio inglês",
+  "frase": "Não há mal que sempre dure, nem bem que nunca acabe.",
+  "atribuida": true
+ },
+ {
+  "id": 555,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Nada como um dia após o outro."
+ },
+ {
+  "id": 556,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O seguro morreu de velho."
+ },
+ {
+  "id": 557,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cavalo dado não se olha os dentes."
+ },
+ {
+  "id": 558,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Gato escaldado tem medo de água fria."
+ },
+ {
+  "id": 559,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem vê cara não vê coração."
+ },
+ {
+  "id": 560,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Para bom entendedor, meia palavra basta."
+ },
+ {
+  "id": 561,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Diga-me com quem andas e te direi quem és."
+ },
+ {
+  "id": 562,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Em casa de ferreiro, espeto de pau."
+ },
+ {
+  "id": 563,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O barato sai caro."
+ },
+ {
+  "id": 564,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Pimenta nos olhos dos outros é refresco."
+ },
+ {
+  "id": 565,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Mais vale um pássaro na mão do que dois voando."
+ },
+ {
+  "id": 566,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem ri por último ri melhor."
+ },
+ {
+  "id": 567,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A esperança é a última que morre."
+ },
+ {
+  "id": 568,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Atrás de um grande homem há sempre uma grande mulher."
+ },
+ {
+  "id": 569,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cada macaco no seu galho."
+ },
+ {
+  "id": 570,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A palavra é prata, o silêncio é ouro."
+ },
+ {
+  "id": 571,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem conta um conto aumenta um ponto."
+ },
+ {
+  "id": 572,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Amigos, amigos; negócios à parte."
+ },
+ {
+  "id": 573,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Errar é humano."
+ },
+ {
+  "id": 574,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O que os olhos não veem o coração não sente."
+ },
+ {
+  "id": 575,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Depois da tempestade vem a bonança."
+ },
+ {
+  "id": 576,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cão que ladra não morde."
+ },
+ {
+  "id": 577,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem tudo quer tudo perde."
+ },
+ {
+  "id": 578,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A ocasião faz o ladrão."
+ },
+ {
+  "id": 579,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Deus ajuda quem cedo madruga."
+ },
+ {
+  "id": 580,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Não adianta chorar sobre o leite derramado."
+ },
+ {
+  "id": 581,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem avisa amigo é."
+ },
+ {
+  "id": 582,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Nem tudo que reluz é ouro."
+ },
+ {
+  "id": 583,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A César o que é de César."
+ },
+ {
+  "id": 584,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Pau que nasce torto nunca se endireita."
+ },
+ {
+  "id": 585,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Um é pouco, dois é bom, três é demais."
+ },
+ {
+  "id": 586,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem não chora não mama."
+ },
+ {
+  "id": 587,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem canta seus males espanta."
+ },
+ {
+  "id": 588,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem ama o feio bonito lhe parece."
+ },
+ {
+  "id": 589,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Roma não foi feita num dia."
+ },
+ {
+  "id": 590,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O hábito faz o monge."
+ },
+ {
+  "id": 591,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cada um colhe o que planta."
+ },
+ {
+  "id": 592,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Melhor prevenir do que remediar."
+ },
+ {
+  "id": 593,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Muito riso, pouco siso."
+ },
+ {
+  "id": 594,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Preso por ter cão, preso por não ter."
+ },
+ {
+  "id": 595,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Longe dos olhos, longe do coração."
+ },
+ {
+  "id": 596,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem foi ao ar perdeu o lugar."
+ },
+ {
+  "id": 597,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Mão de obra barata sai cara."
+ },
+ {
+  "id": 598,
+  "categoria": "sabedoria",
+  "autor": "Sêneca",
+  "frase": "Não é porque as coisas são difíceis que não ousamos; é porque não ousamos que elas são difíceis."
+ },
+ {
+  "id": 599,
+  "categoria": "amor",
+  "autor": "Sêneca",
+  "frase": "Se queres ser amado, ama."
+ },
+ {
+  "id": 600,
+  "categoria": "sabedoria",
+  "autor": "Aristóteles",
+  "frase": "O que temos de aprender a fazer, aprendemos fazendo."
+ },
+ {
+  "id": 601,
+  "categoria": "sabedoria",
+  "autor": "Aristóteles",
+  "frase": "A felicidade é o sentido e o propósito da vida, a meta e o fim da existência humana."
+ },
+ {
+  "id": 602,
+  "categoria": "conhecimento",
+  "autor": "João Guimarães Rosa",
+  "frase": "Mestre não é quem sempre ensina, mas quem de repente aprende."
+ },
+ {
+  "id": 603,
+  "categoria": "vida",
+  "autor": "João Guimarães Rosa",
+  "frase": "O sertão é do tamanho do mundo."
+ },
+ {
+  "id": 604,
+  "categoria": "sabedoria",
+  "autor": "Marco Aurélio",
+  "frase": "Se não é certo, não o faça; se não é verdade, não o diga."
+ },
+ {
+  "id": 605,
+  "categoria": "tempo",
+  "autor": "Marco Aurélio",
+  "frase": "Podes deixar a vida agora. Que isso determine o que fazes, dizes e pensas."
+ },
+ {
+  "id": 606,
+  "categoria": "sabedoria",
+  "autor": "Marco Aurélio",
+  "frase": "Muito pouco é necessário para fazer uma vida feliz."
+ },
+ {
+  "id": 607,
+  "categoria": "sabedoria",
+  "autor": "Marco Aurélio",
+  "frase": "A nossa vida é aquilo que os nossos pensamentos fazem dela."
+ },
+ {
+  "id": 608,
+  "categoria": "sabedoria",
+  "autor": "Lao Tsé",
+  "frase": "A gentileza nas palavras cria confiança; a gentileza no pensamento cria profundidade; a gentileza no dar cria amor."
+ },
+ {
+  "id": 609,
+  "categoria": "sabedoria",
+  "autor": "Lao Tsé",
+  "frase": "Governar um grande país é como cozinhar um pequeno peixe."
+ },
+ {
+  "id": 610,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Se você for paciente num momento de raiva, escapará de cem dias de tristeza."
+ },
+ {
+  "id": 611,
+  "categoria": "sabedoria",
+  "autor": "Confúcio",
+  "frase": "A vida é realmente simples, mas insistimos em complicá-la.",
+  "atribuida": true
+ },
+ {
+  "id": 612,
+  "categoria": "conhecimento",
+  "autor": "Confúcio",
+  "frase": "Onde há educação, não há distinção de classes."
+ },
+ {
+  "id": 613,
+  "categoria": "sabedoria",
+  "autor": "Confúcio",
+  "frase": "Não se preocupe por não ser reconhecido; busque ser digno de reconhecimento."
+ },
+ {
+  "id": 614,
+  "categoria": "sabedoria",
+  "autor": "Confúcio",
+  "frase": "O homem que comete um erro e não o corrige comete outro erro."
+ },
+ {
+  "id": 615,
+  "categoria": "amor",
+  "autor": "Confúcio",
+  "frase": "Quem pratica a bondade nunca está só."
+ },
+ {
+  "id": 616,
+  "categoria": "sabedoria",
+  "autor": "Buda",
+  "frase": "Não se apegue ao passado, não sonhe com o futuro; concentre a mente no momento presente.",
+  "atribuida": true
+ },
+ {
+  "id": 617,
+  "categoria": "gratidao",
+  "autor": "Buda",
+  "frase": "Mil velas podem ser acesas a partir de uma única vela, e a vida da vela não será encurtada. A felicidade nunca diminui por ser compartilhada.",
+  "atribuida": true
+ },
+ {
+  "id": 618,
+  "categoria": "sabedoria",
+  "autor": "Dalai Lama",
+  "frase": "Nosso propósito principal na vida é ajudar os outros. E, se você não puder ajudá-los, pelo menos não os prejudique."
+ },
+ {
+  "id": 619,
+  "categoria": "motivacao",
+  "autor": "Dalai Lama",
+  "frase": "Se você acha que é pequeno demais para fazer diferença, tente dormir com um mosquito no quarto.",
+  "atribuida": true
+ },
+ {
+  "id": 620,
+  "categoria": "amor",
+  "autor": "Mahatma Gandhi",
+  "frase": "Onde há amor, há vida.",
+  "atribuida": true
+ },
+ {
+  "id": 621,
+  "categoria": "sabedoria",
+  "autor": "Mahatma Gandhi",
+  "frase": "A grandeza de uma nação pode ser julgada pelo modo como seus animais são tratados.",
+  "atribuida": true
+ },
+ {
+  "id": 622,
+  "categoria": "conhecimento",
+  "autor": "Albert Einstein",
+  "frase": "Se você não consegue explicar de forma simples, você não entendeu bem o suficiente.",
+  "atribuida": true
+ },
+ {
+  "id": 623,
+  "categoria": "conhecimento",
+  "autor": "Albert Einstein",
+  "frase": "Não tenho talentos especiais. Sou apenas apaixonadamente curioso."
+ },
+ {
+  "id": 624,
+  "categoria": "conhecimento",
+  "autor": "Albert Einstein",
+  "frase": "A curiosidade tem sua própria razão de existir."
+ },
+ {
+  "id": 625,
+  "categoria": "amor",
+  "autor": "Madre Teresa",
+  "frase": "Se você julga as pessoas, não tem tempo para amá-las.",
+  "atribuida": true
+ },
+ {
+  "id": 626,
+  "categoria": "amor",
+  "autor": "Madre Teresa",
+  "frase": "A pior doença do mundo de hoje não é a tuberculose nem a lepra; é o sentimento de não ser querido.",
+  "atribuida": true
+ },
+ {
+  "id": 627,
+  "categoria": "persistencia",
+  "autor": "Charlie Chaplin",
+  "frase": "A persistência é o caminho do êxito.",
+  "atribuida": true
+ },
+ {
+  "id": 628,
+  "categoria": "coragem",
+  "autor": "Ernest Hemingway",
+  "frase": "Um homem pode ser destruído, mas não derrotado."
+ },
+ {
+  "id": 629,
+  "categoria": "coragem",
+  "autor": "Ernest Hemingway",
+  "frase": "Coragem é graça sob pressão.",
+  "atribuida": true
+ },
+ {
+  "id": 630,
+  "categoria": "sabedoria",
+  "autor": "Sun Tzu",
+  "frase": "Aquele que sabe quando lutar e quando não lutar será vitorioso."
+ },
+ {
+  "id": 631,
+  "categoria": "motivacao",
+  "autor": "Sun Tzu",
+  "frase": "Em meio ao caos, também há oportunidade."
+ },
+ {
+  "id": 632,
+  "categoria": "empreendedorismo",
+  "autor": "Tim Ferriss",
+  "frase": "Concentre-se em ser produtivo em vez de ocupado.",
+  "atribuida": true
+ },
+ {
+  "id": 633,
+  "categoria": "motivacao",
+  "autor": "Arthur Ashe",
+  "frase": "Comece onde você está. Use o que você tem. Faça o que puder."
+ },
+ {
+  "id": 634,
+  "categoria": "sucesso",
+  "autor": "Arthur Ashe",
+  "frase": "O sucesso é uma jornada, não um destino. O fazer é muitas vezes mais importante do que o resultado."
+ },
+ {
+  "id": 635,
+  "categoria": "motivacao",
+  "autor": "Wayne Dyer",
+  "frase": "Se você mudar a maneira como olha para as coisas, as coisas que você olha mudam."
+ },
+ {
+  "id": 636,
+  "categoria": "motivacao",
+  "autor": "Wayne Dyer",
+  "frase": "Não morra com a música ainda dentro de você."
+ },
+ {
+  "id": 637,
+  "categoria": "disciplina",
+  "autor": "Jocko Willink",
+  "frase": "Disciplina é liberdade."
+ },
+ {
+  "id": 638,
+  "categoria": "lideranca",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "A perfeição é alcançada não quando não há mais nada a acrescentar, mas quando não há mais nada a retirar."
+ },
+ {
+  "id": 639,
+  "categoria": "lideranca",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "Se quer construir um navio, não reúna homens para cortar madeira; ensine-os a desejar a imensidão do mar.",
+  "atribuida": true
+ },
+ {
+  "id": 640,
+  "categoria": "conhecimento",
+  "autor": "Michelangelo",
+  "frase": "Ainda estou aprendendo.",
+  "atribuida": true
+ },
+ {
+  "id": 641,
+  "categoria": "disciplina",
+  "autor": "Johann Sebastian Bach",
+  "frase": "Tive de trabalhar duro; quem trabalhar tão duro quanto eu terá o mesmo sucesso.",
+  "atribuida": true
+ },
+ {
+  "id": 642,
+  "categoria": "motivacao",
+  "autor": "Muhammad Ali",
+  "frase": "Os campeões não são feitos em academias. São feitos de algo que têm bem fundo dentro deles: um desejo, um sonho, uma visão."
+ },
+ {
+  "id": 643,
+  "categoria": "esporte",
+  "autor": "Mike Tyson",
+  "frase": "Todo mundo tem um plano até levar um soco na boca.",
+  "atribuida": true
+ },
+ {
+  "id": 644,
+  "categoria": "vida",
+  "autor": "Machado de Assis",
+  "frase": "Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria."
+ },
+ {
+  "id": 645,
+  "categoria": "tempo",
+  "autor": "Machado de Assis",
+  "frase": "Matamos o tempo; o tempo nos enterra."
+ },
+ {
+  "id": 646,
+  "categoria": "humor",
+  "autor": "Machado de Assis",
+  "frase": "Marcela amou-me durante quinze meses e onze contos de réis."
+ },
+ {
+  "id": 647,
+  "categoria": "amor",
+  "autor": "Victor Hugo",
+  "frase": "A música expressa aquilo que não pode ser dito e sobre o qual é impossível ficar em silêncio."
+ },
+ {
+  "id": 648,
+  "categoria": "trabalho",
+  "autor": "Voltaire",
+  "frase": "O trabalho afasta de nós três grandes males: o tédio, o vício e a necessidade."
+ },
+ {
+  "id": 649,
+  "categoria": "sabedoria",
+  "autor": "François de La Rochefoucauld",
+  "frase": "Nossas virtudes são, na maioria das vezes, apenas vícios disfarçados."
+ },
+ {
+  "id": 650,
+  "categoria": "sabedoria",
+  "autor": "François de La Rochefoucauld",
+  "frase": "A verdadeira eloquência consiste em dizer tudo o que é necessário, e apenas o necessário."
+ },
+ {
+  "id": 651,
+  "categoria": "disciplina",
+  "autor": "Gustave Flaubert",
+  "frase": "Seja regular e ordenado na sua vida, como um burguês, para ser violento e original na sua obra."
+ },
+ {
+  "id": 652,
+  "categoria": "coragem",
+  "autor": "Franz Kafka",
+  "frase": "A partir de certo ponto não há mais retorno. Esse é o ponto que deve ser alcançado."
+ },
+ {
+  "id": 653,
+  "categoria": "conhecimento",
+  "autor": "Jorge Luis Borges",
+  "frase": "Eu imaginava o Paraíso sob a forma de uma biblioteca."
+ },
+ {
+  "id": 654,
+  "categoria": "motivacao",
+  "autor": "Eduardo Galeano",
+  "frase": "Somos o que fazemos, mas somos principalmente o que fazemos para mudar o que somos."
+ },
+ {
+  "id": 655,
+  "categoria": "vida",
+  "autor": "José Saramago",
+  "frase": "Dentro de nós há uma coisa que não tem nome, essa coisa é o que somos."
+ },
+ {
+  "id": 656,
+  "categoria": "vida",
+  "autor": "Miguel de Cervantes",
+  "frase": "A liberdade, Sancho, é um dos mais preciosos dons que os céus deram aos homens."
+ },
+ {
+  "id": 657,
+  "categoria": "conhecimento",
+  "autor": "Miguel de Cervantes",
+  "frase": "Quem lê muito e anda muito, vê muito e sabe muito."
+ },
+ {
+  "id": 658,
+  "categoria": "sabedoria",
+  "autor": "Miguel de Cervantes",
+  "frase": "A verdade adelgaça, mas não quebra."
+ },
+ {
+  "id": 659,
+  "categoria": "sabedoria",
+  "autor": "Miguel de Cervantes",
+  "frase": "Cada um é filho de suas obras."
+ },
+ {
+  "id": 660,
+  "categoria": "conhecimento",
+  "autor": "Richard Feynman",
+  "frase": "O primeiro princípio é que você não deve se enganar, e você é a pessoa mais fácil de enganar."
+ },
+ {
+  "id": 661,
+  "categoria": "conhecimento",
+  "autor": "Richard Feynman",
+  "frase": "Prefiro ter perguntas que não podem ser respondidas a respostas que não podem ser questionadas.",
+  "atribuida": true
+ },
+ {
+  "id": 662,
+  "categoria": "tempo",
+  "autor": "Charles Darwin",
+  "frase": "Um homem que ousa desperdiçar uma hora de tempo não descobriu o valor da vida."
+ },
+ {
+  "id": 663,
+  "categoria": "motivacao",
+  "autor": "Arquimedes",
+  "frase": "Dê-me um ponto de apoio e moverei o mundo.",
+  "atribuida": true
+ },
+ {
+  "id": 664,
+  "categoria": "criatividade",
+  "autor": "Linus Pauling",
+  "frase": "A melhor maneira de ter uma boa ideia é ter muitas ideias."
+ },
+ {
+  "id": 665,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Antes tarde do que nunca."
+ },
+ {
+  "id": 666,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem não deve não teme."
+ },
+ {
+  "id": 667,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem com ferro fere, com ferro será ferido."
+ },
+ {
+  "id": 668,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Filho de peixe, peixinho é."
+ },
+ {
+  "id": 669,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Em boca fechada não entra mosca."
+ },
+ {
+  "id": 670,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem cala consente."
+ },
+ {
+  "id": 671,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Mal de muitos, consolo é."
+ },
+ {
+  "id": 672,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Santo de casa não faz milagre."
+ },
+ {
+  "id": 673,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem não é visto não é lembrado."
+ },
+ {
+  "id": 674,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Os últimos serão os primeiros."
+ },
+ {
+  "id": 675,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem dá aos pobres empresta a Deus."
+ },
+ {
+  "id": 676,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Mente vazia, oficina do diabo."
+ },
+ {
+  "id": 677,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem casa quer casa."
+ },
+ {
+  "id": 678,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Bem prega Frei Tomás: faz o que ele diz, não faças o que ele faz."
+ },
+ {
+  "id": 679,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cada cabeça, uma sentença."
+ },
+ {
+  "id": 680,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem pode, pode; quem não pode, se sacode."
+ },
+ {
+  "id": 681,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quando um não quer, dois não brigam."
+ },
+ {
+  "id": 682,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Não há fumaça sem fogo."
+ },
+ {
+  "id": 683,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem procura acha."
+ },
+ {
+  "id": 684,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Gosto não se discute."
+ },
+ {
+  "id": 685,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Em terra de cego, quem tem um olho é rei."
+ },
+ {
+  "id": 686,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Ladrão que rouba ladrão tem cem anos de perdão."
+ },
+ {
+  "id": 687,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Dois pesos e duas medidas."
+ },
+ {
+  "id": 688,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Falar é fácil, difícil é fazer."
+ },
+ {
+  "id": 689,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem tem boca vai a Roma."
+ },
+ {
+  "id": 690,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A curiosidade matou o gato."
+ },
+ {
+  "id": 691,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Dinheiro não traz felicidade, mas ajuda."
+ },
+ {
+  "id": 692,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A mentira tem perna curta."
+ },
+ {
+  "id": 693,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Uma mão lava a outra."
+ },
+ {
+  "id": 694,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem muito dorme pouco aprende."
+ },
+ {
+  "id": 695,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Peixe morre pela boca."
+ },
+ {
+  "id": 696,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A vingança é um prato que se come frio."
+ },
+ {
+  "id": 697,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Tal pai, tal filho."
+ },
+ {
+  "id": 698,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem sai aos seus não degenera."
+ },
+ {
+  "id": 699,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Viva o hoje, pois o amanhã a Deus pertence."
+ },
+ {
+  "id": 700,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O que é do homem o bicho não come."
+ },
+ {
+  "id": 701,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem tem pressa come cru."
+ },
+ {
+  "id": 702,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Pelo dedo se conhece o gigante."
+ },
+ {
+  "id": 703,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Sol e chuva, casamento de viúva."
+ },
+ {
+  "id": 704,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Faça o bem sem olhar a quem."
+ },
+ {
+  "id": 705,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Bem está o que bem acaba."
+ },
+ {
+  "id": 706,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Após a tempestade vem a calmaria."
+ },
+ {
+  "id": 707,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Para o bem ou para o mal, o tempo tudo cura."
+ },
+ {
+  "id": 708,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem não arrisca não ganha."
+ },
+ {
+  "id": 709,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Aquele que ama o perigo nele perecerá."
+ },
+ {
+  "id": 710,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cada um sabe onde o sapato aperta."
+ },
+ {
+  "id": 711,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem muito promete pouco cumpre."
+ },
+ {
+  "id": 712,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Primeiro a obrigação, depois a devoção."
+ },
+ {
+  "id": 713,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A união de muitos faz o impossível."
+ },
+ {
+  "id": 714,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A necessidade faz o sapo pular."
+ },
+ {
+  "id": 715,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Entre mortos e feridos, salvaram-se todos."
+ },
+ {
+  "id": 716,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Um mal nunca vem só."
+ },
+ {
+  "id": 717,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem ensina aprende duas vezes."
+ },
+ {
+  "id": 718,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A verdade pode doer, mas a mentira mata."
+ },
+ {
+  "id": 719,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Dai a César o que é de César e a Deus o que é de Deus."
+ },
+ {
+  "id": 720,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O mundo dá voltas."
+ },
+ {
+  "id": 721,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A pressa é inimiga da perfeição, mas a demora é amiga do fracasso."
+ },
+ {
+  "id": 722,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Mais vale tarde do que nunca."
+ },
+ {
+  "id": 723,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem não se arrisca não atravessa o mar."
+ },
+ {
+  "id": 724,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Uma imagem vale mais do que mil palavras."
+ },
+ {
+  "id": 725,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem tem amigos não morre na miséria."
+ },
+ {
+  "id": 726,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Um dia é da caça, outro do caçador."
+ },
+ {
+  "id": 727,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Chuva de verão passa depressa."
+ },
+ {
+  "id": 728,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Pior cego é aquele que não quer ver."
+ },
+ {
+  "id": 729,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem muito escolhe acaba ficando com o pior."
+ },
+ {
+  "id": 730,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Para grandes males, grandes remédios."
+ },
+ {
+  "id": 731,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Não se deve julgar um livro pela capa."
+ },
+ {
+  "id": 732,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Falar é prata, calar é ouro."
+ },
+ {
+  "id": 733,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Toda regra tem exceção."
+ },
+ {
+  "id": 734,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem tem telhado de vidro não atira pedra no do vizinho."
+ },
+ {
+  "id": 735,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Elogio em boca própria é vitupério."
+ },
+ {
+  "id": 736,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem muito fala pouco faz."
+ },
+ {
+  "id": 737,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Aquilo que não mata engorda."
+ },
+ {
+  "id": 738,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Mais vale um amigo na praça do que dinheiro na caixa."
+ },
+ {
+  "id": 739,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Não existe almoço grátis."
+ },
+ {
+  "id": 740,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O tempo é o melhor remédio."
+ },
+ {
+  "id": 741,
+  "categoria": "empreendedorismo",
+  "autor": "Steve Jobs",
+  "frase": "Seja um padrão de qualidade. Algumas pessoas não estão acostumadas a um ambiente onde a excelência é esperada.",
+  "atribuida": true
+ },
+ {
+  "id": 742,
+  "categoria": "inovacao",
+  "autor": "Steve Jobs",
+  "frase": "Inovar é dizer não a mil coisas.",
+  "atribuida": true
+ },
+ {
+  "id": 743,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "Se você não encontrar uma maneira de ganhar dinheiro enquanto dorme, vai trabalhar até morrer.",
+  "atribuida": true
+ },
+ {
+  "id": 744,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "Não economize o que sobra depois de gastar; gaste o que sobra depois de economizar.",
+  "atribuida": true
+ },
+ {
+  "id": 745,
+  "categoria": "dinheiro",
+  "autor": "Warren Buffett",
+  "frase": "O melhor investimento que você pode fazer é investir em si mesmo.",
+  "atribuida": true
+ },
+ {
+  "id": 746,
+  "categoria": "sucesso",
+  "autor": "Bill Gates",
+  "frase": "Todo mundo precisa de um treinador, não importa o que você faça."
+ },
+ {
+  "id": 747,
+  "categoria": "empreendedorismo",
+  "autor": "Jeff Bezos",
+  "frase": "A marca é o que as pessoas dizem de você quando você não está na sala."
+ },
+ {
+  "id": 748,
+  "categoria": "inovacao",
+  "autor": "Jeff Bezos",
+  "frase": "Se você quer ser inventivo, precisa estar disposto a ser incompreendido por longos períodos."
+ },
+ {
+  "id": 749,
+  "categoria": "empreendedorismo",
+  "autor": "Jeff Bezos",
+  "frase": "Todo dia é dia um."
+ },
+ {
+  "id": 750,
+  "categoria": "lideranca",
+  "autor": "Richard Branson",
+  "frase": "Seus funcionários vêm em primeiro lugar; os clientes vêm depois.",
+  "atribuida": true
+ },
+ {
+  "id": 751,
+  "categoria": "empreendedorismo",
+  "autor": "Dale Carnegie",
+  "frase": "Aja com entusiasmo e você será entusiasmado.",
+  "atribuida": true
+ },
+ {
+  "id": 752,
+  "categoria": "equipe",
+  "autor": "Dale Carnegie",
+  "frase": "Quando lidamos com pessoas, lembremo-nos de que não estamos lidando com criaturas lógicas, mas com criaturas emocionais."
+ },
+ {
+  "id": 753,
+  "categoria": "conhecimento",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "Todo mestre já foi um dia um aluno.",
+  "atribuida": true
+ },
+ {
+  "id": 754,
+  "categoria": "sucesso",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "A confiança em si mesmo é o primeiro segredo do sucesso."
+ },
+ {
+  "id": 755,
+  "categoria": "motivacao",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "O mundo inteiro abre caminho para o homem que sabe aonde vai.",
+  "atribuida": true
+ },
+ {
+  "id": 756,
+  "categoria": "vida",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "A vida é uma viagem, não um destino.",
+  "atribuida": true
+ },
+ {
+  "id": 757,
+  "categoria": "sabedoria",
+  "autor": "Ralph Waldo Emerson",
+  "frase": "O que você faz fala tão alto que não consigo ouvir o que você diz.",
+  "atribuida": true
+ },
+ {
+  "id": 758,
+  "categoria": "sucesso",
+  "autor": "Henry David Thoreau",
+  "frase": "O sucesso geralmente vem para aqueles que estão ocupados demais para procurá-lo."
+ },
+ {
+  "id": 759,
+  "categoria": "sabedoria",
+  "autor": "Henry David Thoreau",
+  "frase": "Não é o que você olha que importa; é o que você vê."
+ },
+ {
+  "id": 760,
+  "categoria": "motivacao",
+  "autor": "Henry David Thoreau",
+  "frase": "Quem avança confiante na direção dos seus sonhos e se esforça para viver a vida que imaginou encontrará um sucesso inesperado em horas comuns."
+ },
+ {
+  "id": 761,
+  "categoria": "sabedoria",
+  "autor": "Benjamin Franklin",
+  "frase": "Dormir cedo e acordar cedo torna o homem saudável, rico e sábio."
+ },
+ {
+  "id": 762,
+  "categoria": "persistencia",
+  "autor": "Benjamin Franklin",
+  "frase": "Aquele que tem paciência tem o que deseja."
+ },
+ {
+  "id": 763,
+  "categoria": "sabedoria",
+  "autor": "Fiódor Dostoiévski",
+  "frase": "O homem é um mistério. É preciso decifrá-lo.",
+  "atribuida": true
+ },
+ {
+  "id": 764,
+  "categoria": "sabedoria",
+  "autor": "Machado de Assis",
+  "frase": "A ocasião faz o furto; o ladrão já nasceu feito."
+ },
+ {
+  "id": 765,
+  "categoria": "proverbios",
+  "autor": "Provérbio africano",
+  "frase": "Eu sou porque nós somos."
+ },
+ {
+  "id": 766,
+  "categoria": "proverbios",
+  "autor": "Provérbio etíope",
+  "frase": "Quando as teias de aranha se unem, podem amarrar um leão."
+ },
+ {
+  "id": 767,
+  "categoria": "proverbios",
+  "autor": "Provérbio africano",
+  "frase": "A criança que não é abraçada pela aldeia a queimará para sentir o seu calor."
+ },
+ {
+  "id": 768,
+  "categoria": "empreendedorismo",
+  "autor": "Lewis Carroll",
+  "frase": "Se você não sabe para onde quer ir, qualquer caminho serve."
+ },
+ {
+  "id": 769,
+  "categoria": "criatividade",
+  "autor": "Lewis Carroll",
+  "frase": "Já cheguei a acreditar em até seis coisas impossíveis antes do café da manhã."
+ },
+ {
+  "id": 770,
+  "categoria": "vida",
+  "autor": "Lewis Carroll",
+  "frase": "Não adianta voltar a ontem, porque eu era uma pessoa diferente então."
+ },
+ {
+  "id": 771,
+  "categoria": "amor",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "Foi o tempo que você dedicou à sua rosa que a fez tão importante."
+ },
+ {
+  "id": 772,
+  "categoria": "amor",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "Só se vê bem com o coração."
+ },
+ {
+  "id": 773,
+  "categoria": "sabedoria",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "É muito mais difícil julgar a si mesmo do que julgar os outros."
+ },
+ {
+  "id": 774,
+  "categoria": "amor",
+  "autor": "Antoine de Saint-Exupéry",
+  "frase": "A gente corre o risco de chorar um pouco quando se deixou cativar."
+ },
+ {
+  "id": 775,
+  "categoria": "amor",
+  "autor": "Oscar Wilde",
+  "frase": "Amar a si mesmo é o início de um romance eterno."
+ },
+ {
+  "id": 776,
+  "categoria": "sabedoria",
+  "autor": "Oscar Wilde",
+  "frase": "Qualquer um pode simpatizar com os sofrimentos de um amigo, mas é preciso uma natureza refinada para simpatizar com os sucessos dele."
+ },
+ {
+  "id": 777,
+  "categoria": "humor",
+  "autor": "Oscar Wilde",
+  "frase": "A moda é uma forma de feiura tão intolerável que precisamos alterá-la a cada seis meses."
+ },
+ {
+  "id": 778,
+  "categoria": "vida",
+  "autor": "Oscar Wilde",
+  "frase": "A vida é importante demais para ser levada a sério."
+ },
+ {
+  "id": 779,
+  "categoria": "dinheiro",
+  "autor": "Oscar Wilde",
+  "frase": "Os homens sabem o preço de tudo e o valor de nada."
+ },
+ {
+  "id": 780,
+  "categoria": "sabedoria",
+  "autor": "Mark Twain",
+  "frase": "A idade é uma questão de mente sobre matéria. Se você não se importa, não importa."
+ },
+ {
+  "id": 781,
+  "categoria": "sabedoria",
+  "autor": "Mark Twain",
+  "frase": "Todo mundo é uma lua e tem um lado escuro que nunca mostra a ninguém."
+ },
+ {
+  "id": 782,
+  "categoria": "trabalho",
+  "autor": "Mark Twain",
+  "frase": "Trabalho é tudo o que somos obrigados a fazer; diversão é o que fazemos sem sermos obrigados."
+ },
+ {
+  "id": 783,
+  "categoria": "conhecimento",
+  "autor": "Mark Twain",
+  "frase": "Quem não lê bons livros não tem nenhuma vantagem sobre quem não sabe ler."
+ },
+ {
+  "id": 784,
+  "categoria": "sabedoria",
+  "autor": "Mark Twain",
+  "frase": "Diga a verdade para não ter que lembrar do que disse.",
+  "atribuida": true
+ },
+ {
+  "id": 785,
+  "categoria": "humor",
+  "autor": "Groucho Marx",
+  "frase": "Nunca aceitaria pertencer a um clube que aceitasse como sócio uma pessoa como eu."
+ },
+ {
+  "id": 786,
+  "categoria": "vida",
+  "autor": "George Bernard Shaw",
+  "frase": "A vida não consiste em encontrar-se a si mesmo, mas em criar-se a si mesmo."
+ },
+ {
+  "id": 787,
+  "categoria": "inovacao",
+  "autor": "George Bernard Shaw",
+  "frase": "Progresso é impossível sem mudança, e quem não consegue mudar a própria mente não consegue mudar nada."
+ },
+ {
+  "id": 788,
+  "categoria": "sabedoria",
+  "autor": "George Bernard Shaw",
+  "frase": "O maior pecado contra o próximo não é odiá-lo, mas ser indiferente a ele."
+ },
+ {
+  "id": 789,
+  "categoria": "inovacao",
+  "autor": "George Bernard Shaw",
+  "frase": "O homem sensato adapta-se ao mundo; o insensato persiste em tentar adaptar o mundo a si. Portanto, todo progresso depende do insensato."
+ },
+ {
+  "id": 790,
+  "categoria": "sabedoria",
+  "autor": "Anatole France",
+  "frase": "Se cinquenta milhões de pessoas dizem uma tolice, ainda assim é uma tolice."
+ },
+ {
+  "id": 791,
+  "categoria": "motivacao",
+  "autor": "Henry Ford",
+  "frase": "O obstáculo é aquilo que você vê quando tira os olhos da meta.",
+  "atribuida": true
+ },
+ {
+  "id": 792,
+  "categoria": "sucesso",
+  "autor": "Vince Lombardi",
+  "frase": "O preço do sucesso é trabalho duro, dedicação ao trabalho e a determinação de vencer ou perder."
+ },
+ {
+  "id": 793,
+  "categoria": "motivacao",
+  "autor": "Maya Angelou",
+  "frase": "Nada vai funcionar a menos que você faça.",
+  "atribuida": true
+ },
+ {
+  "id": 794,
+  "categoria": "motivacao",
+  "autor": "Eleanor Roosevelt",
+  "frase": "Você ganha força, coragem e confiança a cada experiência em que realmente para e encara o medo de frente."
+ },
+ {
+  "id": 795,
+  "categoria": "coragem",
+  "autor": "Eleanor Roosevelt",
+  "frase": "Você deve fazer aquilo que acha que não é capaz de fazer."
+ },
+ {
+  "id": 796,
+  "categoria": "sabedoria",
+  "autor": "Eleanor Roosevelt",
+  "frase": "Grandes mentes discutem ideias; mentes medianas discutem eventos; mentes pequenas discutem pessoas.",
+  "atribuida": true
+ },
+ {
+  "id": 797,
+  "categoria": "coragem",
+  "autor": "Nelson Mandela",
+  "frase": "Não me julgue pelos meus sucessos, julgue-me por quantas vezes caí e me levantei novamente.",
+  "atribuida": true
+ },
+ {
+  "id": 798,
+  "categoria": "persistencia",
+  "autor": "Calvin Coolidge",
+  "frase": "A persistência e a determinação são todo-poderosas."
+ },
+ {
+  "id": 799,
+  "categoria": "coragem",
+  "autor": "André Gide",
+  "frase": "Não se pode descobrir novos oceanos a menos que se tenha coragem de perder de vista a praia."
+ },
+ {
+  "id": 800,
+  "categoria": "criatividade",
+  "autor": "Salvador Dalí",
+  "frase": "Não tenha medo da perfeição; você nunca a alcançará.",
+  "atribuida": true
+ },
+ {
+  "id": 801,
+  "categoria": "criatividade",
+  "autor": "Leonardo da Vinci",
+  "frase": "Quem pouco pensa, muito erra.",
+  "atribuida": true
+ },
+ {
+  "id": 802,
+  "categoria": "criatividade",
+  "autor": "Leonardo da Vinci",
+  "frase": "A sabedoria é filha da experiência.",
+  "atribuida": true
+ },
+ {
+  "id": 803,
+  "categoria": "conhecimento",
+  "autor": "Galileu Galilei",
+  "frase": "Não se pode ensinar nada a um homem; só se pode ajudá-lo a encontrar a resposta dentro de si mesmo.",
+  "atribuida": true
+ },
+ {
+  "id": 804,
+  "categoria": "conhecimento",
+  "autor": "Thomas Huxley",
+  "frase": "Tente aprender algo sobre tudo e tudo sobre alguma coisa.",
+  "atribuida": true
+ },
+ {
+  "id": 805,
+  "categoria": "proverbios",
+  "autor": "Provérbio africano",
+  "frase": "Se quiser enxergar longe, suba nos ombros de um gigante.",
+  "atribuida": true
+ },
+ {
+  "id": 806,
+  "categoria": "proverbios",
+  "autor": "Provérbio africano",
+  "frase": "A chuva não cai só no telhado de uma casa."
+ },
+ {
+  "id": 807,
+  "categoria": "proverbios",
+  "autor": "Provérbio africano",
+  "frase": "Antes de curar, escute."
+ },
+ {
+  "id": 808,
+  "categoria": "proverbios",
+  "autor": "Provérbio africano",
+  "frase": "Todo dia na savana, a gazela acorda sabendo que precisa correr mais que o leão; o leão acorda sabendo que precisa correr mais que a gazela. Quando o sol nascer, comece a correr.",
+  "atribuida": true
+ },
+ {
+  "id": 809,
+  "categoria": "proverbios",
+  "autor": "Provérbio indígena",
+  "frase": "Não herdamos a terra de nossos antepassados; nós a pedimos emprestada aos nossos filhos.",
+  "atribuida": true
+ },
+ {
+  "id": 810,
+  "categoria": "proverbios",
+  "autor": "Provérbio indígena",
+  "frase": "Quando a última árvore for cortada, o último peixe for pescado, só então perceberemos que não se pode comer dinheiro.",
+  "atribuida": true
+ },
+ {
+  "id": 811,
+  "categoria": "proverbios",
+  "autor": "Provérbio hindu",
+  "frase": "A felicidade é uma jornada, não um destino.",
+  "atribuida": true
+ },
+ {
+  "id": 812,
+  "categoria": "proverbios",
+  "autor": "Provérbio hindu",
+  "frase": "Onde há vontade, há um caminho."
+ },
+ {
+  "id": 813,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "O melhor momento para plantar uma árvore foi há vinte anos; o segundo melhor é agora."
+ },
+ {
+  "id": 814,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Uma jornada de mil quilômetros começa com um único passo."
+ },
+ {
+  "id": 815,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Se queres prever o futuro, estuda o passado."
+ },
+ {
+  "id": 816,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Quando o vento da mudança sopra, alguns constroem muros, outros constroem moinhos."
+ },
+ {
+  "id": 817,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Se você planeja para um ano, plante arroz. Se planeja para dez anos, plante árvores. Se planeja para a vida toda, eduque pessoas."
+ },
+ {
+  "id": 818,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "O sábio adapta-se às circunstâncias, como a água se adapta ao vaso que a contém."
+ },
+ {
+  "id": 819,
+  "categoria": "proverbios",
+  "autor": "Provérbio chinês",
+  "frase": "Dê um peixe a um homem e ele se alimentará por um dia; ensine-o a pescar e ele se alimentará por toda a vida."
+ },
+ {
+  "id": 820,
+  "categoria": "proverbios",
+  "autor": "Provérbio japonês",
+  "frase": "A visão sem ação é um sonho; a ação sem visão é um pesadelo."
+ },
+ {
+  "id": 821,
+  "categoria": "proverbios",
+  "autor": "Provérbio japonês",
+  "frase": "Mesmo um macaco cai da árvore."
+ },
+ {
+  "id": 822,
+  "categoria": "proverbios",
+  "autor": "Provérbio árabe",
+  "frase": "O cão ladra e a caravana passa."
+ },
+ {
+  "id": 823,
+  "categoria": "proverbios",
+  "autor": "Provérbio árabe",
+  "frase": "Quem cuida do seu jardim não tem tempo de olhar o do vizinho."
+ },
+ {
+  "id": 824,
+  "categoria": "proverbios",
+  "autor": "Provérbio árabe",
+  "frase": "Aquilo que a juventude aprende, a velhice não esquece."
+ },
+ {
+  "id": 825,
+  "categoria": "proverbios",
+  "autor": "Provérbio árabe",
+  "frase": "A língua é como um leão: se você a soltar, ela te devora."
+ },
+ {
+  "id": 826,
+  "categoria": "proverbios",
+  "autor": "Provérbio judaico",
+  "frase": "Quem aprende de todos é o mais sábio dos homens."
+ },
+ {
+  "id": 827,
+  "categoria": "proverbios",
+  "autor": "Provérbio judaico",
+  "frase": "Não julgue seu próximo até estar no lugar dele."
+ },
+ {
+  "id": 828,
+  "categoria": "proverbios",
+  "autor": "Provérbio inglês",
+  "frase": "A prática leva à perfeição."
+ },
+ {
+  "id": 829,
+  "categoria": "proverbios",
+  "autor": "Provérbio inglês",
+  "frase": "A ação fala mais alto que as palavras."
+ },
+ {
+  "id": 830,
+  "categoria": "proverbios",
+  "autor": "Provérbio inglês",
+  "frase": "Não deixe as árvores esconderem a floresta."
+ },
+ {
+  "id": 831,
+  "categoria": "proverbios",
+  "autor": "Provérbio inglês",
+  "frase": "Ver para crer."
+ },
+ {
+  "id": 832,
+  "categoria": "sabedoria",
+  "autor": "Benjamin Franklin",
+  "frase": "Aquele que é bom em desculpas raramente é bom em qualquer outra coisa.",
+  "atribuida": true
+ },
+ {
+  "id": 833,
+  "categoria": "proverbios",
+  "autor": "Provérbio inglês",
+  "frase": "Pássaros da mesma plumagem voam juntos."
+ },
+ {
+  "id": 834,
+  "categoria": "proverbios",
+  "autor": "Provérbio francês",
+  "frase": "Quem diz o que pensa, perde um amigo, mas ganha um inimigo menos."
+ },
+ {
+  "id": 835,
+  "categoria": "proverbios",
+  "autor": "Provérbio espanhol",
+  "frase": "Quem tem boa árvore a ela se encosta, tem boa sombra que a cobre."
+ },
+ {
+  "id": 836,
+  "categoria": "proverbios",
+  "autor": "Provérbio espanhol",
+  "frase": "Mais vale saber que ter."
+ },
+ {
+  "id": 837,
+  "categoria": "proverbios",
+  "autor": "Provérbio italiano",
+  "frase": "Quem vai devagar vai com saúde e vai longe."
+ },
+ {
+  "id": 838,
+  "categoria": "proverbios",
+  "autor": "Provérbio russo",
+  "frase": "Quem não arrisca não bebe champanhe."
+ },
+ {
+  "id": 839,
+  "categoria": "proverbios",
+  "autor": "Provérbio russo",
+  "frase": "Sete vezes meça, uma vez corte."
+ },
+ {
+  "id": 840,
+  "categoria": "proverbios",
+  "autor": "Provérbio persa",
+  "frase": "Isso também passará."
+ },
+ {
+  "id": 841,
+  "categoria": "proverbios",
+  "autor": "Provérbio irlandês",
+  "frase": "Quem tem um bom amigo tem um tesouro."
+ },
+ {
+  "id": 842,
+  "categoria": "coragem",
+  "autor": "Euclides da Cunha",
+  "frase": "O sertanejo é, antes de tudo, um forte."
+ },
+ {
+  "id": 843,
+  "categoria": "conhecimento",
+  "autor": "Monteiro Lobato",
+  "frase": "Quem não lê mal ouve, mal fala, mal vê.",
+  "atribuida": true
+ },
+ {
+  "id": 844,
+  "categoria": "amor",
+  "autor": "Padre António Vieira",
+  "frase": "Para falar ao vento bastam palavras; para falar ao coração são necessárias obras."
+ },
+ {
+  "id": 845,
+  "categoria": "sabedoria",
+  "autor": "Nicolau Maquiavel",
+  "frase": "Todos veem o que você parece; poucos sentem o que você é."
+ },
+ {
+  "id": 846,
+  "categoria": "sabedoria",
+  "autor": "Nicolau Maquiavel",
+  "frase": "Os homens esquecem mais depressa a morte do pai do que a perda do patrimônio."
+ },
+ {
+  "id": 847,
+  "categoria": "vida",
+  "autor": "Friedrich Schiller",
+  "frase": "O homem só joga quando é homem no sentido pleno da palavra, e só é plenamente homem quando joga."
+ },
+ {
+  "id": 848,
+  "categoria": "motivacao",
+  "autor": "Hermann Hesse",
+  "frase": "Para que o possível aconteça, é preciso tentar o impossível repetidas vezes.",
+  "atribuida": true
+ },
+ {
+  "id": 849,
+  "categoria": "sabedoria",
+  "autor": "Rainer Maria Rilke",
+  "frase": "Viva as perguntas agora."
+ },
+ {
+  "id": 850,
+  "categoria": "sabedoria",
+  "autor": "Rainer Maria Rilke",
+  "frase": "Seja paciente com tudo o que ainda não está resolvido no seu coração."
+ },
+ {
+  "id": 851,
+  "categoria": "sabedoria",
+  "autor": "Anton Tchekhov",
+  "frase": "O homem é aquilo em que ele acredita.",
+  "atribuida": true
+ },
+ {
+  "id": 852,
+  "categoria": "conhecimento",
+  "autor": "Marcel Proust",
+  "frase": "A verdadeira viagem de descoberta não consiste em procurar novas paisagens, mas em ter novos olhos."
+ },
+ {
+  "id": 853,
+  "categoria": "gratidao",
+  "autor": "Marcel Proust",
+  "frase": "Sejamos gratos às pessoas que nos fazem felizes; elas são os encantadores jardineiros que fazem nossa alma florescer."
+ },
+ {
+  "id": 854,
+  "categoria": "sabedoria",
+  "autor": "Molière",
+  "frase": "Somos responsáveis não apenas pelo que fazemos, mas também pelo que deixamos de fazer."
+ },
+ {
+  "id": 855,
+  "categoria": "sabedoria",
+  "autor": "Charles Dickens",
+  "frase": "Ninguém é inútil neste mundo enquanto puder aliviar o fardo de outra pessoa."
+ },
+ {
+  "id": 856,
+  "categoria": "lideranca",
+  "autor": "Winston Churchill",
+  "frase": "O preço da grandeza é a responsabilidade."
+ },
+ {
+  "id": 857,
+  "categoria": "sabedoria",
+  "autor": "Winston Churchill",
+  "frase": "A crítica pode não ser agradável, mas é necessária; cumpre a mesma função que a dor no corpo humano."
+ },
+ {
+  "id": 858,
+  "categoria": "conhecimento",
+  "autor": "Winston Churchill",
+  "frase": "Os impérios do futuro são os impérios da mente."
+ },
+ {
+  "id": 859,
+  "categoria": "conhecimento",
+  "autor": "Francis Bacon",
+  "frase": "Se um homem começar com certezas, terminará em dúvidas; mas, se aceitar começar com dúvidas, terminará em certezas."
+ },
+ {
+  "id": 860,
+  "categoria": "conhecimento",
+  "autor": "Francis Bacon",
+  "frase": "A natureza, para ser comandada, deve ser obedecida."
+ },
+ {
+  "id": 861,
+  "categoria": "dinheiro",
+  "autor": "Adam Smith",
+  "frase": "Não é da benevolência do açougueiro, do cervejeiro ou do padeiro que esperamos o nosso jantar, mas da consideração que eles têm pelo seu próprio interesse."
+ },
+ {
+  "id": 862,
+  "categoria": "dinheiro",
+  "autor": "John Maynard Keynes",
+  "frase": "No longo prazo, estaremos todos mortos."
+ },
+ {
+  "id": 863,
+  "categoria": "inovacao",
+  "autor": "John Maynard Keynes",
+  "frase": "A dificuldade não está nas novas ideias, mas em escapar das antigas."
+ },
+ {
+  "id": 864,
+  "categoria": "sabedoria",
+  "autor": "George Orwell",
+  "frase": "Liberdade é o direito de dizer às pessoas o que elas não querem ouvir."
+ },
+ {
+  "id": 865,
+  "categoria": "criatividade",
+  "autor": "Edgar Allan Poe",
+  "frase": "Aqueles que sonham de dia têm consciência de muitas coisas que escapam aos que sonham só de noite."
+ },
+ {
+  "id": 866,
+  "categoria": "sabedoria",
+  "autor": "Abraham Lincoln",
+  "frase": "A maioria das pessoas é tão feliz quanto decide ser.",
+  "atribuida": true
+ },
+ {
+  "id": 867,
+  "categoria": "tempo",
+  "autor": "Abraham Lincoln",
+  "frase": "O melhor do futuro é que ele chega um dia de cada vez.",
+  "atribuida": true
+ },
+ {
+  "id": 868,
+  "categoria": "sabedoria",
+  "autor": "Thomas Jefferson",
+  "frase": "Em questões de estilo, nade com a corrente; em questões de princípio, fique firme como uma rocha.",
+  "atribuida": true
+ },
+ {
+  "id": 869,
+  "categoria": "persistencia",
+  "autor": "Frederick Douglass",
+  "frase": "Se não há luta, não há progresso."
+ },
+ {
+  "id": 870,
+  "categoria": "sucesso",
+  "autor": "Booker T. Washington",
+  "frase": "O sucesso não deve ser medido pela posição que alguém alcançou na vida, mas pelos obstáculos que superou."
+ },
+ {
+  "id": 871,
+  "categoria": "coragem",
+  "autor": "Louisa May Alcott",
+  "frase": "Não tenho medo de tempestades, pois estou aprendendo a navegar meu navio."
+ },
+ {
+  "id": 872,
+  "categoria": "vida",
+  "autor": "Jack London",
+  "frase": "A função do homem é viver, não existir."
+ },
+ {
+  "id": 873,
+  "categoria": "motivacao",
+  "autor": "Jack London",
+  "frase": "Você não pode esperar pela inspiração. Tem que ir atrás dela com um porrete."
+ },
+ {
+  "id": 874,
+  "categoria": "esporte",
+  "autor": "Billie Jean King",
+  "frase": "A pressão é um privilégio."
+ },
+ {
+  "id": 875,
+  "categoria": "vida",
+  "autor": "Jackie Robinson",
+  "frase": "Uma vida só é importante pelo impacto que causa em outras vidas.",
+  "atribuida": true
+ },
+ {
+  "id": 876,
+  "categoria": "esporte",
+  "autor": "Jack LaLanne",
+  "frase": "Os exercícios são o rei, a nutrição é a rainha. Junte os dois e terá um reino.",
+  "atribuida": true
+ },
+ {
+  "id": 877,
+  "categoria": "motivacao",
+  "autor": "Alexander Graham Bell",
+  "frase": "Quando uma porta se fecha, outra se abre; mas olhamos tanto tempo para a porta fechada que não vemos a que se abriu."
+ },
+ {
+  "id": 878,
+  "categoria": "sucesso",
+  "autor": "Alexander Graham Bell",
+  "frase": "Antes de qualquer outra coisa, a preparação é a chave do sucesso."
+ },
+ {
+  "id": 879,
+  "categoria": "sabedoria",
+  "autor": "Michel de Montaigne",
+  "frase": "Quem teme sofrer já sofre o que teme."
+ },
+ {
+  "id": 880,
+  "categoria": "vida",
+  "autor": "Machado de Assis",
+  "frase": "Ao vencedor, as batatas."
+ },
+ {
+  "id": 881,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem espera desespera."
+ },
+ {
+  "id": 882,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Dos males, o menor."
+ },
+ {
+  "id": 883,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Da discussão nasce a luz."
+ },
+ {
+  "id": 884,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O olho do dono é que engorda o gado."
+ },
+ {
+  "id": 885,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem quer vai, quem não quer manda."
+ },
+ {
+  "id": 886,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "É de pequenino que se torce o pepino."
+ },
+ {
+  "id": 887,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cada um por si e Deus por todos."
+ },
+ {
+  "id": 888,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A galinha da vizinha é sempre mais gorda que a minha."
+ },
+ {
+  "id": 889,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Não se mexe em time que está ganhando."
+ },
+ {
+  "id": 890,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A fome é o melhor tempero."
+ },
+ {
+  "id": 891,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Uma boa ação merece outra."
+ },
+ {
+  "id": 892,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O que não tem remédio, remediado está."
+ },
+ {
+  "id": 893,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem planta colhe."
+ },
+ {
+  "id": 894,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Burro velho não aprende línguas."
+ },
+ {
+  "id": 895,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cria fama e deita-te na cama."
+ },
+ {
+  "id": 896,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "De médico e de louco, todos temos um pouco."
+ },
+ {
+  "id": 897,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem não tem cão caça com gato."
+ },
+ {
+  "id": 898,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A beleza está nos olhos de quem vê."
+ },
+ {
+  "id": 899,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Devagar com o andor que o santo é de barro."
+ },
+ {
+  "id": 900,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Deus escreve certo por linhas tortas."
+ },
+ {
+  "id": 901,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A fé move montanhas."
+ },
+ {
+  "id": 902,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Pense duas vezes antes de agir."
+ },
+ {
+  "id": 903,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Pelos frutos se conhece a árvore."
+ },
+ {
+  "id": 904,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A paciência é a mãe da ciência."
+ },
+ {
+  "id": 905,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Cada um faz o que pode."
+ },
+ {
+  "id": 906,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O bom filho à casa torna."
+ },
+ {
+  "id": 907,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "A raiva é má conselheira."
+ },
+ {
+  "id": 908,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "O medo é mau conselheiro."
+ },
+ {
+  "id": 909,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem tem dois amos a um há de enganar."
+ },
+ {
+  "id": 910,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Um olho no peixe, outro no gato."
+ },
+ {
+  "id": 911,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Pior do que está não fica."
+ },
+ {
+  "id": 912,
+  "categoria": "proverbios",
+  "autor": "Provérbio popular",
+  "frase": "Quem dorme com crianças amanhece molhado."
+ },
+ {
+  "id": 913,
+  "categoria": "vida",
+  "autor": "Bob Marley",
+  "frase": "Algumas pessoas sentem a chuva; outras apenas se molham.",
+  "atribuida": true
+ },
+ {
+  "id": 914,
+  "categoria": "vida",
+  "autor": "Bob Marley",
+  "frase": "Não viva para que a sua presença seja notada, mas para que a sua falta seja sentida.",
+  "atribuida": true
+ },
+ {
+  "id": 915,
+  "categoria": "motivacao",
+  "autor": "São Francisco de Assis",
+  "frase": "Comece fazendo o que é necessário, depois o que é possível, e de repente você estará fazendo o impossível.",
+  "atribuida": true
+ },
+ {
+  "id": 916,
+  "categoria": "sabedoria",
+  "autor": "Santo Agostinho",
+  "frase": "A fé é acreditar no que não vemos; a recompensa é ver aquilo em que acreditamos.",
+  "atribuida": true
+ },
+ {
+  "id": 917,
+  "categoria": "motivacao",
+  "autor": "Martinho Lutero",
+  "frase": "Mesmo que eu soubesse que o mundo acabaria amanhã, hoje plantaria uma macieira.",
+  "atribuida": true
+ },
+ {
+  "id": 918,
+  "categoria": "sabedoria",
+  "autor": "Rumi",
+  "frase": "A ferida é o lugar por onde a luz entra em você.",
+  "atribuida": true
+ },
+ {
+  "id": 919,
+  "categoria": "motivacao",
+  "autor": "Rumi",
+  "frase": "O que você procura está procurando você.",
+  "atribuida": true
+ },
+ {
+  "id": 920,
+  "categoria": "lideranca",
+  "autor": "Napoleão Bonaparte",
+  "frase": "Um líder é um negociante de esperança."
+ },
+ {
+  "id": 921,
+  "categoria": "coragem",
+  "autor": "Júlio César",
+  "frase": "Vim, vi, venci."
+ },
+ {
+  "id": 922,
+  "categoria": "coragem",
+  "autor": "Júlio César",
+  "frase": "A sorte está lançada."
+ },
+ {
+  "id": 923,
+  "categoria": "lideranca",
+  "autor": "Margaret Thatcher",
+  "frase": "Se você quer que algo seja dito, peça a um homem; se quer que algo seja feito, peça a uma mulher.",
+  "atribuida": true
+ },
+ {
+  "id": 924,
+  "categoria": "sabedoria",
+  "autor": "Indira Gandhi",
+  "frase": "Você não pode apertar a mão com o punho cerrado."
+ },
+ {
+  "id": 925,
+  "categoria": "lideranca",
+  "autor": "Ruth Bader Ginsburg",
+  "frase": "Lute pelas coisas com que você se importa, mas faça isso de um modo que leve os outros a se juntarem a você."
+ },
+ {
+  "id": 926,
+  "categoria": "justica",
+  "autor": "Rosa Luxemburgo",
+  "frase": "Quem não se movimenta não sente as correntes que o prendem."
+ },
+ {
+  "id": 927,
+  "categoria": "empreendedorismo",
+  "autor": "Andy Grove",
+  "frase": "Só os paranoicos sobrevivem."
+ },
+ {
+  "id": 928,
+  "categoria": "fracasso",
+  "autor": "Arianna Huffington",
+  "frase": "O fracasso não é o oposto do sucesso; é parte do sucesso.",
+  "atribuida": true
+ },
+ {
+  "id": 929,
+  "categoria": "lideranca",
+  "autor": "Mary Kay Ash",
+  "frase": "Todo mundo tem um sinal invisível pendurado no pescoço dizendo: faça-me sentir importante.",
+  "atribuida": true
+ },
+ {
+  "id": 930,
+  "categoria": "lideranca",
+  "autor": "Stephen Covey",
+  "frase": "Seja um modelo, não um crítico.",
+  "atribuida": true
+ },
+ {
+  "id": 931,
+  "categoria": "motivacao",
+  "autor": "Norman Vincent Peale",
+  "frase": "Estabeleça uma meta alta e não pare até chegar lá.",
+  "atribuida": true
+ },
+ {
+  "id": 932,
+  "categoria": "sucesso",
+  "autor": "Earl Nightingale",
+  "frase": "Sucesso é a realização progressiva de um ideal digno."
+ },
+ {
+  "id": 933,
+  "categoria": "sucesso",
+  "autor": "Jim Rohn",
+  "frase": "O sucesso não é algo que você persegue; é algo que você atrai pela pessoa que se torna.",
+  "atribuida": true
+ },
+ {
+  "id": 934,
+  "categoria": "disciplina",
+  "autor": "Jim Rohn",
+  "frase": "Trabalhe mais em si mesmo do que no seu trabalho.",
+  "atribuida": true
+ },
+ {
+  "id": 935,
+  "categoria": "disciplina",
+  "autor": "Robert Collier",
+  "frase": "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
+  "atribuida": true
+ },
+ {
+  "id": 936,
+  "categoria": "motivacao",
+  "autor": "William Arthur Ward",
+  "frase": "O pessimista reclama do vento; o otimista espera que ele mude; o realista ajusta as velas."
+ },
+ {
+  "id": 937,
+  "categoria": "motivacao",
+  "autor": "John Wooden",
+  "frase": "Não deixe o que você não pode fazer interferir no que você pode fazer."
+ },
+ {
+  "id": 938,
+  "categoria": "sabedoria",
+  "autor": "John Wooden",
+  "frase": "O talento é um dom de Deus; seja humilde. A fama é dada pelos homens; seja grato. A vaidade é um dom nosso; tenha cuidado.",
+  "atribuida": true
+ },
+ {
+  "id": 939,
+  "categoria": "sucesso",
+  "autor": "John Wooden",
+  "frase": "A habilidade pode levar você ao topo, mas é o caráter que o mantém lá.",
+  "atribuida": true
+ },
+ {
+  "id": 940,
+  "categoria": "disciplina",
+  "autor": "John Wooden",
+  "frase": "Seja rápido, mas sem pressa."
+ },
+ {
+  "id": 941,
+  "categoria": "equipe",
+  "autor": "Phil Jackson",
+  "frase": "A força da equipe é cada membro individual. A força de cada membro é a equipe.",
+  "atribuida": true
+ },
+ {
+  "id": 942,
+  "categoria": "equipe",
+  "autor": "John Donne",
+  "frase": "Nenhum homem é uma ilha, completo em si mesmo."
+ },
+ {
+  "id": 943,
+  "categoria": "persistencia",
+  "autor": "Samuel Johnson",
+  "frase": "Grandes obras são realizadas não pela força, mas pela perseverança.",
+  "atribuida": true
+ },
+ {
+  "id": 944,
+  "categoria": "coragem",
+  "autor": "Edmund Burke",
+  "frase": "Para que o mal triunfe, basta que os homens bons nada façam.",
+  "atribuida": true
+ },
+ {
+  "id": 945,
+  "categoria": "vida",
+  "autor": "Robert Frost",
+  "frase": "Em três palavras posso resumir tudo o que aprendi sobre a vida: ela continua.",
+  "atribuida": true
+ },
+ {
+  "id": 946,
+  "categoria": "persistencia",
+  "autor": "Muhammad Ali",
+  "frase": "Não conte os dias; faça com que os dias contem.",
+  "atribuida": true
+ },
+ {
+  "id": 947,
+  "categoria": "coragem",
+  "autor": "Ayrton Senna",
+  "frase": "O medo é um grande aliado; ele nos faz respeitar os limites.",
+  "atribuida": true
+ },
+ {
+  "id": 948,
+  "categoria": "motivacao",
+  "autor": "Albert Einstein",
+  "frase": "A vida é como andar de bicicleta; para manter o equilíbrio, é preciso seguir em frente."
+ },
+ {
+  "id": 949,
+  "categoria": "sabedoria",
+  "autor": "Mahatma Gandhi",
+  "frase": "A força não vem da capacidade física, mas de uma vontade indomável."
+ },
+ {
+  "id": 950,
+  "categoria": "sabedoria",
+  "autor": "Nelson Mandela",
+  "frase": "A coragem não é a ausência de medo, mas a vitória sobre ele."
+ },
+ {
+  "id": 951,
+  "categoria": "motivacao",
+  "autor": "Steve Jobs",
+  "frase": "A única maneira de fazer um grande trabalho é amar o que você faz."
+ },
+ {
+  "id": 952,
+  "categoria": "persistencia",
+  "autor": "Thomas Edison",
+  "frase": "Se há uma maneira de fazer melhor, encontre-a."
+ },
+ {
+  "id": 953,
+  "categoria": "inovacao",
+  "autor": "Walt Disney",
+  "frase": "Nós seguimos em frente, abrindo novas portas e fazendo coisas novas, porque somos curiosos."
+ },
+ {
+  "id": 954,
+  "categoria": "tempo",
+  "autor": "Sêneca",
+  "frase": "Cada hora que passa nos tira uma parte da vida."
+ },
+ {
+  "id": 955,
+  "categoria": "tempo",
+  "autor": "Sêneca",
+  "frase": "Enquanto adiamos a vida, ela corre."
+ },
+ {
+  "id": 956,
+  "categoria": "sabedoria",
+  "autor": "Epicteto",
+  "frase": "A liberdade não se alcança satisfazendo os desejos, mas eliminando-os."
+ },
+ {
+  "id": 957,
+  "categoria": "sabedoria",
+  "autor": "Platão",
+  "frase": "Os bons homens não precisam de leis para agir com responsabilidade."
+ },
+ {
+  "id": 958,
+  "categoria": "sabedoria",
+  "autor": "Heráclito",
+  "frase": "O sol é novo a cada dia."
+ },
+ {
+  "id": 959,
+  "categoria": "sabedoria",
+  "autor": "Sócrates",
+  "frase": "Quem não está contente com o que tem não ficará contente com o que gostaria de ter.",
+  "atribuida": true
+ },
+ {
+  "id": 960,
+  "categoria": "sabedoria",
+  "autor": "Cícero",
+  "frase": "A liberdade consiste em viver como se quer.",
+  "atribuida": true
+ },
+ {
+  "id": 961,
+  "categoria": "sabedoria",
+  "autor": "Cícero",
+  "frase": "A paz é a liberdade na tranquilidade."
+ },
+ {
+  "id": 962,
+  "categoria": "sabedoria",
+  "autor": "Horácio",
+  "frase": "Aquele que começou já fez metade."
+ },
+ {
+  "id": 963,
+  "categoria": "sabedoria",
+  "autor": "Horácio",
+  "frase": "A vida é breve; não alimente esperanças demasiado longas."
+ },
+ {
+  "id": 964,
+  "categoria": "sabedoria",
+  "autor": "Virgílio",
+  "frase": "O trabalho tudo vence."
+ },
+ {
+  "id": 965,
+  "categoria": "sabedoria",
+  "autor": "Virgílio",
+  "frase": "Cada um é arrastado pelo seu próprio desejo."
+ },
+ {
+  "id": 966,
+  "categoria": "sabedoria",
+  "autor": "Ovídio",
+  "frase": "A gota cava a pedra, não pela força, mas por cair muitas vezes."
+ },
+ {
+  "id": 967,
+  "categoria": "sabedoria",
+  "autor": "Tácito",
+  "frase": "Quanto mais corrupto o Estado, mais numerosas as leis."
+ },
+ {
+  "id": 968,
+  "categoria": "sabedoria",
+  "autor": "Salústio",
+  "frase": "Com a concórdia, as pequenas coisas crescem; com a discórdia, as maiores se desfazem."
+ },
+ {
+  "id": 969,
+  "categoria": "sabedoria",
+  "autor": "Thomas Hobbes",
+  "frase": "A vida do homem é solitária, pobre, sórdida, brutal e curta."
+ }
+]

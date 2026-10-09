@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fafafa;
+  background: #050505;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  background: #050505;
+}
+
+input[type="range"] {
+  accent-color: #f8fafc;
+}
+
+input[type="color"] {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: 0;
+  border-radius: 999px;
+}
+
+::selection {
+  background: rgba(74, 222, 128, 0.85);
+  color: #04110a;
+}
+
+
+.note-block-no-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.note-block-no-scroll::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+
+/* Tipografia compacta da interface: Montserrat Semi Bold. */
+[class~="text-xs"],
+[class~="text-sm"],
+[class~="text-[9px]"],
+[class~="text-[10px]"],
+[class~="text-[11px]"],
+[class~="text-[12px]"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}

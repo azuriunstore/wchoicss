@@ -1,0 +1,13 @@
+{
+  "format": "wchoicss-note",
+  "version": 1,
+  "notes": [
+    {
+      "title": "Título da nota",
+      "body": "Escreva aqui o conteúdo completo da nota. A IA pode gerar texto com parágrafos e listas.",
+      "category": "Ideias",
+      "color": "#fff2a8",
+      "pinned": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+PROMPT-TEMPLATE — GERAR ARQUIVO DE NOTAS PARA O WCHOICSS
+
+Você deve transformar o pedido abaixo em uma ou mais notas prontas para o site Wchoicss Notes.
+
+PEDIDO / CONTEÚDO:
+[COLE AQUI O QUE VOCÊ QUER QUE A IA TRANSFORME EM NOTA]
+
+REGRAS OBRIGATÓRIAS:
+1. Gere um arquivo chamado notas-wchoicss.json.
+2. Responda com o arquivo JSON completo, sem explicações antes ou depois e sem usar blocos de código Markdown.
+3. O exemplo abaixo é somente um esquema: nunca copie o texto do exemplo, as regras ou o marcador [COLE AQUI...] para dentro de title ou body.
+4. Em cada nota, escreva o título uma única vez em title. O body deve começar diretamente com o conteúdo e não pode repetir o título, o pedido do usuário, as instruções deste template ou o próprio JSON.
+5. Quando uma palavra ou frase exigir mais atenção, coloque-a entre dois asteriscos, assim: **frase importante**. Use esse recurso com moderação para destacar prioridades, alertas, decisões, prazos e conceitos-chave. Não use HTML para negrito.
+6. O JSON precisa seguir exatamente este formato:
+
+{
+  "format": "wchoicss-note",
+  "version": 1,
+  "notes": [
+    {
+      "title": "Título curto e claro",
+      "body": "Conteúdo completo da nota, preservando parágrafos e listas.",
+      "category": "Ideias",
+      "color": "#fff2a8",
+      "pinned": false
+    }
+  ]
+}
+
+7. Cada nota deve ter obrigatoriamente title e body preenchidos.
+8. Use uma categoria curta. Categorias padrão aceitas: Tarefas, Ideias, Estudos, Trabalho, Planejamento e Diário.
+9. Use uma cor hexadecimal válida no formato #RRGGBB. Cores sugeridas: #fff2a8, #d9f99d, #bae6fd, #fbcfe8, #ddd6fe.
+10. Use pinned como true somente quando a nota precisar ficar destacada; caso contrário, use false.
+11. Se o pedido tiver assuntos independentes, crie várias notas dentro de notes.
+12. Não inclua anexos, links internos, IDs, datas ou campos extras.
+13. Depois de gerar o JSON, entregue o arquivo para download com o nome notas-wchoicss.json.
+
+RESULTADO ESPERADO:
+O usuário fará upload do arquivo notas-wchoicss.json no botão “Enviar arquivo” do Wchoicss. O site deve transformar cada item de notes em um cartão de nota editável.
