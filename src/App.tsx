@@ -956,8 +956,14 @@ export default function App() {
         imported.push({ id: crypto.randomUUID(), title: file.name, body: `Arquivo anexado: ${file.name}\n\nO formato original foi preservado. Abra o anexo para visualizar ou baixar o arquivo.`, category: defaultCategory, color: noteColors[imported.length % noteColors.length].value, pinned: false, createdAt: now, updatedAt: now, attachments: [uploaded.attachment], deleted: false })
       } catch (error) { failures.push(`${file.name}: ${error instanceof Error ? error.message : "falha no upload"}`) }
     }
-    if (imported.length) { const next = [...imported, ...notes]; setNotes(next); notesRef.current = next; void cacheAndSync(next) }
-    setUploadMessage(imported.length && !failures.length ? `${imported.length} arquivo${imported.length === 1 ? "" : "s"} enviado${imported.length === 1 ? "" : "s"}.` : failures.length ? `Não foi possível enviar: ${failures.join("; ")}` : "Nenhum arquivo foi enviado.")
+    if (imported.length) {
+      const next = [...imported, ...notes]
+      setNotes(next); notesRef.current = next; writeCache(user?.openId || "local", next)
+      if (syncTimerRef.current !== null) { window.clearTimeout(syncTimerRef.current); syncTimerRef.current = null }
+      pendingSyncRef.current = null
+      await syncNotes(next)
+    }
+    setUploadMessage(imported.length && !failures.length ? `${imported.length} arquivo${imported.length === 1 ? "" : "s"} enviado${imported.length === 1 ? "" : "s"} e salvo${imported.length === 1 ? "" : "s"}.` : failures.length ? `Não foi possível enviar: ${failures.join("; ")}` : "Nenhum arquivo foi enviado.")
     event.target.value = ""
   }
   const lockNotes = () => { setNotes([]); notesRef.current = []; setShowTrash(false); setShowConnections(false); setAuthState("logged-out") }
