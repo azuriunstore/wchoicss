@@ -686,7 +686,6 @@ export default function App() {
   }
   const deleteSelectedNotes = (ids: string[]) => {
     if (!ids.length) return
-    if (!window.confirm(`Excluir ${ids.length} notas selecionadas? Elas irão para a lixeira.`)) return
     const selected = new Set(ids); const now = Date.now()
     const next = notesRef.current.map((note) => selected.has(note.id) ? { ...note, deleted: true, updatedAt: now } : note)
     setNotes(next); notesRef.current = next; void cacheAndSync(next)
