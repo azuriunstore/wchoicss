@@ -10,7 +10,7 @@ REGRAS OBRIGATÓRIAS:
 2. Responda com o arquivo JSON completo, sem explicações antes ou depois e sem usar blocos de código Markdown.
 3. O exemplo abaixo é somente um esquema: nunca copie o texto do exemplo, as regras ou o marcador [COLE AQUI...] para dentro de title ou body.
 4. Em cada nota, escreva o título uma única vez em title. O body deve começar diretamente com o conteúdo e não pode repetir o título, o pedido do usuário, as instruções deste template ou o próprio JSON.
-5. Quando uma palavra ou frase exigir mais atenção, coloque-a entre dois asteriscos, assim: **frase importante**. Use esse recurso com moderação para destacar prioridades, alertas, decisões, prazos e conceitos-chave. Não use HTML para negrito.
+5. Quando uma palavra ou frase exigir mais atenção, coloque-a entre dois asteriscos, assim: **frase importante**. Use esse recurso com moderação para destacar prioridades, alertas, decisões, prazos e conceitos-chave. Se o conteúdo tiver separações, títulos ou subtítulos, coloque cada título e subtítulo em negrito usando dois asteriscos, por exemplo: **Título da seção**. Não use HTML para negrito.
 6. O JSON precisa seguir exatamente este formato:
 
 {
