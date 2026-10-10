@@ -259,7 +259,24 @@ function MuralBoard({ notes, connectionCounts, onEdit, onDelete, onTogglePin, on
     if (!drag || drag.id !== note.id) return
     if (dragFrameRef.current !== null) { cancelAnimationFrame(dragFrameRef.current); dragFrameRef.current = null; applyDragFrame() }
     const position = drag.latestPosition
-    if (drag.moved && position) Object.entries(drag.latestPositions).forEach(([id, next]) => onMove(id, next.x, next.y))
+    if (drag.moved && position) {
+      const draggedCenter = { x: position.x + cardWidth / 2, y: position.y + 105 }
+      const swapTarget = drag.groupIds.length === 1 ? notes.find((other) => {
+        if (other.id === drag.id || other.deleted || drag.groupIds.includes(other.id)) return false
+        const otherPosition = drag.latestPositions[other.id] || positions[other.id]
+        if (!otherPosition) return false
+        return draggedCenter.x >= otherPosition.x && draggedCenter.x <= otherPosition.x + cardWidth && draggedCenter.y >= otherPosition.y && draggedCenter.y <= otherPosition.y + 210
+      }) : undefined
+      if (swapTarget) {
+        const targetPosition = drag.latestPositions[swapTarget.id] || positions[swapTarget.id] || { x: 0, y: 0 }
+        const originalPosition = drag.groupStartPositions[drag.id]
+        setPositions((current) => ({ ...current, [drag.id]: targetPosition, [swapTarget.id]: originalPosition }))
+        onMove(drag.id, targetPosition.x, targetPosition.y)
+        onMove(swapTarget.id, originalPosition.x, originalPosition.y)
+      } else {
+        Object.entries(drag.latestPositions).forEach(([id, next]) => onMove(id, next.x, next.y))
+      }
+    }
     noteDragRef.current = null
     pendingPointerRef.current = null
     setAlignmentGuides([])
