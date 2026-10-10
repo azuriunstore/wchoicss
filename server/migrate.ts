@@ -50,6 +50,7 @@ try {
   await addColumn("ALTER TABLE notes ADD COLUMN category VARCHAR(120) NULL")
   await addColumn("ALTER TABLE notes ADD COLUMN color VARCHAR(32) NULL")
   await addColumn("ALTER TABLE notes ADD COLUMN pinned BOOLEAN NOT NULL DEFAULT FALSE")
+  await addColumn("ALTER TABLE notes ADD COLUMN marker VARCHAR(80) NULL")
   await addColumn("ALTER TABLE notes ADD COLUMN attachments JSON NULL")
   await addColumn("ALTER TABLE notes ADD COLUMN parent_id CHAR(36) NULL")
   await addColumn("ALTER TABLE notes ADD COLUMN is_folder BOOLEAN NOT NULL DEFAULT FALSE")

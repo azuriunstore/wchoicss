@@ -11,7 +11,7 @@ const isProduction = process.env.NODE_ENV === "production"
 const app = express()
 
 type Attachment = { id: string; name: string; mime: string; size: number; url: string; key: string }
-type NoteBody = { title: string; body: string; category: string; color: string; pinned: boolean; createdAt: number; updatedAt: number; positionX?: number | null; positionY?: number | null; parentId?: string | null; isFolder?: boolean; attachments?: Attachment[]; deleted?: boolean }
+type NoteBody = { title: string; body: string; category: string; color: string; pinned: boolean; marker?: string | null; createdAt: number; updatedAt: number; positionX?: number | null; positionY?: number | null; parentId?: string | null; isFolder?: boolean; attachments?: Attachment[]; deleted?: boolean }
 
 app.disable("x-powered-by")
 app.use(express.json({ limit: "2mb" }))
@@ -72,7 +72,7 @@ app.get("/api/notes", async (req, res) => {
   if (!user) return
   const includeDeleted = req.query.includeDeleted === "true"
   const [rows] = await pool.query(
-    `SELECT id, title, body, category, color, pinned, attachments, parent_id AS parentId, is_folder AS isFolder, position_x AS positionX, position_y AS positionY, created_at AS createdAt, updated_at AS updatedAt, deleted_at AS deletedAt
+    `SELECT id, title, body, category, color, pinned, marker, attachments, parent_id AS parentId, is_folder AS isFolder, position_x AS positionX, position_y AS positionY, created_at AS createdAt, updated_at AS updatedAt, deleted_at AS deletedAt
      FROM notes WHERE open_id = ? AND title IS NOT NULL ${includeDeleted ? "" : "AND deleted_at IS NULL"} ORDER BY updated_at DESC`,
     [user.openId],
   )
@@ -86,7 +86,7 @@ function validNote(body: unknown): body is NoteBody {
   const note = body as Record<string, unknown>
   const validPosition = (value: unknown) => value === undefined || value === null || (typeof value === "number" && Number.isSafeInteger(value))
   const validAttachments = note.attachments === undefined || (Array.isArray(note.attachments) && note.attachments.length <= 50 && note.attachments.every((item) => item && typeof item === "object" && typeof (item as Attachment).id === "string" && typeof (item as Attachment).name === "string" && typeof (item as Attachment).mime === "string" && Number.isSafeInteger((item as Attachment).size) && typeof (item as Attachment).url === "string" && typeof (item as Attachment).key === "string"))
-  return typeof note.title === "string" && note.title.trim().length > 0 && note.title.length <= 255 && typeof note.body === "string" && note.body.length <= 2_000_000 && typeof note.category === "string" && note.category.length <= 120 && typeof note.color === "string" && /^#[0-9a-f]{6}$/i.test(note.color) && typeof note.pinned === "boolean" && (note.parentId === undefined || note.parentId === null || (typeof note.parentId === "string" && validId(note.parentId))) && (note.isFolder === undefined || typeof note.isFolder === "boolean") && Number.isSafeInteger(note.createdAt) && Number.isSafeInteger(note.updatedAt) && validPosition(note.positionX) && validPosition(note.positionY) && validAttachments
+  return typeof note.title === "string" && note.title.trim().length > 0 && note.title.length <= 255 && typeof note.body === "string" && note.body.length <= 2_000_000 && typeof note.category === "string" && note.category.length <= 120 && typeof note.color === "string" && /^#[0-9a-f]{6}$/i.test(note.color) && typeof note.pinned === "boolean" && (note.marker === undefined || note.marker === null || (typeof note.marker === "string" && note.marker.length <= 80)) && (note.parentId === undefined || note.parentId === null || (typeof note.parentId === "string" && validId(note.parentId))) && (note.isFolder === undefined || typeof note.isFolder === "boolean") && Number.isSafeInteger(note.createdAt) && Number.isSafeInteger(note.updatedAt) && validPosition(note.positionX) && validPosition(note.positionY) && validAttachments
 }
 
 app.put("/api/notes/:id", async (req, res) => {
@@ -99,10 +99,10 @@ app.put("/api/notes/:id", async (req, res) => {
   const owner = (existing as Array<{ openId: string }>)[0]
   if (owner && owner.openId !== user.openId) return res.status(403).json({ error: "FORBIDDEN" })
   await pool.query(
-    `INSERT INTO notes (id, open_id, title, body, category, color, pinned, attachments, parent_id, is_folder, position_x, position_y, created_at, updated_at, deleted_at)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NULL)
-     ON DUPLICATE KEY UPDATE title = VALUES(title), body = VALUES(body), category = VALUES(category), color = VALUES(color), pinned = VALUES(pinned), attachments = VALUES(attachments), parent_id = VALUES(parent_id), is_folder = VALUES(is_folder), position_x = VALUES(position_x), position_y = VALUES(position_y), updated_at = VALUES(updated_at), deleted_at = NULL`,
-    [id, user.openId, note.title, note.body, note.category, note.color, note.pinned ? 1 : 0, JSON.stringify(note.attachments || []), note.parentId ?? null, note.isFolder ? 1 : 0, note.positionX ?? null, note.positionY ?? null, note.createdAt, note.updatedAt],
+    `INSERT INTO notes (id, open_id, title, body, category, color, pinned, marker, attachments, parent_id, is_folder, position_x, position_y, created_at, updated_at, deleted_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NULL)
+     ON DUPLICATE KEY UPDATE title = VALUES(title), body = VALUES(body), category = VALUES(category), color = VALUES(color), pinned = VALUES(pinned), marker = VALUES(marker), attachments = VALUES(attachments), parent_id = VALUES(parent_id), is_folder = VALUES(is_folder), position_x = VALUES(position_x), position_y = VALUES(position_y), updated_at = VALUES(updated_at), deleted_at = NULL`,
+    [id, user.openId, note.title, note.body, note.category, note.color, note.pinned ? 1 : 0, note.marker?.trim() || null, JSON.stringify(note.attachments || []), note.parentId ?? null, note.isFolder ? 1 : 0, note.positionX ?? null, note.positionY ?? null, note.createdAt, note.updatedAt],
   )
   return res.status(204).end()
 })
