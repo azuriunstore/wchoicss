@@ -590,6 +590,9 @@ export default function App() {
   const notesRef = useRef<Note[]>([])
   const notesLoadedRef = useRef(false)
   const loadRequestRef = useRef(0)
+  const syncTimerRef = useRef<number | null>(null)
+  const pendingSyncRef = useRef<Note[] | null>(null)
+  const syncedNotesRef = useRef(new Map<string, string>())
   const [offline, setOffline] = useState(false)
   const [syncState, setSyncState] = useState<SyncState>("idle")
   const [query, setQuery] = useState("")
@@ -657,14 +660,20 @@ export default function App() {
     void discover()
   }, [])
 
-  const syncNotes = async (nextNotes: Note[], activeUser = user) => {
+  const syncNotes = async (nextNotes: Note[], activeUser = user, forceAll = false) => {
     if (!activeUser || !navigator.onLine || offline) { setSyncState("offline"); return }
     setSyncState("saving")
     try {
-      for (const note of nextNotes) {
-        if (note.deleted) await api(`/api/notes/${note.id}`, { method: "DELETE" })
-        else await api(`/api/notes/${note.id}`, { method: "PUT", body: JSON.stringify(note) })
+      const notesToSync = forceAll ? nextNotes : nextNotes.filter((note) => syncedNotesRef.current.get(note.id) !== JSON.stringify(note))
+      if (!notesToSync.length) { setSyncState("saved"); return }
+      const batchSize = 8
+      for (let index = 0; index < notesToSync.length; index += batchSize) {
+        const batch = notesToSync.slice(index, index + batchSize)
+        await Promise.all(batch.map((note) => note.deleted
+          ? api(`/api/notes/${note.id}`, { method: "DELETE" })
+          : api(`/api/notes/${note.id}`, { method: "PUT", body: JSON.stringify(note) })))
       }
+      notesToSync.forEach((note) => syncedNotesRef.current.set(note.id, JSON.stringify(note)))
       setSyncState("saved")
     } catch {
       setOffline(true)
@@ -672,11 +681,19 @@ export default function App() {
     }
   }
 
-  const cacheAndSync = async (nextNotes: Note[]) => {
+  const cacheAndSync = (nextNotes: Note[]) => {
     if (!user) return
     notesRef.current = nextNotes
     writeCache(user.openId, nextNotes)
-    await syncNotes(nextNotes)
+    pendingSyncRef.current = nextNotes
+    setSyncState("saving")
+    if (syncTimerRef.current !== null) window.clearTimeout(syncTimerRef.current)
+    syncTimerRef.current = window.setTimeout(() => {
+      syncTimerRef.current = null
+      const pending = pendingSyncRef.current
+      pendingSyncRef.current = null
+      if (pending) void syncNotes(pending)
+    }, 350)
   }
 
   const loadNotes = async () => {
@@ -693,10 +710,11 @@ export default function App() {
         const sanitizedNotes = keepOnlyGeneralFolder(result.notes)
         notesRef.current = sanitizedNotes
         setNotes(sanitizedNotes)
+        sanitizedNotes.forEach((note) => syncedNotesRef.current.set(note.id, JSON.stringify(note)))
         writeCache(user.openId, sanitizedNotes)
       } else if (sanitizedCached && sanitizedCached.length > 0) {
         // A vazio remoto nunca apaga nem substitui o cache local.
-        void syncNotes(sanitizedCached)
+        void syncNotes(sanitizedCached, user, true)
       } else {
         // Não semear nem sincronizar notas iniciais automaticamente: uma resposta vazia
         // pode ser transitória durante uma publicação ou indisponibilidade do banco.
