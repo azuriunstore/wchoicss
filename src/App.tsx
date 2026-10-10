@@ -18,6 +18,17 @@ type ConnectorState = { key: string; fromId: string; toId: string; fromAnchor: A
 type SyncState = "idle" | "saving" | "saved" | "offline" | "error"
 
 const defaults: ShaderSettings = { colors: { ...DEFAULT_SHADER_CONFIG.colors }, xScale: DEFAULT_SHADER_CONFIG.xScale, yScale: DEFAULT_SHADER_CONFIG.yScale, distortion: DEFAULT_SHADER_CONFIG.distortion, speed: DEFAULT_SHADER_CONFIG.speed }
+const shaderPalettes: ShaderColors[] = [
+  { red: "#ff244d", green: "#69ff80", blue: "#547cff" },
+  { red: "#ff7a18", green: "#ffe66d", blue: "#5b8cff" },
+  { red: "#ff4d9d", green: "#8affc1", blue: "#8a7dff" },
+  { red: "#ff5f6d", green: "#7cf5d2", blue: "#38bdf8" },
+  { red: "#f97316", green: "#a3e635", blue: "#c084fc" },
+]
+const randomShaderSettings = (): ShaderSettings => {
+  const palette = shaderPalettes[Math.floor(Math.random() * shaderPalettes.length)]
+  return { colors: { ...palette }, xScale: Number((0.75 + Math.random() * 1.8).toFixed(2)), yScale: Number((0.28 + Math.random() * 0.7).toFixed(2)), distortion: Number((0.025 + Math.random() * 0.16).toFixed(3)), speed: Number((0.006 + Math.random() * 0.022).toFixed(3)) }
+}
 const noteColors = [{ name: "Amarelo", value: "#fff3b0" }, { name: "Azul", value: "#cce9ff" }, { name: "Rosa", value: "#ffd6e7" }, { name: "Verde", value: "#d8f3dc" }]
 const sessionTabs = [{ label: "Geral - Todas", category: "Todas", icon: "📌" }, { label: "Tarefas", category: "Tarefas", icon: "✅" }, { label: "Ideias", category: "Ideias", icon: "💡" }, { label: "Estudos", category: "Estudos", icon: "📚" }, { label: "Trabalho", category: "Trabalho", icon: "💼" }, { label: "Planejamento", category: "Planejamento", icon: "📅" }, { label: "Diário", category: "Diário", icon: "📖" }, { label: "Lixeira", category: "Lixeira", icon: "🗑️" }]
 const starterNotes: Note[] = [
@@ -582,7 +593,7 @@ function GroupsBoard({ groups, activeGroup, notes, selectedNoteIds, onSelectNote
 }
 
 export default function App() {
-  const [settings, setSettings] = useState<ShaderSettings>(defaults)
+  const [settings, setSettings] = useState<ShaderSettings>(() => randomShaderSettings())
   const [panelOpen, setPanelOpen] = useState(false)
   const [headline] = useState<Phrase>(() => pickRandomPhrase())
   const [authState, setAuthState] = useState<"loading" | "logged-out" | "authenticated">("loading")
