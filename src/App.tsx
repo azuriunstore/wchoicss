@@ -645,7 +645,7 @@ export default function App() {
     } catch { setGroupOrder(groupNames) }
   }, [user?.openId, groupNamesKey])
   const orderedGroups = groupOrder.length ? groupOrder.filter((group) => groupNames.includes(group)) : groupNames
-  const navTabs = [sessionTabs[0], ...orderedGroups.map((category) => ({ label: category, category, icon: "📁" })), sessionTabs[sessionTabs.length - 1]]
+  const navTabs = [sessionTabs[0], ...orderedGroups.map((category) => ({ label: category, category, icon: "📁" })), ...sessionTabs.slice(1, -1)]
 
   useEffect(() => {
     const discover = async () => {
