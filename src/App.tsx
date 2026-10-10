@@ -588,6 +588,8 @@ export default function App() {
   const [loginError, setLoginError] = useState("")
   const [notes, setNotes] = useState<Note[]>([])
   const notesRef = useRef<Note[]>([])
+  const notesLoadedRef = useRef(false)
+  const loadRequestRef = useRef(0)
   const [offline, setOffline] = useState(false)
   const [syncState, setSyncState] = useState<SyncState>("idle")
   const [query, setQuery] = useState("")
@@ -679,33 +681,32 @@ export default function App() {
 
   const loadNotes = async () => {
     if (!user) return
+    const loadRequest = ++loadRequestRef.current
     const cached = readCache(user.openId)
     const sanitizedCached = cached ? keepOnlyGeneralFolder(cached) : null
     if (sanitizedCached) { notesRef.current = sanitizedCached; setNotes(sanitizedCached); writeCache(user.openId, sanitizedCached) }
     try {
       const result = await api<{ notes: Note[] }>("/api/notes?includeDeleted=true")
+      if (loadRequest !== loadRequestRef.current) return
+      notesLoadedRef.current = true
       if (result.notes.length > 0) {
         const sanitizedNotes = keepOnlyGeneralFolder(result.notes)
         notesRef.current = sanitizedNotes
         setNotes(sanitizedNotes)
         writeCache(user.openId, sanitizedNotes)
       } else if (sanitizedCached && sanitizedCached.length > 0) {
+        // A vazio remoto nunca apaga nem substitui o cache local.
         void syncNotes(sanitizedCached)
       } else {
-        let seed = starterNotes
-        try {
-          const legacy = JSON.parse(localStorage.getItem("chroma-wave-notes") || "null") as Array<Partial<Note>> | null
-          if (legacy?.length) seed = legacy.filter((note) => note.title && note.body).map((note, index) => ({ id: note.id || crypto.randomUUID(), title: note.title || "Nota", body: note.body || "", category: note.category || "Ideias", color: note.color || noteColors[index % noteColors.length].value, pinned: Boolean(note.pinned), createdAt: note.createdAt || Date.now(), updatedAt: Date.now(), deleted: false }))
-          localStorage.removeItem("chroma-wave-notes")
-        } catch { /* usa notas iniciais */ }
-        notesRef.current = seed
-        setNotes(seed)
-        writeCache(user.openId, seed)
-        void syncNotes(seed)
+        // Não semear nem sincronizar notas iniciais automaticamente: uma resposta vazia
+        // pode ser transitória durante uma publicação ou indisponibilidade do banco.
+        notesRef.current = []
+        setNotes([])
       }
     } catch {
       setOffline(true)
-      if (!sanitizedCached) { notesRef.current = starterNotes; setNotes(starterNotes); writeCache(user.openId, starterNotes) }
+      if (sanitizedCached) { notesLoadedRef.current = true; notesRef.current = sanitizedCached; setNotes(sanitizedCached) }
+      // Sem cache, manter o estado atual; nunca trocar dados do usuário por starterNotes.
     }
   }
 
@@ -714,7 +715,7 @@ export default function App() {
   }, [authState, user])
 
   useEffect(() => {
-    const goOnline = () => { setOffline(false); void cacheAndSync(notesRef.current) }
+    const goOnline = () => { setOffline(false); if (notesLoadedRef.current) void cacheAndSync(notesRef.current) }
     window.addEventListener("online", goOnline)
     return () => window.removeEventListener("online", goOnline)
   }, [user])
