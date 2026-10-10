@@ -667,7 +667,7 @@ export default function App() {
 
   const syncNotes = async (nextNotes: Note[], activeUser = user, forceAll = false) => {
     if (syncInFlightRef.current) { pendingSyncRef.current = nextNotes; return }
-    if (!activeUser || !navigator.onLine || offline) { setSyncState("offline"); return }
+    if (!activeUser || !navigator.onLine) { setSyncState("offline"); return }
     syncInFlightRef.current = true
     setSyncState("saving")
     let failed = false
@@ -682,6 +682,7 @@ export default function App() {
           : api(`/api/notes/${note.id}`, { method: "PUT", body: JSON.stringify(note) })))
       }
       notesToSync.forEach((note) => syncedNotesRef.current.set(note.id, JSON.stringify(note)))
+      setOffline(false)
       setSyncState("saved")
     } catch {
       failed = true
@@ -721,11 +722,20 @@ export default function App() {
       if (loadRequest !== loadRequestRef.current) return
       notesLoadedRef.current = true
       if (result.notes.length > 0) {
-        const sanitizedNotes = keepOnlyGeneralFolder(result.notes)
+        const remoteNotes = keepOnlyGeneralFolder(result.notes)
+        const remoteById = new Map(remoteNotes.map((note) => [note.id, note]))
+        const mergedById = new Map(remoteNotes.map((note) => [note.id, note]))
+        const locallyNewer: Note[] = []
+        sanitizedCached?.forEach((localNote) => {
+          const remoteNote = remoteById.get(localNote.id)
+          if (!remoteNote || localNote.updatedAt > remoteNote.updatedAt) { mergedById.set(localNote.id, localNote); locallyNewer.push(localNote) }
+        })
+        const sanitizedNotes = keepOnlyGeneralFolder(Array.from(mergedById.values()))
         notesRef.current = sanitizedNotes
         setNotes(sanitizedNotes)
-        sanitizedNotes.forEach((note) => syncedNotesRef.current.set(note.id, JSON.stringify(note)))
+        remoteNotes.forEach((note) => syncedNotesRef.current.set(note.id, JSON.stringify(note)))
         writeCache(user.openId, sanitizedNotes)
+        if (locallyNewer.length) void syncNotes(sanitizedNotes)
       } else if (sanitizedCached && sanitizedCached.length > 0) {
         // A vazio remoto nunca apaga nem substitui o cache local.
         void syncNotes(sanitizedCached, user, true)
