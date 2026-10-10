@@ -55,10 +55,14 @@ function makeConnections(notes: Note[]): Connection[] {
 }
 
 async function api<T>(url: string, options?: RequestInit): Promise<T> {
-  const response = await fetch(url, { credentials: "include", ...options, headers: { "content-type": "application/json", ...(options?.headers || {}) } })
-  if (!response.ok) throw new Error((await response.text()) || `HTTP ${response.status}`)
-  if (response.status === 204) return undefined as T
-  return response.json() as Promise<T>
+  const controller = new AbortController()
+  const timeout = window.setTimeout(() => controller.abort(), 15000)
+  try {
+    const response = await fetch(url, { credentials: "include", signal: controller.signal, ...options, headers: { "content-type": "application/json", ...(options?.headers || {}) } })
+    if (!response.ok) throw new Error((await response.text()) || `HTTP ${response.status}`)
+    if (response.status === 204) return undefined as T
+    return response.json() as Promise<T>
+  } finally { window.clearTimeout(timeout) }
 }
 
 function cacheKey(openId: string) { return `wchoicss-notes-cache:${openId}` }
@@ -593,6 +597,7 @@ export default function App() {
   const syncTimerRef = useRef<number | null>(null)
   const pendingSyncRef = useRef<Note[] | null>(null)
   const syncedNotesRef = useRef(new Map<string, string>())
+  const syncInFlightRef = useRef(false)
   const [offline, setOffline] = useState(false)
   const [syncState, setSyncState] = useState<SyncState>("idle")
   const [query, setQuery] = useState("")
@@ -661,8 +666,11 @@ export default function App() {
   }, [])
 
   const syncNotes = async (nextNotes: Note[], activeUser = user, forceAll = false) => {
+    if (syncInFlightRef.current) { pendingSyncRef.current = nextNotes; return }
     if (!activeUser || !navigator.onLine || offline) { setSyncState("offline"); return }
+    syncInFlightRef.current = true
     setSyncState("saving")
+    let failed = false
     try {
       const notesToSync = forceAll ? nextNotes : nextNotes.filter((note) => syncedNotesRef.current.get(note.id) !== JSON.stringify(note))
       if (!notesToSync.length) { setSyncState("saved"); return }
@@ -676,8 +684,14 @@ export default function App() {
       notesToSync.forEach((note) => syncedNotesRef.current.set(note.id, JSON.stringify(note)))
       setSyncState("saved")
     } catch {
+      failed = true
       setOffline(true)
       setSyncState("offline")
+    } finally {
+      syncInFlightRef.current = false
+      const pending = pendingSyncRef.current
+      pendingSyncRef.current = null
+      if (pending && !failed && navigator.onLine) window.setTimeout(() => void syncNotes(pending), 0)
     }
   }
 
