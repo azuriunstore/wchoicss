@@ -1002,7 +1002,9 @@ export default function App() {
     if (!file.name.toLowerCase().endsWith(".json") && file.type !== "application/json" && file.type !== "text/json") { setBackupMessage("Selecione um arquivo .json para restaurar o backup."); return }
     try {
       const payload = JSON.parse(await file.text()) as { format?: string; version?: number; notes?: unknown; settings?: Partial<ShaderSettings>; activeCategory?: string; groups?: { names?: string | null; hidden?: string | null; order?: string | null; noteOrders?: Record<string, string | null>; connectors?: string | null } }
-      if (payload.format !== "wchoicss-backup" || payload.version !== 1 || !Array.isArray(payload.notes)) throw new Error("arquivo de backup inválido")
+      const isFullBackup = payload.format === "wchoicss-backup" && payload.version === 1
+      const isTemplateNotes = payload.format === "wchoicss-note" && payload.version === 1
+      if ((!isFullBackup && !isTemplateNotes) || !Array.isArray(payload.notes)) throw new Error("use o formato do template: format wchoicss-note, version 1 e notes")
       if (!window.confirm("Restaurar este backup substituirá as notas e a organização atuais. Continuar?")) return
       const restoredNotes = payload.notes.map((item, index): Note => {
         if (!item || typeof item !== "object") throw new Error(`a nota ${index + 1} é inválida`)
@@ -1013,19 +1015,21 @@ export default function App() {
       })
       const storagePrefix = user ? `wchoicss-groups:${user.openId}` : "wchoicss-groups:local"
       const groups = payload.groups || {}
-      if (groups.names !== undefined && groups.names !== null) localStorage.setItem(`${storagePrefix}:names`, groups.names)
-      if (groups.hidden !== undefined && groups.hidden !== null) localStorage.setItem(`${storagePrefix}:hidden`, groups.hidden)
-      if (groups.order !== undefined && groups.order !== null) localStorage.setItem(storagePrefix, groups.order)
-      Object.entries(groups.noteOrders || {}).forEach(([key, value]) => { if (typeof value === "string") localStorage.setItem(key, value) })
-      if (groups.connectors !== undefined && groups.connectors !== null) localStorage.setItem(`wchoicss-connectors:${user?.openId || "local"}`, groups.connectors)
-      if (payload.settings && payload.settings.colors && Number.isFinite(payload.settings.xScale) && Number.isFinite(payload.settings.yScale) && Number.isFinite(payload.settings.distortion) && Number.isFinite(payload.settings.speed)) setSettings(payload.settings as ShaderSettings)
-      setUserGroups(groups.names ? JSON.parse(groups.names) : [])
-      setHiddenGroups(groups.hidden ? JSON.parse(groups.hidden) : [])
-      setGroupOrder(groups.order ? JSON.parse(groups.order) : [])
-      setActiveCategory(typeof payload.activeCategory === "string" ? payload.activeCategory : "Todas")
+      if (isFullBackup) {
+        if (groups.names !== undefined && groups.names !== null) localStorage.setItem(`${storagePrefix}:names`, groups.names)
+        if (groups.hidden !== undefined && groups.hidden !== null) localStorage.setItem(`${storagePrefix}:hidden`, groups.hidden)
+        if (groups.order !== undefined && groups.order !== null) localStorage.setItem(storagePrefix, groups.order)
+        Object.entries(groups.noteOrders || {}).forEach(([key, value]) => { if (typeof value === "string") localStorage.setItem(key, value) })
+        if (groups.connectors !== undefined && groups.connectors !== null) localStorage.setItem(`wchoicss-connectors:${user?.openId || "local"}`, groups.connectors)
+        if (payload.settings && payload.settings.colors && Number.isFinite(payload.settings.xScale) && Number.isFinite(payload.settings.yScale) && Number.isFinite(payload.settings.distortion) && Number.isFinite(payload.settings.speed)) setSettings(payload.settings as ShaderSettings)
+        if (groups.names) setUserGroups(JSON.parse(groups.names))
+        if (groups.hidden) setHiddenGroups(JSON.parse(groups.hidden))
+        if (groups.order) setGroupOrder(JSON.parse(groups.order))
+        if (typeof payload.activeCategory === "string") setActiveCategory(payload.activeCategory)
+      }
       setNotes(restoredNotes); notesRef.current = restoredNotes; writeCache(user?.openId || "local", restoredNotes); syncedNotesRef.current.clear()
       await syncNotes(restoredNotes, user, true)
-      setBackupMessage("Backup restaurado e salvo.")
+      setBackupMessage(isFullBackup ? "Backup completo restaurado e salvo." : "Notas do template restauradas e salvas.")
     } catch (error) { setBackupMessage(error instanceof Error ? `Não foi possível restaurar: ${error.message}` : "Não foi possível restaurar o backup.") }
   }
   const lockNotes = () => { setNotes([]); notesRef.current = []; setShowTrash(false); setShowConnections(false); setAuthState("logged-out") }
